@@ -2,8 +2,8 @@ name: Update O'Punch calendar
 
 on:
   schedule:
-    # every day at 04:17 UTC (odd minute avoids the top-of-hour rush)
-    - cron: "17 4 * * *"
+    # every day at 00:11 UTC (odd minute avoids the top-of-hour rush)
+    - cron: "11 0 * * *"
   workflow_dispatch:      # allows "Run workflow" button in the Actions tab
   push:
     paths:
