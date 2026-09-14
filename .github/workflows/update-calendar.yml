@@ -28,22 +28,41 @@ jobs:
           python-version: "3.12"
 
       - name: Generate ICS files
+        id: generate
         run: |
           python3 opunch_to_ics.py -o docs/opunch.ics
           python3 opunch_to_ics.py -o docs/opunch-regional-national.ics --levels 2 3 --name "Orienteering Belgium - regional & national"
           python3 opunch_to_ics.py -o docs/opunch-national.ics --levels 3 --name "Orienteering Belgium - national"
 
-      - name: Commit and push if changed
+      # Runs after both success and failure, so every run leaves a line in docs/update-log.txt
+      - name: Log the run and commit
+        if: success() || failure()
+        env:
+          OUTCOME: ${{ steps.generate.outcome }}
+          TRIGGER: ${{ github.event_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/*.ics
-          # DTSTAMP changes every run; only commit when the event content changed
-          if git diff --cached --quiet; then
-            echo "No changes"; exit 0
+          if [ "$OUTCOME" != "success" ]; then
+            # never publish half-written feeds
+            git checkout -- docs/*.ics
+            result="FAILED"
+            counts="-"
+          else
+            if git diff --quiet -I '^DTSTAMP:' -- docs/*.ics; then
+              # DTSTAMP changes every run; keep the published files when nothing else did
+              git checkout -- docs/*.ics
+              result="unchanged"
+            else
+              result="changed"
+            fi
+            counts=$(for f in opunch opunch-regional-national opunch-national; do
+                       grep -c '^BEGIN:VEVENT' "docs/$f.ics"; done | paste -sd/ -)
           fi
-          if git diff --cached -I '^DTSTAMP:' --quiet; then
-            echo "Only DTSTAMP changed, skipping commit"; git reset -q; exit 0
-          fi
-          git commit -m "Update calendar $(date -u +%Y-%m-%d)"
+          printf '%s  %-9s  %-17s  %s\n' "$(date -u '+%Y-%m-%d %H:%M UTC')" \
+            "$result" "$TRIGGER" "$counts" >> docs/update-log.txt
+          git add docs/update-log.txt docs/*.ics
+          if [ "$result" = "changed" ]; then msg="Update calendar"; else msg="Log calendar check"; fi
+          git commit -q -m "$msg $(date -u +%Y-%m-%d)"
+          git pull --rebase -q
           git push

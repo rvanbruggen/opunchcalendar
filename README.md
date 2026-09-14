@@ -30,6 +30,7 @@ Each event appears as `[LOC|REG|NAT] event name (organising club)`, with the ven
 
 - The feeds are rebuilt every night from opunch.org. Calendar apps poll subscriptions on their own schedule - Google Calendar typically every 12 to 24 hours - so a change on O'Punch can take a day or two to show up.
 - Events that are cancelled on O'Punch disappear from the feed on the next refresh.
+- Every refresh is recorded in the [refresh log](https://rvanbruggen.github.io/opunchcalendar/update-log.txt); the latest entry is also shown at the bottom of the web page.
 - This is an unofficial community project, not affiliated with O'Punch, FRSO, OV or LuxOC. Always check the event page on O'Punch before travelling.
 
 Want to run or adapt this yourself? See [HOW-TO-RUN.md](HOW-TO-RUN.md).

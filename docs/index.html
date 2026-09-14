@@ -26,5 +26,20 @@
 </ol>
 <p>Apple Calendar: <em>File → New Calendar Subscription</em>. Outlook: <em>Add calendar → Subscribe from web</em>.</p>
 <p><small>Google refreshes subscribed calendars roughly every 12–24 h. Cancelled events disappear from O'Punch and therefore from the feed on the next refresh. Not affiliated with O'Punch.</small></p>
+<p><small>Last refresh: <span id="last-run">see the log</span> · <a href="update-log.txt">refresh log</a></small></p>
+<script>
+// show the newest line of the refresh log
+fetch("update-log.txt", {cache: "no-cache"})
+  .then(r => r.ok ? r.text() : Promise.reject())
+  .then(t => {
+    const last = t.split("\n").filter(l => l.trim() && !l.startsWith("#")).pop();
+    if (!last) return;
+    const [date, time, utc, result, trigger, counts] = last.trim().split(/\s+/);
+    let text = `${date} ${time} ${utc} – ${result}`;
+    if (counts && counts !== "-") text += ` (events all/regional+national/national: ${counts})`;
+    document.getElementById("last-run").textContent = text;
+  })
+  .catch(() => {});
+</script>
 </body>
 </html>

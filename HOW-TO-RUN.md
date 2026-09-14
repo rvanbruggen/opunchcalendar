@@ -68,7 +68,7 @@ Everything lives in `opunch_to_ics.py`:
 1. Fork this repository (it must be public for free GitHub Pages).
 2. *Settings → Pages*: Source = *Deploy from a branch*, Branch = `main`, Folder = `/docs`.
 3. *Settings → Actions → General → Workflow permissions*: *Read and write permissions* (the job commits the generated files).
-4. *Actions* tab → *Update O'Punch calendar* → *Run workflow* to build the feeds the first time. From then on it runs every day at 04:17 UTC and only commits when the event content actually changed.
+4. *Actions* tab → *Update O'Punch calendar* → *Run workflow* to build the feeds the first time. From then on it runs every day at 00:11 UTC. Every run appends one line to `docs/update-log.txt` (time, result `changed`/`unchanged`/`FAILED`, what triggered it, event counts) and commits it; the `.ics` files are only replaced when the event content actually changed.
 5. Replace `rvanbruggen` with your own username in `README.md` and `docs/index.html`.
 
 Your feeds will be served from `https://<username>.github.io/opunchcalendar/opunch.ics` and friends.

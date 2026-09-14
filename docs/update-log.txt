@@ -1,0 +1,12 @@
+# O'Punch calendar refresh log - one line per run of the "Update O'Punch calendar" workflow, newest at the bottom.
+#
+# time (UTC)        result     trigger            events all/regional+national/national
+#
+# result:  changed   = events changed, feeds republished
+#          unchanged = checked opunch.org, nothing new, feeds left as they were
+#          FAILED    = the script failed, feeds left as they were (see the Actions tab for the error)
+# trigger: schedule = the nightly run, push = a change to the script or workflow, workflow_dispatch = "Run workflow" button
+#
+2026-09-14 06:59 UTC  FAILED     push               -
+2026-09-14 07:07 UTC  changed    push               235/146/41
+2026-09-14 08:13 UTC  changed    push               236/146/41
