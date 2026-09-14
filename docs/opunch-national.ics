@@ -1,0 +1,608 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//opunch-ics//opunch_to_ics.py//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Orienteering Belgium - national
+X-WR-TIMEZONE:Europe/Brussels
+X-WR-CALDESC:Upcoming orienteering events from opunch.org
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+X-LIC-LOCATION:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:opunch-3603@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:[NAT] BK MTBO - Lommel (hamok)
+LOCATION:De Soeverein - Lommel\, Sportveldenstraat 10\, Lommel
+GEO:51.244904;5.306947
+URL:https://www.opunch.org/event/3603
+DESCRIPTION:Organiser: hamok\nLevel: National\nRegistration closes: 2026-09
+ -23\nMap: https://www.google.com/maps?q=51.244904\,5.306947\nDetails & reg
+ istration: https://www.opunch.org/event/3603\n\nOmloop 1: 20\,95 km - H Op
+ en\nOmloop 2: 18\,91 km - D Open\, H Master A\nOmloop 3: 15\,53 km - D Mas
+ ter A\, H Master B\, H Jun\nOmloop 4: 14\,31 km - D Master B\, D Jun\, H M
+ aster C\nOmloop 5: 11\,12 km - D Master C\, H Master D\nOmloop 6: 10\,26 k
+ m - D Master D\, H Master E\nOmloop 7: 9\,61 km - D Bel/Esp\, H Bel/Esp\, 
+ D Master E\nOmloop 8: 7\,79 km - H Master F\nOmloop 9: 6\,99 km - D Master
+  F\nReminder: Fietshelm verplicht!
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4280@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20261017T103000
+DTEND;TZID=Europe/Brussels:20261017T123000
+SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
+ ams)
+LOCATION:extrémité de l'avenue Schaller\, Auderghem\, Avenue Charles Scha
+ ller - Charles Schallerlaan 91\, Auderghem - Oudergem
+GEO:50.803402;4.4426823
+URL:https://www.opunch.org/event/4280
+DESCRIPTION:Organiser: Belgium Teams\nLevel: National\nStart times: 10:30 -
+  10:30\nRegistration closes: 2026-10-17\nMap: https://www.google.com/maps?
+ q=50.803402\,4.4426823\nDetails & registration: https://www.opunch.org/eve
+ nt/4280\n\nEn français :\n\nCe test physique s'adresse:\n\n- aux jeunes a
+ ffiliés FRSO & OV (H/D-16\, -18\, -20 en 2027) qui souhaitent rejoindre l
+ 'équipe Belge = Belgium Team EYOC ou JWOC \,  pour la saison 2027\, en v
+ ue de passer les sélections pour les EYOC\, JWOC ou JEC.\n- et aux jeunes
+  affiliés FRSO (H/D -16\, -18\, -20 en 2026) qui souhaitent participer au
+ x entraînement de la 'Belgium  Team' = rejoindre l'équipe appelée pr
+ écédemment'Performance FRSO' pour la saison 2027.\n\n3 tests sont propos
+ és : le 17/10\, le 12/12/2026 et le 16/01/2027\nLa réussite du critère 
+ (voir tableau des tempsen annexe):\n 'équipe JWOC & EYOC' \, est un pr
+ é-requis pour faire partie de la 'Belgium Team' et pour prendre part aux 
+ sélections pour les EYOC\, JWOC et  JEC.\n\n 'groupe Performance' \, es
+ t un pré-requis pour faire partie de la 'Training Team' et pouvoir prendr
+ e part aux stages et entraînements de la 'Belgium Team'.\n\nRdv au point 
+ de départ vers 10h30 pour un départ de masse vers 11h. (voir plan ci-joi
+ nt)\n\nLe circuit de 2 km est à réaliser de 2 à 5 fois en fonction des 
+ catégories.\n\nTableaux des tours et des temps : voir l'image dans la gal
+ erie photo\n\nParking : à votre meilleure convenance à l'extrémité de 
+ l'avenue Schaller ou près du Centre Sportif de la Forêt de Soignes .\n\n
+ Distance parking - départ : ± 1 km (voir la carte dans la galerie photo)
+ .\n\n-------\n\nIn het Nederlands: \n\nDeze fysieke test is bedoeld voor O
+ V-leden (H/D-16\, -18\, -20\, 21 in 2025) die willen deelnemen aan een IOF
+ -event of JEC in het seizoen 2026.\n\nEr 
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3606@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20261018T100000
+DTEND;TZID=Europe/Brussels:20261018T120000
+SUMMARY:[NAT] Clubaflossing - Witteberg (hamok)
+URL:https://www.opunch.org/event/3606
+DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2026-10-17\nDetails & registration: https://www.opunc
+ h.org/event/3606
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3607@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:[NAT] Clubaflossing - Witteberg - Dagomlopen (hamok)
+URL:https://www.opunch.org/event/3607
+DESCRIPTION:Organiser: hamok\nLevel: National\nRegistration closes: 2026-10
+ -11\nDetails & registration: https://www.opunch.org/event/3607
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4281@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20261212T103000
+DTEND;TZID=Europe/Brussels:20261212T123000
+SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
+ ams)
+LOCATION:extrémité de l'avenue Schaller\, Auderghem\, Avenue Charles Scha
+ ller - Charles Schallerlaan 91\, Auderghem - Oudergem
+GEO:50.803402;4.4426823
+URL:https://www.opunch.org/event/4281
+DESCRIPTION:Organiser: Belgium Teams\nLevel: National\nStart times: 10:30 -
+  10:30\nRegistration closes: 2026-12-12\nMap: https://www.google.com/maps?
+ q=50.803402\,4.4426823\nDetails & registration: https://www.opunch.org/eve
+ nt/4281\n\nEn français :\n\nCe test test physique s'adresse:\n\n- aux jeu
+ nes affiliés FRSO & OV (H/D-16\, -18\, -20 en 2027) qui souhaitent rejoin
+ dre l'équipe Belge = Belgium Team EYOC ou JWOC \,  pour la saison 2027\,
+  en vue de passer les sélections pour les EYOC\, JWOC ou JEC.\n- et aux j
+ eunes affiliés FRSO (H/D-16\, -18\, -20 en 2026) qui souhaitent participe
+ r aux entraînement de la 'Belgium  Team' = rejoindre l'équipe appelée 
+ précédemment 'Performance FRSO' pour la saison 2027.\n\n3 tests sont pla
+ nifiés\, les samedi suivants : 17/10/2026\, 12/12/2026\, 16/01/2027\nLa r
+ éussite du critère (voir tableau des temps en annexe):\n 'équipe JWOC 
+ & EYOC' \, est un pré-requis pour faire partie de la 'Belgium Team' et po
+ ur prendre part aux sélections pour les EYOC\, JWOC et  JEC.\n\n 'group
+ e Performance' \, est un pré-requis pour faire partie de la 'Training Tea
+ m' et pouvoir prendre part aux stages et entraînements de la 'Belgium Tea
+ m'.\n\nRdv au point de départ vers 10h30 pour un départ de masse vers 11
+ h. (voir plan ci-joint)\n\nLe circuit de 2 km est à réaliser de 2 à 5 f
+ ois en fonction des catégories.\n\nTableaux des tours et des temps : voir
+  l'image dans la galerie photo\n\nParking : à votre meilleure convenance 
+ à l'extrémité de l'avenue Schaller ou près du Centre Sportif de la For
+ êt de Soignes .\n\nDistance parking - départ : ± 1 km (voir la carte da
+ ns la galerie photo).\n\n-------\n\nIn het Nederlands: \n\nDeze fysieke te
+ st is bedoeld voor OV-leden (H/D-16\, -18\, -20\, 21 in 2025) die willen d
+ eelnemen aan een IOF-event of JEC in 
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4282@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270116T103000
+DTEND;TZID=Europe/Brussels:20270116T123000
+SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
+ ams)
+LOCATION:extrémité de l'avenue Schaller\, Auderghem\, Avenue Charles Scha
+ ller - Charles Schallerlaan 91\, Auderghem - Oudergem
+GEO:50.803402;4.4426823
+URL:https://www.opunch.org/event/4282
+DESCRIPTION:Organiser: Belgium Teams\nLevel: National\nStart times: 10:30 -
+  10:30\nRegistration closes: 2027-01-16\nMap: https://www.google.com/maps?
+ q=50.803402\,4.4426823\nDetails & registration: https://www.opunch.org/eve
+ nt/4282\n\nEn français :\n\nCe test test physique s'adresse:\n\n- aux jeu
+ nes affiliés FRSO & OV (H/D-16\, -18\, -20 en 2027) qui souhaitent rejoin
+ dre l'équipe Belge = Belgium Team EYOC ou JWOC \,  pour la saison 2027\,
+  en vue de passer les sélections pour les EYOC\, JWOC ou JEC.\n- et aux j
+ eunes affiliés FRSO (H/D-16\, -18\, -20 en 2026) qui souhaitent participe
+ r aux entraînement de la 'Belgium  Team' = rejoindre l'équipe appelée 
+ précédemment 'Performance FRSO' pour la saison 2027.\n\n3 tests sont pla
+ nifiés\, les samedi suivants : 17/10/2026\, 12/12/2026\, 16/01/2027\nLa r
+ éussite du critère (voir tableau des temps en annexe):\n 'équipe JWOC 
+ & EYOC' \, est un pré-requis pour faire partie de la 'Belgium Team' et po
+ ur prendre part aux sélections pour les EYOC\, JWOC et  JEC.\n\n 'group
+ e Performance' \, est un pré-requis pour faire partie de la 'Training Tea
+ m' et pouvoir prendre part aux stages et entraînements de la 'Belgium Tea
+ m'.\n\nRdv au point de départ vers 10h30 pour un départ de masse vers 11
+ h. (voir plan ci-joint)\n\nLe circuit de 2 km est à réaliser de 2 à 5 f
+ ois en fonction des catégories.\n\nTableaux des tours et des temps : voir
+  l'image dans la galerie photo\n\nParking : à votre meilleure convenance 
+ à l'extrémité de l'avenue Schaller ou près du Centre Sportif de la For
+ êt de Soignes .\n\nDistance parking - départ : ± 1 km (voir la carte da
+ ns la galerie photo).\n\n-------\n\nIn het Nederlands: \n\nDeze fysieke te
+ st is bedoeld voor OV-leden (H/D-16\, -18\, -20\, 21 in 2025) die willen d
+ eelnemen aan een IOF-event of JEC in 
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4077@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:[NAT] Nat LD - Nationale Longues Distances (Hermathenae)
+URL:https://www.opunch.org/event/4077
+DESCRIPTION:Organiser: Hermathenae\nLevel: National\nRegistration closes: 2
+ 027-01-30\nDetails & registration: https://www.opunch.org/event/4077\n\nIn
+ fos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4172@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270221T100000
+DTEND;TZID=Europe/Brussels:20270221T120000
+SUMMARY:[NAT] Nationale Lang Weyervlakte (Leopoldsburg) (Omega)
+URL:https://www.opunch.org/event/4172
+DESCRIPTION:Organiser: Omega\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-02-07\nDetails & registration: https://www.opunc
+ h.org/event/4172
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3919@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:[NAT] Championnat de Belgique MD (CO Liège)
+URL:https://www.opunch.org/event/3919
+DESCRIPTION:Organiser: CO Liège\nLevel: National\nRegistration closes: 202
+ 7-03-13\nDetails & registration: https://www.opunch.org/event/3919
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4179@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270320T190000
+DTEND;TZID=Europe/Brussels:20270320T210000
+SUMMARY:[NAT] BK Avond/CB Nuit Nassogne (TROL)
+URL:https://www.opunch.org/event/4179
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 19:00 - 21:00\nR
+ egistration closes: 2027-03-06\nDetails & registration: https://www.opunch
+ .org/event/4179
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4180@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270321T100000
+DTEND;TZID=Europe/Brussels:20270321T120000
+SUMMARY:[NAT] Nationale Middle - Nassogne (TROL)
+URL:https://www.opunch.org/event/4180
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-03-07\nDetails & registration: https://www.opunch
+ .org/event/4180
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3821@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:[NAT] CB VTTO (CO Liège)
+URL:https://www.opunch.org/event/3821
+DESCRIPTION:Organiser: CO Liège\nLevel: National\nRegistration closes: 202
+ 7-04-16\nDetails & registration: https://www.opunch.org/event/3821
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4092@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:[NAT] Nat Sprint - Nationale Sprint - Farciennes (Balise 10)
+URL:https://www.opunch.org/event/4092
+DESCRIPTION:Organiser: Balise 10\nLevel: National\nRegistration closes: 202
+ 7-04-24\nDetails & registration: https://www.opunch.org/event/4092\n\ninfo
+ s à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4138@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270502T100000
+DTEND;TZID=Europe/Brussels:20270502T120000
+SUMMARY:[NAT] Nationale - Urban Middle (ATLAS)
+URL:https://www.opunch.org/event/4138
+DESCRIPTION:Organiser: ATLAS\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-04-25\nDetails & registration: https://www.opunc
+ h.org/event/4138
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4186@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270518
+SUMMARY:[NAT] ASOM (Brugge) (Antwerp O)
+URL:https://www.opunch.org/event/4186
+DESCRIPTION:Organiser: Antwerp O\nLevel: National\nRegistration closes: 202
+ 7-05-14\nDetails & registration: https://www.opunch.org/event/4186
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4190@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270530T100000
+DTEND;TZID=Europe/Brussels:20270530T120000
+SUMMARY:[NAT] BK/CB Sprint Genk Centrum (KOL)
+URL:https://www.opunch.org/event/4190
+DESCRIPTION:Organiser: KOL\nLevel: National\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-05-16\nDetails & registration: https://www.opunch.
+ org/event/4190
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4081@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:[NAT] BCR - Relais des Clubs (ThOR)
+URL:https://www.opunch.org/event/4081
+DESCRIPTION:Organiser: ThOR\nLevel: National\nRegistration closes: 2027-06-
+ 26\nDetails & registration: https://www.opunch.org/event/4081\n\ninfos à 
+ venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4020@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:[NAT] 3 Days of Belgium 2027 (OLVE)
+LOCATION:Baugnez\, Route De Luxembourg 47\, Malmedy
+GEO:50.39673;6.068101
+URL:https://www.opunch.org/event/4020
+DESCRIPTION:Organiser: OLVE\nLevel: National\nRegistration closes: 2027-06-
+ 20\nMap: https://www.google.com/maps?q=50.39673\,6.068101\nDetails & regis
+ tration: https://www.opunch.org/event/4020\n\nDécouvrez toutes les inform
+ ations relatives à 3 O'Days 2027 sur notre site officiel :\nhttps://2027.
+ 3days.be\nFind all information about 3 O'Days 2027 on our official website
+ :\nhttps://2027.3days.be\nAlle Informationen zu 3 O'Days 2027 finden Sie a
+ uf unserer offiziellen Website:\nhttps://2027.3days.be\nOntdek alle inform
+ atie over 3 O'Days 2027 op onze officiële website:\nhttps://2027.3days.be
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4201@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:[NAT] BK/CB Long Distance - Lanklaarderbos (Omega)
+URL:https://www.opunch.org/event/4201
+DESCRIPTION:Organiser: Omega\nLevel: National\nRegistration closes: 2027-08
+ -29\nDetails & registration: https://www.opunch.org/event/4201
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4085@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Anlier (SudOLux)
+URL:https://www.opunch.org/event/4085
+DESCRIPTION:Organiser: SudOLux\nLevel: National\nRegistration closes: 2027-
+ 09-10\nDetails & registration: https://www.opunch.org/event/4085\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4086@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:[NAT] Chpt de Belgique Interclubs (ASUB)
+LOCATION:Chiny-sur-Semois\, Rue Du Millénaire 25\, Chiny
+GEO:49.73872;5.340873
+URL:https://www.opunch.org/event/4086
+DESCRIPTION:Organiser: ASUB\nLevel: National\nRegistration closes: 2027-09-
+ 05\nMap: https://www.google.com/maps?q=49.73872\,5.340873\nDetails & regis
+ tration: https://www.opunch.org/event/4086\n\ninfos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4202@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:[NAT] BK Aflossing/CB Relais (KOL)
+URL:https://www.opunch.org/event/4202
+DESCRIPTION:Organiser: KOL\nLevel: National\nDetails & registration: https:
+ //www.opunch.org/event/4202
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4225@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20270919T100000
+DTEND;TZID=Europe/Brussels:20270919T120000
+SUMMARY:[NAT] BK Aflossing/CB Relais - Dagomlopen (KOL)
+URL:https://www.opunch.org/event/4225
+DESCRIPTION:Organiser: KOL\nLevel: National\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-09-19\nDetails & registration: https://www.opunch.
+ org/event/4225
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4204@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20271003T100000
+DTEND;TZID=Europe/Brussels:20271003T120000
+SUMMARY:[NAT] Nationale Lang - Waterschei (hamok)
+URL:https://www.opunch.org/event/4204
+DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-09-19\nDetails & registration: https://www.opunc
+ h.org/event/4204
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4268@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:[NAT] NK Lang (KOVZ)
+URL:https://www.opunch.org/event/4268
+DESCRIPTION:Organiser: KOVZ\nLevel: National\nRegistration closes: 2027-10-
+ 17\nDetails & registration: https://www.opunch.org/event/4268
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4226@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20280213T100000
+DTEND;TZID=Europe/Brussels:20280213T120000
+SUMMARY:[NAT] Nationale Lang Kattenbos (Lommel) (hamok)
+URL:https://www.opunch.org/event/4226
+DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2028-01-30\nDetails & registration: https://www.opunc
+ h.org/event/4226
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4227@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20280312T100000
+DTEND;TZID=Europe/Brussels:20280312T120000
+SUMMARY:[NAT] BK/CB Middle - Lommel Sahara (KOL)
+URL:https://www.opunch.org/event/4227
+DESCRIPTION:Organiser: KOL\nLevel: National\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2028-02-27\nDetails & registration: https://www.opunch.
+ org/event/4227
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4093@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280318
+DTEND;VALUE=DATE:20280319
+SUMMARY:[NAT] Chpt Belgique de Nuit - Anlier (SudOLux)
+URL:https://www.opunch.org/event/4093
+DESCRIPTION:Organiser: SudOLux\nLevel: National\nRegistration closes: 2028-
+ 03-17\nDetails & registration: https://www.opunch.org/event/4093\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4094@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280319
+DTEND;VALUE=DATE:20280320
+SUMMARY:[NAT] Nat LD - Nationale Longues distances - Anlier (SudOLux)
+URL:https://www.opunch.org/event/4094
+DESCRIPTION:Organiser: SudOLux\nLevel: National\nRegistration closes: 2028-
+ 03-18\nDetails & registration: https://www.opunch.org/event/4094\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4095@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280402
+DTEND;VALUE=DATE:20280403
+SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Wolfsbusch (ARDOC)
+URL:https://www.opunch.org/event/4095
+DESCRIPTION:Organiser: ARDOC\nLevel: National\nRegistration closes: 2028-04
+ -01\nDetails & registration: https://www.opunch.org/event/4095\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4228@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280429
+DTEND;VALUE=DATE:20280430
+SUMMARY:[NAT] Nationale Sprint - De Haan (TROL)
+URL:https://www.opunch.org/event/4228
+DESCRIPTION:Organiser: TROL\nLevel: National\nRegistration closes: 2028-04-
+ 15\nDetails & registration: https://www.opunch.org/event/4228
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4229@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20280501T100000
+DTEND;TZID=Europe/Brussels:20280501T120000
+SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (TROL)
+URL:https://www.opunch.org/event/4229
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 10:00 - 12:00\nD
+ etails & registration: https://www.opunch.org/event/4229
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4230@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20280501T100000
+DTEND;TZID=Europe/Brussels:20280501T120000
+SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (dagomlopen) (TROL)
+URL:https://www.opunch.org/event/4230
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2028-04-17\nDetails & registration: https://www.opunch
+ .org/event/4230
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4096@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280514
+DTEND;VALUE=DATE:20280515
+SUMMARY:[NAT] Chpt Belgique Sprint - BK Sprint - Brussels (ASUB)
+LOCATION:Ganshoren\, Avenue Van Overbeke 127\, Ganshoren
+GEO:50.872124;4.3137984
+URL:https://www.opunch.org/event/4096
+DESCRIPTION:Organiser: ASUB\nLevel: National\nRegistration closes: 2028-05-
+ 07\nMap: https://www.google.com/maps?q=50.872124\,4.3137984\nDetails & reg
+ istration: https://www.opunch.org/event/4096\n\ninfos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4231@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:[NAT] BK/CB MTB-O (TROL)
+URL:https://www.opunch.org/event/4231
+DESCRIPTION:Organiser: TROL\nLevel: National\nRegistration closes: 2028-05-
+ 13\nDetails & registration: https://www.opunch.org/event/4231
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4232@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:[NAT] BK/CB MTB-O - Parcours van de dag (TROL)
+URL:https://www.opunch.org/event/4232
+DESCRIPTION:Organiser: TROL\nLevel: National\nRegistration closes: 2028-05-
+ 26\nDetails & registration: https://www.opunch.org/event/4232
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4097@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280603
+DTEND;VALUE=DATE:20280606
+SUMMARY:[NAT] 3 JB2028 - 3 Jours de Belgique 2028 - Lagland (CO Liège)
+LOCATION:Camp Lagland (terrain militaire)\, Route De Virton 350\, Arlon
+GEO:49.657154;5.752613
+URL:https://www.opunch.org/event/4097
+DESCRIPTION:Organiser: CO Liège\nLevel: National\nRegistration closes: 202
+ 8-06-02\nMap: https://www.google.com/maps?q=49.657154\,5.752613\nDetails &
+  registration: https://www.opunch.org/event/4097\n\ninfos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4098@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280902
+DTEND;VALUE=DATE:20280903
+SUMMARY:[NAT] Nat MD - Nationale Moyennes distances - Ardennes (ThOR)
+URL:https://www.opunch.org/event/4098
+DESCRIPTION:Organiser: ThOR\nLevel: National\nRegistration closes: 2028-09-
+ 01\nDetails & registration: https://www.opunch.org/event/4098\n\ninfos à 
+ venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4099@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280903
+DTEND;VALUE=DATE:20280904
+SUMMARY:[NAT] Chpt de Belgique Longues Distances - Daverdisse (Balise 10)
+URL:https://www.opunch.org/event/4099
+DESCRIPTION:Organiser: Balise 10\nLevel: National\nRegistration closes: 202
+ 8-09-02\nDetails & registration: https://www.opunch.org/event/4099\n\ninfo
+ s à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4233@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;VALUE=DATE:20280910
+DTEND;VALUE=DATE:20280911
+SUMMARY:[NAT] Interclub Gruitrode (Oudsbergen) (Omega)
+URL:https://www.opunch.org/event/4233
+DESCRIPTION:Organiser: Omega\nLevel: National\nRegistration closes: 2028-08
+ -27\nDetails & registration: https://www.opunch.org/event/4233
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4234@opunch.org
+DTSTAMP:20260914T070819Z
+DTSTART;TZID=Europe/Brussels:20281008T100000
+DTEND;TZID=Europe/Brussels:20281008T120000
+SUMMARY:[NAT] Nationale Lang Lanklaarderbos (Omega)
+URL:https://www.opunch.org/event/4234
+DESCRIPTION:Organiser: Omega\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2028-09-24\nDetails & registration: https://www.opunc
+ h.org/event/4234
+CATEGORIES:Orienteering,National
+END:VEVENT
+END:VCALENDAR

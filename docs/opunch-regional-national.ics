@@ -1,0 +1,2558 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//opunch-ics//opunch_to_ics.py//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Orienteering Belgium - regional & national
+X-WR-TIMEZONE:Europe/Brussels
+X-WR-CALDESC:Upcoming orienteering events from opunch.org
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+X-LIC-LOCATION:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:opunch-3589@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20260920T100000
+DTEND;TZID=Europe/Brussels:20260920T120000
+SUMMARY:[REG] Regionale - Lommel Sahara  cafetaria De SOEVEREIN (KOL)
+URL:https://www.opunch.org/event/3589
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2026-09-13\nDetails & registration: https://www.opunch.
+ org/event/3589\n\nCC  > Start : 600 m  \; Finish > CC \; 900 m en passee
+ rt via start\nOmlopen volgens wedstrijdreglement Orienteering Vlaanderen:\
+ nOmloop 1: Zwart Extra Lang - 9 km   OPGELET ! Voor deze omloop heb je m
+ inimum een SI card 9 nodig ( + 30 controles)\nOmloop 2: Zwart Lang - 7 km\
+ n\nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 
+ 5: Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Mid
+ den - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n
+ ER IS OOK EEN KINDER OMLOOP !\n\nVerduidelijking kleuren:\n\nGroen: wegkeu
+ ze via paden en posten bij kruisingen van lijnobjecten en zichtbaar vanop 
+ een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjecten en posten zichtbaa
+ r vanaf lijnobjecten\nRood: wegkeuze mogelijk langs lijnobjecten en een du
+ idelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik maken van de kenm
+ erken van het terrein om een uitdagende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3590@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20260927T100000
+DTEND;TZID=Europe/Brussels:20260927T120000
+SUMMARY:[REG] Regionale - Horensberg (Omega)
+LOCATION:De moedige herdershond - As\, Herengracht 99\, As
+GEO:51.000755;5.556041
+URL:https://www.opunch.org/event/3590
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2026-09-20\nMap: https://www.google.com/maps?q=51.000
+ 755\,5.556041\nDetails & registration: https://www.opunch.org/event/3590\n
+ \nOmlopen\nOmlopen volgens wedstrijdreglement Orienteering Vlaanderen:\nZw
+ art Extra Lang - 9 km\n\nZwart Lang - 7 km\n\nZwart Midden - 5 km\n\nZwart
+  Kort - 3 km\n\nRood Lang - 7 km\n\nRood Midden - 4 km\n\nBlauw Midden - 5
+  km\n\nBlauw Kort - 3 km\n\nGroen Kort - 3 km\n\nVerduidelijking kleuren:\
+ n\nGroen: wegkeuze via paden en posten bij kruisingen van lijnobjecten en 
+ zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjecten en
+  posten zichtbaar vanaf lijnobjecten\nRood: wegkeuze mogelijk langs lijnob
+ jecten en een duidelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik m
+ aken van de kenmerken van het terrein om een uitdagende wedstrijd aan te b
+ ieden.\nCC\nDe moedige herdershond\nHerengracht 99\, 3665 As\nGoogle Maps 
+ (klik hier)\nWaze (klik hier)\nBaanlegger: Liam Thiels
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4033@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20260927T104500
+DTEND;TZID=Europe/Brussels:20260927T120000
+SUMMARY:[REG] BRUGELETTE Régionale 5 couleurs (COMB)
+LOCATION:Place de Brugelette\, Grand Place 12\, Brugelette
+GEO:50.595867;3.8524246
+URL:https://www.opunch.org/event/4033
+DESCRIPTION:Organiser: COMB\nLevel: Regional\nStart times: 10:45 - 12:00\nR
+ egistration closes: 2026-09-22\nMap: https://www.google.com/maps?q=50.5958
+ 67\,3.8524246\nDetails & registration: https://www.opunch.org/event/4033\n
+ \nBIENVENUE\, WELKOM \, WELCOME à BRUGELETTE \nUne CO Semi-Urbaine de c
+ ourse ou de marche d'orientation suivant votre choix dans un paysage faço
+ nné par les méandres de la Dendre orientale qui sillonne la commune.\nLe
+ s différents parcours empruntent \, venelles\, ruelles\, sentiers \, esca
+ liers en passant par l'ancien site historique de la sucrerie\, et le magni
+ fique parc communal semi-boisé de plus de 15 hectares .\nAprès votre CO 
+ profitez de visiter à proximité du Centre de Course : soit Le parc Pairi
+  Daiza\, Le château d'Attre et ses vestiges \, le village de Mevergnies.\
+ n\nCarte-Kaart : Village de Brugelette 1/5000 Edition 2026  \nCentre de 
+ course CC : Ecole de la Maison du Phénix suivre le fléchage à partir de
+  la place de Brugelette. ouvert de 10hr30 à 12hr\nParking obligatoire gra
+ tuit : Adjacent au CC  \nCC - Start : 200m\nArrivée - CC : Adjacent\n5 
+ Parcours - Omloop  de couleurs avec SportIdent :\nParcours - Omloop Noir 
+ Long 7300m\nParcours - Omloop Noir Moyen 6200m\nParcours - Omloop Rouge co
+ urt 4800m\nParcours - Omloop Bleu court 3900m\nParcours - Omloop vert 3200
+ m\nPossibilité de vous inscrire sur place suivant les parcours restant di
+ sponible majorée de 2euros\nFacturation aux clubs FRSO - OV suivant le ta
+ rif FRSO\nPour tout les autres participants paiement sur place suivant tar
+ if FRSO\nLocation d'un doigt SI 2euros ou 1euro suivant la catégorie.\nPo
+ ur le C.O.M.B
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3603@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:[NAT] BK MTBO - Lommel (hamok)
+LOCATION:De Soeverein - Lommel\, Sportveldenstraat 10\, Lommel
+GEO:51.244904;5.306947
+URL:https://www.opunch.org/event/3603
+DESCRIPTION:Organiser: hamok\nLevel: National\nRegistration closes: 2026-09
+ -23\nMap: https://www.google.com/maps?q=51.244904\,5.306947\nDetails & reg
+ istration: https://www.opunch.org/event/3603\n\nOmloop 1: 20\,95 km - H Op
+ en\nOmloop 2: 18\,91 km - D Open\, H Master A\nOmloop 3: 15\,53 km - D Mas
+ ter A\, H Master B\, H Jun\nOmloop 4: 14\,31 km - D Master B\, D Jun\, H M
+ aster C\nOmloop 5: 11\,12 km - D Master C\, H Master D\nOmloop 6: 10\,26 k
+ m - D Master D\, H Master E\nOmloop 7: 9\,61 km - D Bel/Esp\, H Bel/Esp\, 
+ D Master E\nOmloop 8: 7\,79 km - H Master F\nOmloop 9: 6\,99 km - D Master
+  F\nReminder: Fietshelm verplicht!
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3591@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261004T100000
+DTEND;TZID=Europe/Brussels:20261004T120000
+SUMMARY:[REG] Regionale - Grobbendonk (TROL)
+LOCATION:CC: Kinderboerderij  De Lentehei\, Wuytsbergen 250\, Herentals
+GEO:51.181133;4.800875
+URL:https://www.opunch.org/event/3591
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2026-09-27\nMap: https://www.google.com/maps?q=51.1811
+ 33\,4.800875\nDetails & registration: https://www.opunch.org/event/3591\n\
+ nBaanlegger: Goossens Dirk\nAlle deelnemers parkeren op het militair domei
+ n dat alleen toegankelijk is via de poort aan VOGELZANG te Herentals\nPark
+ ing - CC   100 m\nCC - Start   300m\nFinish - CC 100m\n\nOmlopen volge
+ ns wedstrijdreglement Orienteering Vlaanderen:\nZwart Extra Lang - 9.1 km
+    - 29 controles  - 1/10000\nZwart Lang -   7.3 km  - 23 controles 
+ - 1/10000\nZwart Midden - 4\,9 km - 18 controles - 1/7500\nZwart Kort - 3\
+ ,2 km - 14 controles - 1/7500\nRood Lang - 6\,9 km - 20 controles - 1/1000
+ 0\nRood Midden - 4\,1 km - 16 controles - 1/7500\nBlauw Midden - 4\,9 km -
+  20 controles - 1/7500\nBlauw Kort - 2\,9 km - 14 controles - 1/7500\nGroe
+ n Kort - 3\,3 km - 11 controles - 1/7500\n\nVerduidelijking kleuren:\n\nGr
+ oen: wegkeuze via paden en posten bij kruisingen van lijnobjecten en zicht
+ baar vanop een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjecten en post
+ en zichtbaar vanaf lijnobjecten\nRood: wegkeuze mogelijk langs lijnobjecte
+ n en een duidelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik maken 
+ van de kenmerken van het terrein om een uitdagende wedstrijd aan te bieden
+ .
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3819@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261004T100000
+DTEND;TZID=Europe/Brussels:20261004T120000
+SUMMARY:[REG] Relais Double Sprint La Chartreuse (CO Liège)
+LOCATION:École fondamentale de Péville\, Avenue De Péville 277\, Liège
+GEO:50.628872;5.599213
+URL:https://www.opunch.org/event/3819
+DESCRIPTION:Organiser: CO Liège\nLevel: Regional\nStart times: 10:00\nRegi
+ stration closes: 2026-09-27\nMap: https://www.google.com/maps?q=50.628872\
+ ,5.599213\nDetails & registration: https://www.opunch.org/event/3819\n\nRe
+ lais par équipe de 2 où chaque coureur court 2 fois.\nLe premier coureur
+  fait les parcours 1 et 3 et le deuxième coureur fait les parcours 2 et 4
+ .\nChaque coureur de l'équipe s'inscrit sur O'Punch\, notez dans la case 
+ remarque l'ordre des coureurs.\nDes coureurs de clubs différents peuvent 
+ faire équipe ensemble.\nVous n'avez pas d'équipier et en cherchez un ?
+   Indiquez-le dans les commentaires et on créera des équipes avec les d
+ emandeurs.\n3 catégories : \nOpen (pas de règle d’âge)\nJeunes (les 
+ 2 coureurs doivent être nés en 2008 ou après)\nVétérans (les 2 coureu
+ rs doivent être nés en 1971 ou avant)\nHoraire : \nDépart de masse pou
+ r toutes les catégories à 10h30.\nPossibilité de courir un parcours ind
+ ividuel\, départs de 10h45 à 12h00. \nLongueurs des parcours (à vol d'
+ oiseau) :\n\n    1. Relais Open : environ 2x(2300+2700m) -> 13+15 postes
+ \n    2. Relais Jeunes : environ 2x(1600+2100m) -> 11+11 postes\n    3
+ . Relais Vétérans : environ 2x(2300+2100m) -> 12+12 postes\n    4. Ind
+ ividuel Long : 4290m -> 24 postes\n    5. Individuel Court : 2730m  -> 
+ 16 postes\n\nTarif :\n Relais : 16€ par équipe\, 10€ par équipe de 
+ jeunes\n Parcours individuel : Affiliés : 8€ / Adulte\, 5€ / Jeune (
+ -18 ans)\n Supplément non-affiliés ou inscription sur place : 2 € / P
+ ersonne\n Locations SportIDENT : 2€ / Adulte\, 1€ / Jeune\nInscriptio
+ ns : \nPré-inscription avant le 27/09/2026. \nDes inscriptions sur plac
+ e sont également possibles dans la limite des cartes disponibles (avant 1
+ 0h00 pour le relais).\nCentre de course : École de 
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4198@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:[REG] Formations Moniteur Sportif Animateur-Initiateur (FRSO)
+URL:https://www.opunch.org/event/4198
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2026-10-
+ 04\nDetails & registration: https://www.opunch.org/event/4198\n\nLa FRSO v
+ ous propose deux formations de cadre Adeps\, en automne 2026. Elles sont 
+ à tout amateur·trice de sport nature ayant déjà pratiqué un minimum d
+ ’orientation. \nLe programme détaillé des deux formations en disponib
+ le ci-dessous.\n1️⃣Moniteur Sportif Animateur - MSA\n📅1 Weekend + 1
+  soirée + 1 journée :\nSamedi 10 et Dimanche 11 octobre à Louvain-la-Ne
+ uve\nJeudi 29 octobre 19h-22h en Visio\nSamedi 7 novembre à Namur\n🎯Sa
+ voir animer et organiser des activités de découverte de l’orientation 
+ en milieu scolaire ou de loisir\n💰Coût : 80€ (affiliés FRSO) / 120
+ € (non affiliés) + 15€ frais homologation brevet + 60€ pour le WE e
+ n internat (facultatif)\n🏁Limite d'inscription : 4 octobre 2026\n2️
+ ⃣Moniteur Sportif Initiateur - MSI\n📅 1 Weekend + 1 Stage\ndu Vendred
+ i 20 novembre à 19h au Dimanche 22 novembre à 18h à la Baraque Fraiture
+ \nà faire après la formation\, lieu à déterminer\n🎯Savoir préparer
+  et gérer des activités d’orientation d'initiation via des exercices d
+ ’orientation variés\n💰Coût : 40€ + 15€ frais homologation breve
+ t + 80€ pour le WE en internat\n🏁Limite d'inscription : 8 novembre 20
+ 26\n👨‍💻Coordination : Thibaut Robinson\nℹ️ Infos supplémentai
+ res : formations@frso.be\n✏️Inscriptions :  \nS'inscrire via cette p
+ age en mentionnant en remarque : MSA et MSI / MSA uniquement / MSI uniquem
+ ent\nEnvoyer l'Annexe A complétée (disponible ci-dessous) à formations@
+ frso.be
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3592@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261011T100000
+DTEND;TZID=Europe/Brussels:20261011T120000
+SUMMARY:[REG] VK Aflossing - individuele omlopen - Spiekelspade (KOL)
+LOCATION:AVT Hechtel\, Lupinestraat 9\, Hechtel-Eksel
+GEO:51.107506;5.3655663
+URL:https://www.opunch.org/event/3592
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2026-10-04\nMap: https://www.google.com/maps?q=51.10750
+ 6\,5.3655663\nDetails & registration: https://www.opunch.org/event/3592\n\
+ nCC : Cafetaria A.V.T. \, Lupinestraat Hechtel\, parking > CC 150 - 300 m 
+ m\nKeuze uit omlopen :\n\nSX : 2170 m ( Niv -10 en -12) \, 8 posten\nSE : 
+ 3280 m met 12 posten\nSD :  4120 m  met 9 posten\nMM : 4920 m met 14 pos
+ ten\nLD : 7490 m met 17 posten\nEr is een kinder O voorzien\n\nCC > start 
+ :  m\n\nFinish > CC :  m
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3681@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261011T090000
+DTEND;TZID=Europe/Brussels:20261011T110000
+SUMMARY:[REG] Brussels Orienteering Challenge #1 - f. de Soignes (ASUB)
+LOCATION:Merry Horse - Rhode-Saint-Genèse\, Avenue Brassine 94\, Rhode-Sai
+ nt-Genèse
+GEO:50.740074;4.4105554
+URL:https://www.opunch.org/event/3681
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nStart times: 09:00 - 11:00\nR
+ egistration closes: 2026-10-05\nMap: https://www.google.com/maps?q=50.7400
+ 74\,4.4105554\nDetails & registration: https://www.opunch.org/event/3681\n
+ \nLe Brussels Orienteering Challenge (BOC)\, une série de rendez-vous d'o
+ rientation dans et autour de Bruxelles\, en forêt de Soignes (le plus sou
+ vent)\, parfois en milieu urbain.\n1er rendez-vous de la saison : une dist
+ ance classique en forêt de Soignes\n9 parcours avec beaucoup de balises d
+ ans cette partie très variée de la forêt\n1 - Noir très long - 9\,4 km
+  - 29 postes\n\n2 - Noir long - 7\,6 km - 22 postes\n\n3 - Noir moyen - 5\
+ ,8 km - 16 postes\n\n4 - Noir court - 3\,2 km - 13 postes\n5 - Rouge long 
+ 5\,8 km - 18 postes\n\n6 - Rouge court - 2\,9 km - 11 postes\n\n7 - Bleu l
+ ong - 5\,4 km - 17 postes\n\n8 - Bleu court 2\,7 km - 12 postes\n\n9 - Ver
+ t - 2\,3 km - 11 postes\nAttention : dernier départ à 11h (demande autor
+ ités forestières)\n\nBar et petite restauration à la guinguette du Merr
+ y Horse qui nous accueille - voir menu : n'hésitez pas à leur faire honn
+ eur !
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3952@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261011T100000
+DTEND;TZID=Europe/Brussels:20261011T120000
+SUMMARY:[REG] VK Aflossing  - Spiekelspade Cafetaria AVT (KOL)
+LOCATION:AVT Hechtel\, Lupinestraat 9\, Hechtel-Eksel
+GEO:51.10748;5.3655124
+URL:https://www.opunch.org/event/3952
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2026-10-09\nMap: https://www.google.com/maps?q=51.10748
+ \,5.3655124\nDetails & registration: https://www.opunch.org/event/3952\n\n
+ CC : Cafetaria A.V.T. \, Lupinestraat Hechtel\, parking > CC 150  - 300 m
+ \nInschrijven voor het VK aflossing in een ploeg.\nOm u in te schrijven\, 
+ meld u bij uw clubverantwoordelijke.\nStart aflossing bij het CC.\nAfstand
+ en : loper 1 en 3 :  6100 m  met 18 posten \; loper 2 : 4200 m met 13 po
+ sten\nVoor de clubverantwoordelijken\;\nAantal ploegen doorgeven ten laats
+ te 03 Oktober 2026 aan ronaldsomers@yahoo.com\nGraag hieronder jullie ploe
+ gen inschrijven ten laatste 09 Oktober 2026 . geef een ploegnaam op volgen
+ s clubnaam plus volgnummer\, en of het een familieploeg is.\nVoorbeeld: KO
+ L 1\, KOL 2\, KOL 3\, KOL 4 FAM\, KOL 5 FAM\, enz.\n Leeftijdscategorie
+ ën en punten\n\n- 20 punten: H21 12 punten: H-14\, H55\n\n- 18 punten: H-
+ 20\, H35 11 punten: D-16\, D40\n\n- 16 punten: H40 10 punten: H-12\, H60 e
+ n D-14\, D45\n\n- 15 punten: H-18\, H45 en D21 9 punten: H65 en D-12\, D50
+ \n\n- 14 punten: H50 en D-20 8 punten: H70 en D55\n\n- 13 punten: H-16 en 
+ D-18\, D35 7 punten: H-10\, H75+ en D-10\, D60+
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4280@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261017T103000
+DTEND;TZID=Europe/Brussels:20261017T123000
+SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
+ ams)
+LOCATION:extrémité de l'avenue Schaller\, Auderghem\, Avenue Charles Scha
+ ller - Charles Schallerlaan 91\, Auderghem - Oudergem
+GEO:50.803402;4.4426823
+URL:https://www.opunch.org/event/4280
+DESCRIPTION:Organiser: Belgium Teams\nLevel: National\nStart times: 10:30 -
+  10:30\nRegistration closes: 2026-10-17\nMap: https://www.google.com/maps?
+ q=50.803402\,4.4426823\nDetails & registration: https://www.opunch.org/eve
+ nt/4280\n\nEn français :\n\nCe test physique s'adresse:\n\n- aux jeunes a
+ ffiliés FRSO & OV (H/D-16\, -18\, -20 en 2027) qui souhaitent rejoindre l
+ 'équipe Belge = Belgium Team EYOC ou JWOC \,  pour la saison 2027\, en v
+ ue de passer les sélections pour les EYOC\, JWOC ou JEC.\n- et aux jeunes
+  affiliés FRSO (H/D -16\, -18\, -20 en 2026) qui souhaitent participer au
+ x entraînement de la 'Belgium  Team' = rejoindre l'équipe appelée pr
+ écédemment'Performance FRSO' pour la saison 2027.\n\n3 tests sont propos
+ és : le 17/10\, le 12/12/2026 et le 16/01/2027\nLa réussite du critère 
+ (voir tableau des tempsen annexe):\n 'équipe JWOC & EYOC' \, est un pr
+ é-requis pour faire partie de la 'Belgium Team' et pour prendre part aux 
+ sélections pour les EYOC\, JWOC et  JEC.\n\n 'groupe Performance' \, es
+ t un pré-requis pour faire partie de la 'Training Team' et pouvoir prendr
+ e part aux stages et entraînements de la 'Belgium Team'.\n\nRdv au point 
+ de départ vers 10h30 pour un départ de masse vers 11h. (voir plan ci-joi
+ nt)\n\nLe circuit de 2 km est à réaliser de 2 à 5 fois en fonction des 
+ catégories.\n\nTableaux des tours et des temps : voir l'image dans la gal
+ erie photo\n\nParking : à votre meilleure convenance à l'extrémité de 
+ l'avenue Schaller ou près du Centre Sportif de la Forêt de Soignes .\n\n
+ Distance parking - départ : ± 1 km (voir la carte dans la galerie photo)
+ .\n\n-------\n\nIn het Nederlands: \n\nDeze fysieke test is bedoeld voor O
+ V-leden (H/D-16\, -18\, -20\, 21 in 2025) die willen deelnemen aan een IOF
+ -event of JEC in het seizoen 2026.\n\nEr 
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3606@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261018T100000
+DTEND;TZID=Europe/Brussels:20261018T120000
+SUMMARY:[NAT] Clubaflossing - Witteberg (hamok)
+URL:https://www.opunch.org/event/3606
+DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2026-10-17\nDetails & registration: https://www.opunc
+ h.org/event/3606
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3607@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:[NAT] Clubaflossing - Witteberg - Dagomlopen (hamok)
+URL:https://www.opunch.org/event/3607
+DESCRIPTION:Organiser: hamok\nLevel: National\nRegistration closes: 2026-10
+ -11\nDetails & registration: https://www.opunch.org/event/3607
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3593@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261025T100000
+DTEND;TZID=Europe/Brussels:20261025T120000
+SUMMARY:[REG] Regionale - Lilse Bergen \, zaal De Eekhoorn (KOL)
+URL:https://www.opunch.org/event/3593
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2026-10-18\nDetails & registration: https://www.opunch.
+ org/event/3593\n\nZaal Eekhoorn \, enkel te bereiken via ingang dagrecreat
+ ie bij parking 4\nOmlopen volgens wedstrijdreglement Orienteering Vlaander
+ en:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\nO
+ mloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: R
+ ood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midden 
+ - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nVe
+ rduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruising
+ en van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegke
+ uze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeuz
+ e mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goed
+  als mogelijk gebruik maken van de kenmerken van het terrein om een uitdag
+ ende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4034@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261025T103000
+DTEND;TZID=Europe/Brussels:20261025T121500
+SUMMARY:[REG] Régionale 5 couleurs JURBISE (COMB)
+LOCATION:Jurbise\, Rue Des Anglais 1\, Jurbise
+GEO:50.53223;3.9111757
+URL:https://www.opunch.org/event/4034
+DESCRIPTION:Organiser: COMB\nLevel: Regional\nStart times: 10:30 - 12:15\nR
+ egistration closes: 2026-10-18\nMap: https://www.google.com/maps?q=50.5322
+ 3\,3.9111757\nDetails & registration: https://www.opunch.org/event/4034\n\
+ nBienvenus à toutes et tous sur la nouvelle Carte de Jurbise Echelle 1/5
+ 000 \nUne Régionale semi-urbaine :\nLes différents parcours emprunte Le
+ s venelles\, ruelles\, et sentiers en passant par le Château Hambye dans 
+ le magnifique parc communal \nSecrétariat : Café le Cheval d'Or 1\, Imp
+ asse du Viaduc 7050 Jurbise  ouvert de 10r30 à 12hr00\nParking obligato
+ ire 150 places gratuit : suivre fléchage à partir du CC (250m du secrét
+ ariat )\nStart de 10hr45 à 12hr15\nArrivée : Adjacent du CC\n5 Parcours 
+ avec contrôle SportIdent \nNoir long 6700m\nNoir moyen 5400m\nRouge cour
+ t 4700m\nBleu court 3600m\nVert 3100m parcours découverte dans le parc et
+  environs famille\, débutant\nFrais d'inscriptions :\nAffiliés FRSO - OV
+  Adultes 8euros - Jeunes 5euros facturation aux clubs\nAutres affiliés 
+ à une fédération de CO paiement sur place\nNon affiliés Adultes 10euro
+ s - Jeunes 7euros paiement sur place\nLocation d'un SI adulte 2euros - Jeu
+ ne 1euro\nContact COMB 0476/34.60.65
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4057@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261102
+SUMMARY:[REG] Mégastage d'Automne - NANCY - Internat (FRSO)
+URL:https://www.opunch.org/event/4057
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2026-09-
+ 20\nDetails & registration: https://www.opunch.org/event/4057\n\nMégastag
+ e d'automne dans les massifs forestiers du Grand-Est.\nLa FRSO organise un
+  stage de perfectionnement (parcours rouge et plus) dans la région de Nan
+ cy du jeudi 29 octobre au dimanche 1 novembre 2026.\n\nCe stage comprendra
+  6 entraînements en forêt organisés par la FRSO avec la collaboration d
+ u club français Scapa\n\nEntr1 : 29/10 (pm) : à préciser\n\nEntr2 : 30/
+ 10 (am) : à préciser\n\nEntr3 : 30/10 (pm) : à préciser\n\nEntr4 : 31/
+ 10 (am) : à préciser\n\nEntr5 : 31/10 (pm) : à préciser\n\nEntr6 : 01/
+ 11 (am) : à préciser\n\nInscription en Internat : (cette page-ci)\n\nCe 
+ stage est un stage de perfectionnement ouvert à tous les affiliés FRSO p
+ our l'internat à partir des catégories H/D-14.\nPour les affiliés d'aut
+ res fédés\, merci d'envoyer un mail à la permanence@frso.be pour votre 
+ intérêt à participer en INTERNAT.\nLe 20 septembre\, la fédé vous con
+ tactera pour vous faire part des places en internat encore disponibles au 
+ prix coûtant.\n\nUn logement est prévu au CREPS de Nancy (Centre de Ress
+ ources\, d'Expertise et de Performance Sportive) 1 avenue Foch\, 54270 Ess
+ ey-lès-Nancy.\nLes chambres sont à deux lits. 40 places maximum.\n\nLe c
+ oût de ce stage est estimé à 155 € par personne.  Grâce à l’inter
+ vention de la FRSO\, le prix est de : 110€ / personne.\n\nUne enveloppe 
+ supplémentaire est prévue pour les jeunes de l’équipe Elites avec un 
+ max de 30€/élite (pour un max de 20 athlètes)\n\nCe coût comprend le 
+ logement\, l’intendance et les entraînements.\n\nDate limite d’inscri
+ ptions : le 20 septembre 2026\n\nLe tr
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4059@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261102
+SUMMARY:[REG] Mégastage d'automne  -  NANCY  -  Externat (FRSO)
+URL:https://www.opunch.org/event/4059
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2026-10-
+ 11\nDetails & registration: https://www.opunch.org/event/4059\n\nMégastag
+ e d'automne dans les massifs forestiers du Grand-Est.\nLa FRSO organise un
+  stage de perfectionnement (parcours rouge et plus) dans la région de Nan
+ cy du jeudi 29 octobre au dimanche 1 novembre 2026.\n\nCe stage comprendra
+  6 entraînements en forêt organisés par la FRSO avec la collaboration d
+ u club français Scapa\n\nEntr1 : 29/10 (pm) : à préciser\n\nEntr2 : 30/
+ 10 (am) : à préciser\n\nEntr3 : 30/10 (pm) : à préciser\n\nEntr4 : 31/
+ 10 (am) : à préciser\n\nEntr5 : 31/10 (pm) : à préciser\n\nEntr6 : 01/
+ 11 (am) : à préciser\n\nInscription en Internat : (ici : https://www.opu
+ nch.org/in/event/4057)\nCe stage est un stage de perfectionnement ouvert 
+ à tous les affiliés FRSO pour l'internat à partir des catégories H/D-1
+ 4.\nPour les affiliés d'autres fédés\, merci d'envoyer un mail à la pe
+ rmanence@frso.be pour votre intérêt à participer en INTERNAT.\nLe 20 se
+ ptembre\, la fédé vous contactera pour vous faire part des places en int
+ ernat encore disponibles au prix coûtant.\n\nUn logement est prévu au CR
+ EPS de Nancy (Centre de Ressources\, d'Expertise et de Performance Sportiv
+ e) 1 avenue Foch\, 54270 Essey-lès-Nancy.\n\nLes chambres sont à deux li
+ ts. 40 places maximum.\n\nLe coût de ce stage est estimé à 155 € par 
+ personne.  Grâce à l’intervention de la FRSO\, le prix est de : 110
+ € / personne.\n\nUne enveloppe supplémentaire est prévue pour les jeun
+ es de l’équipe Elites avec un max de 30€/élite (pour un max de 20 at
+ hlètes)\n\nCe coût comprend le logement\, l’intendance et les entraîn
+ ements.\n\nDate limite d’inscriptions 
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3608@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261106
+SUMMARY:[REG] Allerheiligenstage 2026 (OV)
+LOCATION:Hechtel\, N73\, Hechtel-Eksel
+GEO:51.125122;5.367659
+URL:https://www.opunch.org/event/3608
+DESCRIPTION:Organiser: OV\nLevel: Regional\nRegistration closes: 2026-10-01
+ \nMap: https://www.google.com/maps?q=51.125122\,5.367659\nDetails & regist
+ ration: https://www.opunch.org/event/3608\n\nDe traditionele Allerheiligen
+ stage zal in 2026 doorgaan in de buurt van Hechtel.\n\nMeer informatie vol
+ gt later.\n----------------\nOp dit event niet inschrijven als begeleider.
+  Hiervoor volgt weldra een apart event om op te registreren.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3609@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261108T100000
+DTEND;TZID=Europe/Brussels:20261108T120000
+SUMMARY:[REG] Herfstwisselbeker - Saenhoeve Zuid (Omega)
+LOCATION:De Griffel Eisden\, Marie Joséestraat 4\, Maasmechelen
+GEO:50.992966;5.686271
+URL:https://www.opunch.org/event/3609
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2026-10-28\nMap: https://www.google.com/maps?q=50.992
+ 966\,5.686271\nDetails & registration: https://www.opunch.org/event/3609\n
+ \nVolgens reglement Herfstwisselbeker :\nIndividuele deelnemers dienen hie
+ r bij inschrijving te vermelden bij 'opmerkingen' of ze een Oro-Hydro of e
+ en IOF kaart willen voor omloop 1 tem 5 !\n\n1. Oro Hydro  of IOF 8500m
+    H-20  H21  H35\n2. Oro Hydro of IOF 6900m   H-18  H40  H45  
+     H50  D-20  D21\n3. Oro Hydro of IOF 5500m   H-16  H55  H60  
+     D-16  D18  D35  D40  D45\n4. Oro Hydro of IOF 4100m   H-14  H
+ 65   D-14  D50  D55\n5. Oro Hydro of IOF 2900m   H-10  H-12  H70+
+     D-10  D-12  D60+\n-----------------------------------------------\
+ n6. IOF 3000m   H80+   D70+\n7. IOF Open 4350m   Start to O Middle\n
+ 8. IOF 2500m   H-10  H-12\n                           D-1
+ 0  D-12\n                           Start to O Short\n\nDe 
+ ploegen voor de Herfstwisselbeker starten eerst\, iIndividuele lopers  Or
+ o-Hydro omloop 1-5 starten pas daarna (ongveer 10:45h)\nIndividuele lopers
+  IOF omloop 1-5 mogen starten vanaf 11:15h!.\nIndividuele lopers voor de I
+ OF omlopen 6\, 7 of 8 mogen doorlopend starten tussen 10:00 en 12:00 u.\n\
+ nEnkel deelnames op oro-hydrokaart komen in aanmerking voor de Forest Cup!
+ !!!\n\nBaanleggers: Dirk Fabré - Guido Verdeyen\n\nCC\nVrije Basisschool 
+ De Griffel\nMarie Joséestraat 4\, 3630 Maasmechelen\nGoogle Maps (klik hi
+ er)
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3682@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261108T103000
+DTEND;TZID=Europe/Brussels:20261108T120000
+SUMMARY:[REG] Brussels Orienteering Challenge #2 - Sprint urbain (ASUB)
+LOCATION:Parc de Roodebeek (Woluwe-St-Lambert)\, Chaussée de Roodebeek 314
+ \, Woluwe-Saint-Lambert
+GEO:50.84973;4.423317
+URL:https://www.opunch.org/event/3682
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nStart times: 10:30 - 12:00\nR
+ egistration closes: 2026-11-02\nMap: https://www.google.com/maps?q=50.8497
+ 3\,4.423317\nDetails & registration: https://www.opunch.org/event/3682\n\n
+ Le Brussels Orienteering Challenge (BOC)\, une série de rendez-vous d'ori
+ entation dans et autour de Bruxelles\, en forêt de Soignes (le plus souve
+ nt)\, parfois en milieu urbain.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3610@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261115T100000
+DTEND;TZID=Europe/Brussels:20261115T120000
+SUMMARY:[REG] Regionale - Oirschotse heide (KOVZ)
+LOCATION:De Rosdoek\, Kerkstraat 10\, Wintelre
+GEO:51.444008;5.3415174
+URL:https://www.opunch.org/event/3610
+DESCRIPTION:Organiser: KOVZ\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2026-11-06\nMap: https://www.google.com/maps?q=51.4440
+ 08\,5.3415174\nDetails & registration: https://www.opunch.org/event/3610\n
+ \nOp zondag 15 november wordt de 44e editie van de Klompen-OL georganiseer
+ d\, dit keer op de Oirschotse heide. De aangeboden omlopen volgen de kleur
+ codes en afstanden uit het wedstrijdreglement van Orienteering Vlaanderen:
+ \nOmloop 1 - Zwart Lang - 9 km\n\nOmloop 2 - Zwart Midden - 6 km\n\nOmloop
+  3 - Zwart Kort - 3 km\n\nOmloop 4 - Rood Lang - 7 km\n\nOmloop 5 - Rood M
+ idden - 4 km\n\nOmloop 6 - Blauw Midden - 5 km\n\nOmloop 7 - Blauw Kort - 
+ 3 km\n\nOmloop 8 - Groen Kort - 3 km\nVerduidelijking kleuren:\nGroen: weg
+ keuze via paden en posten bij kruisingen van lijnobjecten en zichtbaar van
+ op een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjecten en posten zicht
+ baar vanaf lijnobjecten\nRood: wegkeuze mogelijk langs lijnobjecten en een
+  duidelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik maken van de k
+ enmerken van het terrein om een uitdagende wedstrijd aan te bieden.\nExtra
+  naast bovenstaande omlopen is dat de omlopen van de kleuren rood en zwart
+  ook als orohydro worden aangeboden. Heeft dit jouw voorkeur of je wil je 
+ dit eens proberen\, schrijf je dan van tevoren in op een van de volgende o
+ mlopen: \nOmloop 9 - Zwart Lang Orohydro - 9 km\nOmloop 10 - Zwart Midden
+  Orohydro - 6 km\nOmloop 11 - Zwart Kort Orohydro - 3 km\nOmloop 12 - Rood
+  Lang Orohydro - 7 km\nOmloop 13 - Rood Midden Orohydro - 4 km\nDeelname a
+ an een orohydro-omloop kan alleen met voorinschrijving\, deze omlopen zijn
+  dus niet beschikbaar voor de daginschrijving!\nOver orohydro: bij deze om
+ loop krijg je een kaart waar alleen de bruine en blauw
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3611@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261122T100000
+DTEND;TZID=Europe/Brussels:20261122T120000
+SUMMARY:[REG] Regionale - Zwartgoorheide Vosselaar (TROL)
+LOCATION:Het Gielsbos\, Vosselaarseweg 1\, 2275 Gierle\, Vosselaarseweg\, L
+ ille
+GEO:51.295315;4.8637676
+URL:https://www.opunch.org/event/3611
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2026-11-15\nMap: https://www.google.com/maps?q=51.2953
+ 15\,4.8637676\nDetails & registration: https://www.opunch.org/event/3611\n
+ \nBaanlegger: Desmond Franssen\n\nOmlopen volgens wedstrijdreglement Orien
+ teering Vlaanderen:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart 
+ Lang - 7 km\n\nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 k
+ m\n\nOmloop 5: Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 
+ 7: Blauw Midden - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen K
+ ort - 3 km\nVerduidelijking kleuren:\nGroen: wegkeuze via paden en posten 
+ bij kruisingen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\n
+ Blauw: wegkeuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nR
+ ood: wegkeuze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZw
+ art: zo goed als mogelijk gebruik maken van de kenmerken van het terrein o
+ m een uitdagende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3683@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:[REG] BOC #3 - Varkensgat (Altaïr)
+URL:https://www.opunch.org/event/3683
+DESCRIPTION:Organiser: Altaïr\nLevel: Regional\nRegistration closes: 2026-
+ 11-21\nDetails & registration: https://www.opunch.org/event/3683
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3612@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261127T190000
+DTEND;TZID=Europe/Brussels:20261127T210000
+SUMMARY:[REG] Avond - Balen Hulsen (KOL)
+URL:https://www.opunch.org/event/3612
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 19:00 - 21:00\nRe
+ gistration closes: 2026-11-20\nDetails & registration: https://www.opunch.
+ org/event/3612\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaander
+ en:\nOmloop 1: Zwart Lang - 6 km\n\nOmloop 2: Zwart Midden - 4\,5 km\n\nOm
+ loop 3: Rood Kort - 3\,5 km
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3616@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261129T100000
+DTEND;TZID=Europe/Brussels:20261129T120000
+SUMMARY:[REG] Regionale - Zilvermeer Ecocentrum DE Goren (KOL)
+LOCATION:Postelsesteenweg\, 71 2400 MOL\, Postelsesteenweg 71\, Mol
+GEO:51.218918;5.181749
+URL:https://www.opunch.org/event/3616
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2026-12-06\nMap: https://www.google.com/maps?q=51.21891
+ 8\,5.181749\nDetails & registration: https://www.opunch.org/event/3616\n\n
+ TOTAAL VERNIEUWDE KAART !\n\nOmlopen : \nOmloop 1: Zwart speciaal lang - 
+ 7 km\n\nOmloop 2: Zwart speciaal midden - 5 km\n\nOmloop 3: Zwart speciaal
+  kort - 3 km\nOmloop 4 : Rood extra lang - 9 km\nOmloop 5: Rood Lang - 7 k
+ m\n\nOmloop 6: Rood Midden - 5 km\n\nOmloop 7: Rood kort - 3 km\n\nOmloop 
+ 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nVerduidelijking kle
+ uren:\n\nGroen: wegkeuze via paden en posten bij kruisingen van lijnobject
+ en en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjec
+ ten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeuze mogelijk langs 
+ lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goed als mogelijk geb
+ ruik maken van de kenmerken van het terrein om een uitdagende wedstrijd aa
+ n te bieden. \, maar ditmaal zijn de 3 omlopen speciallekes
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4295@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:[REG] Championnat de Relais FRSO (49 points) (Balise 10)
+URL:https://www.opunch.org/event/4295
+DESCRIPTION:Organiser: Balise 10\nLevel: Regional\nRegistration closes: 202
+ 6-11-28\nDetails & registration: https://www.opunch.org/event/4295\n\nChpt
+  Relais FRSO encore en attente d'acceptation FRSO et DNF
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3614@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261206T100000
+DTEND;TZID=Europe/Brussels:20261206T120000
+SUMMARY:[REG] Regionale - Kamp Beverlo - Sinterklaascross (Omega)
+LOCATION:Sint-Michielsschool Leopoldsburg\, Diestersteenweg 1\, Leopoldsbur
+ g
+GEO:51.115826;5.25783
+URL:https://www.opunch.org/event/3614
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2026-12-05\nMap: https://www.google.com/maps?q=51.115
+ 826\,5.25783\nDetails & registration: https://www.opunch.org/event/3614\n\
+ nOmlopen volgens wedstrijdreglement Orienteering Vlaanderen:\nZwart Extra 
+ Lang - 9 km\n\nZwart Lang - 7 km\n\nZwart Midden - 5 km\n\nZwart Kort - 3 
+ km\n\nRood Lang - 7 km\n\nRood Midden - 4 km\n\nBlauw Midden - 5 km\n\nBla
+ uw Kort - 3 km\n\nGroen Kort - 3 km\n\nVerduidelijking kleuren:\n\nGroen: 
+ wegkeuze via paden en posten bij kruisingen van lijnobjecten en zichtbaar 
+ vanop een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjecten en posten zi
+ chtbaar vanaf lijnobjecten\nRood: wegkeuze mogelijk langs lijnobjecten en 
+ een duidelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik maken van d
+ e kenmerken van het terrein om een uitdagende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3684@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261206T100000
+DTEND;TZID=Europe/Brussels:20261206T120000
+SUMMARY:[REG] BOC#4 - Ultra Longues Distances (ASUB)
+LOCATION:Forêt de Soignes - Rouge Cloître\, Chaussée de Wavre 1854\, Aud
+ erghem
+GEO:50.81179;4.440612
+URL:https://www.opunch.org/event/3684
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nStart times: 10:00 - 12:00\nM
+ ap: https://www.google.com/maps?q=50.81179\,4.440612\nDetails & registrati
+ on: https://www.opunch.org/event/3684\n\nLe Brussels Orienteering Challeng
+ e (BOC)\, une série de rendez-vous d'orientation dans et autour de Bruxel
+ les\, en forêt de Soignes (le plus souvent)\, parfois en milieu urbain
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3615@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261212T180000
+DTEND;TZID=Europe/Brussels:20261212T200000
+SUMMARY:[REG] Avond - Hoge Mouw (TROL)
+LOCATION:CC: Kastelse Kajak club\, Breevensedijk 2\, Kasterlee
+GEO:51.227104;4.9778905
+URL:https://www.opunch.org/event/3615
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 18:00 - 20:00\nR
+ egistration closes: 2026-12-06\nMap: https://www.google.com/maps?q=51.2271
+ 04\,4.9778905\nDetails & registration: https://www.opunch.org/event/3615\n
+ \nBaanlegger : Marc Meeuwssen\nCC - P   0 M\nCC - Start 1500m\nFinish - 
+ CC  1600m\n\nOmloop 1: Zwart Lang - 6 km\n\nOmloop 2: Zwart Midden - 4\,5
+  km\n\nOmloop 3: Zwart Kort - 3\,5 km
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4281@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261212T103000
+DTEND;TZID=Europe/Brussels:20261212T123000
+SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
+ ams)
+LOCATION:extrémité de l'avenue Schaller\, Auderghem\, Avenue Charles Scha
+ ller - Charles Schallerlaan 91\, Auderghem - Oudergem
+GEO:50.803402;4.4426823
+URL:https://www.opunch.org/event/4281
+DESCRIPTION:Organiser: Belgium Teams\nLevel: National\nStart times: 10:30 -
+  10:30\nRegistration closes: 2026-12-12\nMap: https://www.google.com/maps?
+ q=50.803402\,4.4426823\nDetails & registration: https://www.opunch.org/eve
+ nt/4281\n\nEn français :\n\nCe test test physique s'adresse:\n\n- aux jeu
+ nes affiliés FRSO & OV (H/D-16\, -18\, -20 en 2027) qui souhaitent rejoin
+ dre l'équipe Belge = Belgium Team EYOC ou JWOC \,  pour la saison 2027\,
+  en vue de passer les sélections pour les EYOC\, JWOC ou JEC.\n- et aux j
+ eunes affiliés FRSO (H/D-16\, -18\, -20 en 2026) qui souhaitent participe
+ r aux entraînement de la 'Belgium  Team' = rejoindre l'équipe appelée 
+ précédemment 'Performance FRSO' pour la saison 2027.\n\n3 tests sont pla
+ nifiés\, les samedi suivants : 17/10/2026\, 12/12/2026\, 16/01/2027\nLa r
+ éussite du critère (voir tableau des temps en annexe):\n 'équipe JWOC 
+ & EYOC' \, est un pré-requis pour faire partie de la 'Belgium Team' et po
+ ur prendre part aux sélections pour les EYOC\, JWOC et  JEC.\n\n 'group
+ e Performance' \, est un pré-requis pour faire partie de la 'Training Tea
+ m' et pouvoir prendre part aux stages et entraînements de la 'Belgium Tea
+ m'.\n\nRdv au point de départ vers 10h30 pour un départ de masse vers 11
+ h. (voir plan ci-joint)\n\nLe circuit de 2 km est à réaliser de 2 à 5 f
+ ois en fonction des catégories.\n\nTableaux des tours et des temps : voir
+  l'image dans la galerie photo\n\nParking : à votre meilleure convenance 
+ à l'extrémité de l'avenue Schaller ou près du Centre Sportif de la For
+ êt de Soignes .\n\nDistance parking - départ : ± 1 km (voir la carte da
+ ns la galerie photo).\n\n-------\n\nIn het Nederlands: \n\nDeze fysieke te
+ st is bedoeld voor OV-leden (H/D-16\, -18\, -20\, 21 in 2025) die willen d
+ eelnemen aan een IOF-event of JEC in 
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3613@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261213T100000
+DTEND;TZID=Europe/Brussels:20261213T120000
+SUMMARY:[REG] Regionale - Galbergen (hamok)
+URL:https://www.opunch.org/event/3613
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2026-11-22\nDetails & registration: https://www.opunc
+ h.org/event/3613\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3617@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20261219T183000
+DTEND;TZID=Europe/Brussels:20261219T193000
+SUMMARY:[REG] Avond - Graafsbos (Omega)
+LOCATION:Domein 't Zwart Goor\, Zwart Goor 2\, Merksplas
+GEO:51.381786;4.886141
+URL:https://www.opunch.org/event/3617
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 18:30 - 19:30\n
+ Registration closes: 2026-12-11\nMap: https://www.google.com/maps?q=51.381
+ 786\,4.886141\nDetails & registration: https://www.opunch.org/event/3617\n
+ \nNaast de vaste omlopen volgens wedstrijdreglement Orienteering Vlaandere
+ n worden er ook extra laagdrempelige omlopen aangeboden om te proeven van 
+ deze meest aantrekkelijke vorm van orienteering\, met behulp van een stevi
+ ge hoofd -of zaklamp.\nOmloop 1: Zwart Lang - 6 km\n\nOmloop 2: Zwart Midd
+ en - 4\,5 km\n\nOmloop 3: Zwart Kort - 3 km\nOmloop 4: Rood Midden - 4 km\
+ nOmloop 5: Blauw Midden - 4\,5 km (geschikt voor beginners)\nOmloop 6: Bla
+ uw Kort - 3 km (geschikt voor beginners)\n\nBaanlegger: Karl Keuppens
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3618@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261231
+SUMMARY:[REG] Sylvester 2026 (OV)
+URL:https://www.opunch.org/event/3618
+DESCRIPTION:Organiser: OV\nLevel: Regional\nStart times: 11:00 - 13:00\nReg
+ istration closes: 2026-12-13\nDetails & registration: https://www.opunch.o
+ rg/event/3618\n\nHam - Tessenderlo-Ham\nBrouwhuissche heide - Vlierden (NL
+ )\nKlein Schietveld - Brasschaat\nDe Roeler - Zutendaal/Lanaken\nKelchterh
+ oef West - Houthalen-Helchteren\n\nPre-order a fantastic Sylvester 5 Days 
+ O-shirt right now!\n\nAt registration\, please check the shirt option\, an
+ d put your requested size in the comments.\n\nOr mail to info@sylvester5.b
+ e\npre-order will be closed at 31-10-2026\nShirts will only be ordered on 
+ sufficient demand.\n\nvisit www.sylvester5.be
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4162@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270109T143000
+DTEND;TZID=Europe/Brussels:20270109T153000
+SUMMARY:[REG] Regionale Kesselse Heide (Kessel) (TROL)
+URL:https://www.opunch.org/event/4162
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 14:30 - 15:30\nR
+ egistration closes: 2026-12-27\nDetails & registration: https://www.opunch
+ .org/event/4162\n\nOmlopen:\nOmloop 1: Zwart Lang – 6 km\nOmloop 2: Zwar
+ t Midden – 4\,5 km\nOmloop 3: Rood Kort – 3\,5 km\nDeelnemers aan de d
+ agwedstrijd worden ook toegelaten tot de avondwedstrijd.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4223@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270109T180000
+DTEND;TZID=Europe/Brussels:20270109T200000
+SUMMARY:[REG] Avond Kesselse Heide (Kessel) (TROL)
+URL:https://www.opunch.org/event/4223
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 18:00 - 20:00\nR
+ egistration closes: 2027-01-09\nDetails & registration: https://www.opunch
+ .org/event/4223\n\nOmlopen\nOmloop 1: Zwart Lang – 6 km\nOmloop 2: Zwart
+  Midden – 4\,5 km\nOmloop 3: Rood Kort – 3\,5 km\nDeelnemers aan de da
+ gwedstrijd worden ook toegelaten tot de avondwedstrijd.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4163@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270110T100000
+DTEND;TZID=Europe/Brussels:20270110T120000
+SUMMARY:[REG] Special 50 jaar KOL (KOL)
+URL:https://www.opunch.org/event/4163
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-01-03\nDetails & registration: https://www.opunch.
+ org/event/4163
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4282@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270116T103000
+DTEND;TZID=Europe/Brussels:20270116T123000
+SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
+ ams)
+LOCATION:extrémité de l'avenue Schaller\, Auderghem\, Avenue Charles Scha
+ ller - Charles Schallerlaan 91\, Auderghem - Oudergem
+GEO:50.803402;4.4426823
+URL:https://www.opunch.org/event/4282
+DESCRIPTION:Organiser: Belgium Teams\nLevel: National\nStart times: 10:30 -
+  10:30\nRegistration closes: 2027-01-16\nMap: https://www.google.com/maps?
+ q=50.803402\,4.4426823\nDetails & registration: https://www.opunch.org/eve
+ nt/4282\n\nEn français :\n\nCe test test physique s'adresse:\n\n- aux jeu
+ nes affiliés FRSO & OV (H/D-16\, -18\, -20 en 2027) qui souhaitent rejoin
+ dre l'équipe Belge = Belgium Team EYOC ou JWOC \,  pour la saison 2027\,
+  en vue de passer les sélections pour les EYOC\, JWOC ou JEC.\n- et aux j
+ eunes affiliés FRSO (H/D-16\, -18\, -20 en 2026) qui souhaitent participe
+ r aux entraînement de la 'Belgium  Team' = rejoindre l'équipe appelée 
+ précédemment 'Performance FRSO' pour la saison 2027.\n\n3 tests sont pla
+ nifiés\, les samedi suivants : 17/10/2026\, 12/12/2026\, 16/01/2027\nLa r
+ éussite du critère (voir tableau des temps en annexe):\n 'équipe JWOC 
+ & EYOC' \, est un pré-requis pour faire partie de la 'Belgium Team' et po
+ ur prendre part aux sélections pour les EYOC\, JWOC et  JEC.\n\n 'group
+ e Performance' \, est un pré-requis pour faire partie de la 'Training Tea
+ m' et pouvoir prendre part aux stages et entraînements de la 'Belgium Tea
+ m'.\n\nRdv au point de départ vers 10h30 pour un départ de masse vers 11
+ h. (voir plan ci-joint)\n\nLe circuit de 2 km est à réaliser de 2 à 5 f
+ ois en fonction des catégories.\n\nTableaux des tours et des temps : voir
+  l'image dans la galerie photo\n\nParking : à votre meilleure convenance 
+ à l'extrémité de l'avenue Schaller ou près du Centre Sportif de la For
+ êt de Soignes .\n\nDistance parking - départ : ± 1 km (voir la carte da
+ ns la galerie photo).\n\n-------\n\nIn het Nederlands: \n\nDeze fysieke te
+ st is bedoeld voor OV-leden (H/D-16\, -18\, -20\, 21 in 2025) die willen d
+ eelnemen aan een IOF-event of JEC in 
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3913@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270117T103000
+DTEND;TZID=Europe/Brussels:20270117T120000
+SUMMARY:[REG] Brussels Orienteering Challenge #5 - Moyenne dist. (ASUB)
+LOCATION:Bois de la Cambre\, Carrefour des Attelages 1\, Bruxelles
+GEO:50.807056;4.379752
+URL:https://www.opunch.org/event/3913
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nStart times: 10:30 - 12:00\nR
+ egistration closes: 2027-01-11\nMap: https://www.google.com/maps?q=50.8070
+ 56\,4.379752\nDetails & registration: https://www.opunch.org/event/3913\n\
+ nLe Brussels Orienteering Challenge (BOC)\, une série de rendez-vous d'or
+ ientation dans et autour de Bruxelles\, en forêt de Soignes (le plus souv
+ ent)\, parfois en milieu urbain.\nUne moyenne distance dans le bois de La 
+ Cambre pour clôturer la saison !
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4165@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270117T100000
+DTEND;TZID=Europe/Brussels:20270117T120000
+SUMMARY:[REG] Regionale Chartreuzebos (Holsbeek) (Omega)
+URL:https://www.opunch.org/event/4165
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-01-10\nDetails & registration: https://www.opunc
+ h.org/event/4165\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4076@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:[REG] Régionale (Pégase)
+URL:https://www.opunch.org/event/4076
+DESCRIPTION:Organiser: Pégase\nLevel: Regional\nRegistration closes: 2027-
+ 01-23\nDetails & registration: https://www.opunch.org/event/4076\n\nInfos 
+ à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4166@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270124T100000
+DTEND;TZID=Europe/Brussels:20270124T120000
+SUMMARY:[REG] Regionale Gerhees (Ham) (hamok)
+URL:https://www.opunch.org/event/4166
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-01-17\nDetails & registration: https://www.opunc
+ h.org/event/4166\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4168@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270130T100000
+DTEND;TZID=Europe/Brussels:20270130T120000
+SUMMARY:[REG] Regionale Peerdsbos (Herentals) (TROL)
+URL:https://www.opunch.org/event/4168
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-01-24\nDetails & registration: https://www.opunch
+ .org/event/4168\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaande
+ ren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\n
+ Omloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: 
+ Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midden
+  - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nV
+ erduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisin
+ gen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegk
+ euze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeu
+ ze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goe
+ d als mogelijk gebruik maken van de kenmerken van het terrein om een uitda
+ gende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4077@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:[NAT] Nat LD - Nationale Longues Distances (Hermathenae)
+URL:https://www.opunch.org/event/4077
+DESCRIPTION:Organiser: Hermathenae\nLevel: National\nRegistration closes: 2
+ 027-01-30\nDetails & registration: https://www.opunch.org/event/4077\n\nIn
+ fos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3914@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:[REG] Régionale Stoumont (CO Liège)
+URL:https://www.opunch.org/event/3914
+DESCRIPTION:Organiser: CO Liège\nLevel: Regional\nRegistration closes: 202
+ 7-02-06\nDetails & registration: https://www.opunch.org/event/3914\n\nCart
+ ographe: Frédéric Picard \nTraceur des parcours: Aline Hermans\nContr
+ ôleur interne: François Hanzen
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4169@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270207T100000
+DTEND;TZID=Europe/Brussels:20270207T120000
+SUMMARY:[REG] Regionale Den Heuvel (Lommel) (hamok)
+URL:https://www.opunch.org/event/4169
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-01-31\nDetails & registration: https://www.opunc
+ h.org/event/4169\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3915@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270215
+SUMMARY:[REG] WE Régionale - Chevetogne (Altaïr)
+URL:https://www.opunch.org/event/3915
+DESCRIPTION:Organiser: Altaïr\nLevel: Regional\nRegistration closes: 2027-
+ 02-12\nDetails & registration: https://www.opunch.org/event/3915
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4170@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:[REG] Avondaflossing Sanicol (Leopoldsburg) (Omega)
+URL:https://www.opunch.org/event/4170
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nDetails & registration: http
+ s://www.opunch.org/event/4170
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4171@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270214T100000
+DTEND;TZID=Europe/Brussels:20270214T120000
+SUMMARY:[REG] Regionale Fonteintje (Koersel) -Valentijnscross! (KOL)
+URL:https://www.opunch.org/event/4171
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-02-07\nDetails & registration: https://www.opunch.
+ org/event/4171\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaander
+ en:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\nO
+ mloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: R
+ ood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midden 
+ - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nVe
+ rduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruising
+ en van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegke
+ uze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeuz
+ e mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goed
+  als mogelijk gebruik maken van de kenmerken van het terrein om een uitdag
+ ende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4172@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270221T100000
+DTEND;TZID=Europe/Brussels:20270221T120000
+SUMMARY:[NAT] Nationale Lang Weyervlakte (Leopoldsburg) (Omega)
+URL:https://www.opunch.org/event/4172
+DESCRIPTION:Organiser: Omega\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-02-07\nDetails & registration: https://www.opunc
+ h.org/event/4172
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4173@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270226T183000
+DTEND;TZID=Europe/Brussels:20270226T203000
+SUMMARY:[REG] Avond Galbergen (Mol) (hamok)
+URL:https://www.opunch.org/event/4173
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 18:30 - 20:30\n
+ Registration closes: 2027-02-19\nDetails & registration: https://www.opunc
+ h.org/event/4173
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4078@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270301
+SUMMARY:[REG] INTERLAND 2027 - Inscriptions FRSO (FRSO)
+URL:https://www.opunch.org/event/4078
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2027-02-
+ 26\nDetails & registration: https://www.opunch.org/event/4078\n\nL'Interla
+ nd est une compétition entre les ligues: du Hauts-de-France (LHFCO)\, Ang
+ leterre (ENG)\, Hollande (NOLB)\, Flandres (OV)\, Luxembourg (LuxO) et la 
+ FRSO.\n\nCette année\, c'est le LuxO qui est l'organisateur. Il se dérou
+ lera dans la région de Pétange - Athus.\n\nSamedi 27 février : Entraîn
+ ement le samedi après-midi à Luxembourg-Ville (parcours mixte : urbain e
+ t boisé/parc)\nDimanche 28 février : INTERLAND (CO en Forêt): Centre de
+  Course sera situé à Pétange\, ville frontalière avec la Belgique. - P
+ étange est une petite ville à 20 minutes en train direct ou en voiture d
+ e Luxembourg-Ville.\nL'hébergement: Auberge de jeunesse Luxembourg\, 2\, 
+ rue du Fort Olisy\, L-2261 Luxembourg : Auberge de jeunesse Luxembourg-Vil
+ le \nLa FRSO\, avec André Pierlot aux commandes\, sélectionnera 3 coure
+ urs parmi les inscrits ci-dessous pour les catégories suivantes: W&M -14\
+ , -17\, -20\, open\, Master A\, Master B\, Master C.\n\nLes personnes insc
+ rites supplémentaires feront partie de l'aventure et seront réservistes.
+ \n\nIl y a aussi possibilité de s'inscrire comme "supporter" et de profit
+ er des logements avec la FRSO en fonction de la place disponible.\n\nINFOS
+  supplémentaires à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4174@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270301
+SUMMARY:[REG] Interland - Luxemburg - Deelname OV (OV)
+URL:https://www.opunch.org/event/4174
+DESCRIPTION:Organiser: OV\nLevel: Regional\nRegistration closes: 2027-02-26
+ \nDetails & registration: https://www.opunch.org/event/4174
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4175@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270305T183000
+DTEND;TZID=Europe/Brussels:20270305T203000
+SUMMARY:[REG] Avond Brasel (Dessel) (KOL)
+URL:https://www.opunch.org/event/4175
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 18:30 - 20:30\nRe
+ gistration closes: 2027-02-26\nDetails & registration: https://www.opunch.
+ org/event/4175
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4243@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270308
+SUMMARY:[REG] Stage PUPILLES(HD-10-12-14) FRSO-OV - FRAITURE (FRSO)
+LOCATION:La Station - Baraque de Fraiture\, Baraque De Fraiture 3\, Vielsal
+ m
+GEO:50.254787;5.7350564
+URL:https://www.opunch.org/event/4243
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2027-01-
+ 31\nMap: https://www.google.com/maps?q=50.254787\,5.7350564\nDetails & reg
+ istration: https://www.opunch.org/event/4243\n\nStage du 5 au 7 mars 2027 
+ à « LA STATION - la Baraque de Fraiture » \nLe stage est destiné aux 
+ HD-10 / HD-12 / HD-14 affiliés à la FRSO et OV\, enfants nés entre 2013
+  et 2019.\nL’évolution des équipes fait que notre équipe « PUPILLES 
+ FRSO-OV » comprend dorénavant les catégories HD-10\, HD-12 et HD-14.\nL
+ es enfants participeront aux entrainements technique et physique\, adapt
+ és au niveau de chacun\, sur les cartes de la région.\nLe logement se fe
+ ra au centre de « La Station – Baraque de Fraiture » Situé à : Baraq
+ ue de Fraiture\, 6 – 6690 VIELSALM\nLes repas sont prévus du vendredi s
+ oir jusqu’au dimanche midi.\nDes informations supplémentaires seront fo
+ urnies en temps voulu.\nLe camp coûtera (à déterminer) euros/enfants (e
+ stimation à confirmer de +- 80€). \nPour confirmer votre participation
+  après inscription sur OPunch :\nLes enfants affiliés à OV sont invit
+ és à verser cette somme sur le compte d’OV : BE44 8601 0052 7445 avec 
+ en communication : Stage Pupilles – dates – NOM – Prénom.\nLes enfa
+ nts affiliés à la FRSO\, après intervention de celle-ci\, la somme de (
+ à déterminer) euros est à verser sur le compte de la FRSO : BE82 0001 2
+ 896 8368 avec en communication : Stage Pupilles - dates - NOM - Prénom\nL
+ es inscriptions se clôturent le dimanche 31 janvier 2027. ( 25 places/enf
+ ants de disponibles)
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3916@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270308
+SUMMARY:[REG] Karrim'HOC Coureurs (HOC)
+URL:https://www.opunch.org/event/3916
+DESCRIPTION:Organiser: HOC\nLevel: Regional\nRegistration closes: 2027-03-0
+ 5\nDetails & registration: https://www.opunch.org/event/3916
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4176@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:[REG] Regionale Wonderwoud (Oostakker) (TROL)
+URL:https://www.opunch.org/event/4176
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-02-
+ 27\nDetails & registration: https://www.opunch.org/event/4176\n\nOmlopen v
+ olgens wedstrijdreglement Orienteering Vlaanderen:\nOmloop 1: Zwart Extra 
+ Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\nOmloop 3: Zwart Midden - 5 k
+ m\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: Rood Lang - 7 km\n\nOmloop 6
+ : Rood Midden - 4 km\n\nOmloop 7: Blauw Midden - 5 km\n\nOmloop 8: Blauw K
+ ort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nVerduidelijking kleuren:\n\nG
+ roen: wegkeuze via paden en posten bij kruisingen van lijnobjecten en zich
+ tbaar vanop een ooghoogte van 1 m\nBlauw: wegkeuze via lijnobjecten en pos
+ ten zichtbaar vanaf lijnobjecten\nRood: wegkeuze mogelijk langs lijnobject
+ en en een duidelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik maken
+  van de kenmerken van het terrein om een uitdagende wedstrijd aan te biede
+ n.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4177@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270307T100000
+DTEND;TZID=Europe/Brussels:20270307T120000
+SUMMARY:[REG] Regionale Drongengoedbos (Ursel) (TROL)
+URL:https://www.opunch.org/event/4177
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-02-28\nDetails & registration: https://www.opunch
+ .org/event/4177\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaande
+ ren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\n
+ Omloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: 
+ Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midden
+  - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nV
+ erduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisin
+ gen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegk
+ euze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeu
+ ze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goe
+ d als mogelijk gebruik maken van de kenmerken van het terrein om een uitda
+ gende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4139@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270313T183000
+DTEND;TZID=Europe/Brussels:20270313T200000
+SUMMARY:[REG] Avondwedstrijd (KOVZ)
+URL:https://www.opunch.org/event/4139
+DESCRIPTION:Organiser: KOVZ\nLevel: Regional\nStart times: 18:30 - 20:00\nR
+ egistration closes: 2027-03-03\nDetails & registration: https://www.opunch
+ .org/event/4139
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3919@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:[NAT] Championnat de Belgique MD (CO Liège)
+URL:https://www.opunch.org/event/3919
+DESCRIPTION:Organiser: CO Liège\nLevel: National\nRegistration closes: 202
+ 7-03-13\nDetails & registration: https://www.opunch.org/event/3919
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4179@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270320T190000
+DTEND;TZID=Europe/Brussels:20270320T210000
+SUMMARY:[NAT] BK Avond/CB Nuit Nassogne (TROL)
+URL:https://www.opunch.org/event/4179
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 19:00 - 21:00\nR
+ egistration closes: 2027-03-06\nDetails & registration: https://www.opunch
+ .org/event/4179
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4180@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270321T100000
+DTEND;TZID=Europe/Brussels:20270321T120000
+SUMMARY:[NAT] Nationale Middle - Nassogne (TROL)
+URL:https://www.opunch.org/event/4180
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-03-07\nDetails & registration: https://www.opunch
+ .org/event/4180
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4307@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270331
+SUMMARY:[REG] Gaume O'Camp (ASUB)
+URL:https://www.opunch.org/event/4307
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nRegistration closes: 2027-03-
+ 25\nDetails & registration: https://www.opunch.org/event/4307
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4104@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:[REG] O'fti - Sart-Tilman (CO Liège)
+URL:https://www.opunch.org/event/4104
+DESCRIPTION:Organiser: CO Liège\nLevel: Regional\nRegistration closes: 202
+ 7-03-15\nDetails & registration: https://www.opunch.org/event/4104\n\nRDV 
+ le dimanche 28 mars pour la 6e édition d'O'fti !!\n\nCourse d'orientation
+  par équipe de 2 ou 3 en maximum 4h en parcourant 10 ateliers ludiques d'
+ orientation. Un parcours de 2h/5 ateliers est également proposé.\n\nLes 
+ ateliers sont des mini-épreuves de courses d'orientation ayant chacune un
+  format très différent. Accumulation d'un maximum de points (100 balises
+  au total = 100 points).\n\nParcours 1 = 4h \nParcours 2 = 2h\n\n⚠️Pr
+ é inscription obligatoire (les cartes doivent être imprimées)⚠️. Da
+ te limite des pré-inscriptions : 15 mars 2027
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4178@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270329T100000
+DTEND;TZID=Europe/Brussels:20270329T120000
+SUMMARY:[REG] Regionale Baeckelandt (Leopoldsburg) - Paascross! (hamok)
+URL:https://www.opunch.org/event/4178
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-03-22\nDetails & registration: https://www.opunc
+ h.org/event/4178\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3804@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270410T133000
+DTEND;TZID=Europe/Brussels:20270410T153000
+SUMMARY:[REG] Championnat FRSO de Sprint (LOST)
+LOCATION:Louvain-la-Neuve\, Rue Du Compas 3\, Ottignies-Louvain-la-Neuve
+GEO:50.66743;4.6206255
+URL:https://www.opunch.org/event/3804
+DESCRIPTION:Organiser: LOST\nLevel: Regional\nStart times: 13:30 - 15:30\nR
+ egistration closes: 2027-04-04\nMap: https://www.google.com/maps?q=50.6674
+ 3\,4.6206255\nDetails & registration: https://www.opunch.org/event/3804\n\
+ nLes 10 et 11 avril 2027\, le club le LOST vous propose un WE de sprint d'
+ orientation très varié dans la suberbe ville universitaire piétonne de 
+ Louvain-la-Neuve.  Cette compétition sera ouverte à tous et toutes :  o
+ rienteurs compétiteurs de haut vol comme orienteurs amateurs ou participa
+ nts tout à fait débutants.   \nQuatre activités sont au programme : S
+ amedi\, championnat FRSO de sprint suivi d'une course Indoor type "Amphi-O
+ " et dimanche\, KO Sprint "All Inclusive" ou City race pour ceux et celles
+  qui ne désirent pas participer au KO.  En marge de ces compétitions\, u
+ n entrainement de sprint sera proposé le samedi matin par le club Thor. 
+  \nCette page web vous permet de vous inscrire au championnat de sprint d
+ u Samedi uniquement.  \nSite web de l'événement complet : https://www.
+ lostorientation.be/activites/weslo-2027\n---------------------------------
+ --------------------------------------------------------\nOn April 10th an
+ d 11th\, 2027\, the LOST club invites you to a sprint orienteering weekend
+  in the beautiful pedestrian-friendly university town of Louvain-la-Neuve.
+ \nThis competition is open to everyone: from top-level competitive oriente
+ ers to amateur orienteers and complete beginners.\n\nFour activities are o
+ n the program: Saturday\, the FRSO sprint championship followed by an indo
+ or "Amphi-O" style race\, and Sunday\, a KO Sprint "All Inclusive" or City
+  Race for those who do not wish to participate in the KO.  In addition to 
+ these competitions\, a sprint training session will be offer
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3805@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:[REG] KO Sprint ALL Inclusive (LOST)
+LOCATION:Louvain-la-Neuve\, Rue Du Compas 3\, Ottignies-Louvain-la-Neuve
+GEO:50.667435;4.6205883
+URL:https://www.opunch.org/event/3805
+DESCRIPTION:Organiser: LOST\nLevel: Regional\nRegistration closes: 2027-04-
+ 04\nMap: https://www.google.com/maps?q=50.667435\,4.6205883\nDetails & reg
+ istration: https://www.opunch.org/event/3805\n\nLes 10 et 11 avril 2027\, 
+ le club le LOST vous propose un WE de sprint d'orientation très varié da
+ ns la suberbe ville universitaire piétonne de Louvain-la-Neuve. Cette com
+ pétition sera ouverte à tous et toutes : orienteurs compétiteurs de hau
+ t vol comme orienteurs amateurs ou participants tout à fait débutants. 
+   \nQuatre activités sont au programme : Samedi\, championnat FRSO de s
+ print suivi d'une course Indoor type "Amphi-O" et dimanche\, KO Sprint "Al
+ l Inclusive" ou City race pour ceux et celles qui ne désirent pas partici
+ per au KO. En marge de ces compétitions\, un entrainement de sprint sera 
+ proposé le samedi matin par le club Thor.  \n\nCette page web vous perme
+ t de vous inscrire au KO Sprint  uniquement.  Note : Si vous vous inscri
+ vez au KO et n'êtes pas qualifié\, vous pourrez faire la City-race sans 
+ frais supplémentaire et sans inscription sur la page de la city-race.\n\n
+ Site web de l'événement complet : https://www.lostorientation.be/activit
+ es/weslo-2027 \n\n-------------------------------------------------------
+ ----------------------------------\n\nOn April 10th and 11th\, 2027\, the 
+ LOST club invites you to a sprint orienteering weekend in the beautiful pe
+ destrian-friendly university town of Louvain-la-Neuve.\n\nThis competition
+  is open to everyone: from top-level competitive orienteers to amateur ori
+ enteers and complete beginners.\n\nFour activities are on the program: Sat
+ urday\, the FRSO sprint championship followed by an indoor "Amphi-O" style
+  race\, and Sunday\, a KO Sprint "All Inc
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4071@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270411T104500
+DTEND;TZID=Europe/Brussels:20270411T140000
+SUMMARY:[REG] City-Race (LOST)
+LOCATION:Louvain-la-Neuve\, Rue Du Compas 3\, Ottignies-Louvain-la-Neuve
+GEO:50.66744;4.6206264
+URL:https://www.opunch.org/event/4071
+DESCRIPTION:Organiser: LOST\nLevel: Regional\nStart times: 10:45 - 14:00\nR
+ egistration closes: 2027-04-04\nMap: https://www.google.com/maps?q=50.6674
+ 4\,4.6206264\nDetails & registration: https://www.opunch.org/event/4071\n\
+ nLes 10 et 11 avril 2027\, le club le LOST vous propose un WE de sprint d'
+ orientation très varié dans la suberbe ville universitaire piétonne de 
+ Louvain-la-Neuve. Cette compétition sera ouverte à tous et toutes : orie
+ nteurs compétiteurs de haut vol comme orienteurs amateurs ou participants
+  tout à fait débutants.   \nQuatre activités sont au programme : Same
+ di\, championnat FRSO de sprint suivi d'une course Indoor type "Amphi-O" e
+ t dimanche\, KO Sprint "All Inclusive" ou City race pour ceux et celles qu
+ i ne désirent pas participer au KO. En marge de ces compétitions\, un en
+ trainement de sprint sera proposé le samedi matin par le club Thor.  \n\
+ nCette page web vous permet de vous inscrire à la City-Race uniquement. 
+    Note : Si vous êtes inscrit au KO et n'êtes pas qualifié\, vous po
+ urrez faire la City-race sans frais supplémentaire et sans inscription su
+ r cette page.  \n\nSite web de l'événement complet : https://www.lostor
+ ientation.be/activites/weslo-2027\n\n-------------------------------------
+ ----------------------------------------------------\n\nOn April 10th and 
+ 11th\, 2027\, the LOST club invites you to a sprint orienteering weekend i
+ n the beautiful pedestrian-friendly university town of Louvain-la-Neuve.\n
+ \nThis competition is open to everyone: from top-level competitive oriente
+ ers to amateur orienteers and complete beginners.\n\nFour activities are o
+ n the program: Saturday\, the FRSO sprint championship followed by an indo
+ or "Amphi-O" style race\, and Sunday\, a KO Sprint "All Inclusive" or 
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3821@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:[NAT] CB VTTO (CO Liège)
+URL:https://www.opunch.org/event/3821
+DESCRIPTION:Organiser: CO Liège\nLevel: National\nRegistration closes: 202
+ 7-04-16\nDetails & registration: https://www.opunch.org/event/3821
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4181@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:[REG] Indoor/Outdoor Sint-Francisus (Heusden-Zolder) (KOL)
+URL:https://www.opunch.org/event/4181
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nDetails & registration: https:
+ //www.opunch.org/event/4181
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4092@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:[NAT] Nat Sprint - Nationale Sprint - Farciennes (Balise 10)
+URL:https://www.opunch.org/event/4092
+DESCRIPTION:Organiser: Balise 10\nLevel: National\nRegistration closes: 202
+ 7-04-24\nDetails & registration: https://www.opunch.org/event/4092\n\ninfo
+ s à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4182@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:[REG] Sprint (Oostende) (TROL)
+URL:https://www.opunch.org/event/4182
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-04-
+ 24\nDetails & registration: https://www.opunch.org/event/4182
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4138@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270502T100000
+DTEND;TZID=Europe/Brussels:20270502T120000
+SUMMARY:[NAT] Nationale - Urban Middle (ATLAS)
+URL:https://www.opunch.org/event/4138
+DESCRIPTION:Organiser: ATLAS\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-04-25\nDetails & registration: https://www.opunc
+ h.org/event/4138
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4183@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:[REG] Sprint/City-O (Oostende) (TROL)
+URL:https://www.opunch.org/event/4183
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-04-
+ 25\nDetails & registration: https://www.opunch.org/event/4183
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4184@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270505T183000
+DTEND;TZID=Europe/Brussels:20270505T203000
+SUMMARY:[REG] Lenteloop: City-O Hulst (Tessenderlo-Ham) (hamok)
+URL:https://www.opunch.org/event/4184
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 18:30 - 20:30\n
+ Registration closes: 2027-04-28\nDetails & registration: https://www.opunc
+ h.org/event/4184\n\nNieuwe kaart (Hulst in België\, niet in Nederland).\n
+ 3 Omlopen\nOmloop 1: 6 km\nOmloop 2: 4\,5 km\nOmloop 3: 3\,5 km
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4185@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270509T100000
+DTEND;TZID=Europe/Brussels:20270509T120000
+SUMMARY:[REG] City-O/Indoor Thomas More (Geel) (Omega)
+URL:https://www.opunch.org/event/4185
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Details & registration: https://www.opunch.org/event/4185
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4186@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270518
+SUMMARY:[NAT] ASOM (Brugge) (Antwerp O)
+URL:https://www.opunch.org/event/4186
+DESCRIPTION:Organiser: Antwerp O\nLevel: National\nRegistration closes: 202
+ 7-05-14\nDetails & registration: https://www.opunch.org/event/4186
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4080@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:[REG] Régionale - Double Sprint - Erasme & Neerpede (Altaïr)
+URL:https://www.opunch.org/event/4080
+DESCRIPTION:Organiser: Altaïr\nLevel: Regional\nRegistration closes: 2027-
+ 05-22\nDetails & registration: https://www.opunch.org/event/4080\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4188@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270523T100000
+DTEND;TZID=Europe/Brussels:20270523T120000
+SUMMARY:[REG] City-O (Borgloon) (Omega)
+URL:https://www.opunch.org/event/4188
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-05-16\nDetails & registration: https://www.opunc
+ h.org/event/4188
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4189@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270526T183000
+DTEND;TZID=Europe/Brussels:20270526T203000
+SUMMARY:[REG] Lenteloop: Stadspark (Turnhout) (TROL)
+URL:https://www.opunch.org/event/4189
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 18:30 - 20:30\nR
+ egistration closes: 2027-05-19\nDetails & registration: https://www.opunch
+ .org/event/4189
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4190@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270530T100000
+DTEND;TZID=Europe/Brussels:20270530T120000
+SUMMARY:[NAT] BK/CB Sprint Genk Centrum (KOL)
+URL:https://www.opunch.org/event/4190
+DESCRIPTION:Organiser: KOL\nLevel: National\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-05-16\nDetails & registration: https://www.opunch.
+ org/event/4190
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4191@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270605T103000
+DTEND;TZID=Europe/Brussels:20270605T120000
+SUMMARY:[REG] Regionale Balendijk (Lommel) (hamok)
+URL:https://www.opunch.org/event/4191
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:30 - 12:00\n
+ Registration closes: 2027-05-30\nDetails & registration: https://www.opunc
+ h.org/event/4191\n\nWedstrijd met 4 omlopen:\nOmloop 1: 7 km uitdagend\nOm
+ loop 2: 5 km uitdagend\nOmloop 3: 3 km uitdagend\nOmloop 4: 2\,5 km techni
+ sch eenvoudig\nJe kan ook opteren om mee te doen met de Tuur Classic. Dit 
+ is een eerbetoon aan onze ere-secretaris en voorvader van de orienteerings
+ port in Vlaanderen in de vorm van een Finse aflossing . Hiervoor dien je i
+ n te schrijven op het andere O Punch event.\nEerste start om 10:30h\, na d
+ e massastart van de Tuur Classic.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4224@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270605T101500
+DTEND;TZID=Europe/Brussels:20270605T121500
+SUMMARY:[REG] Tuur Classic - Finse Aflossing (Lommel) (hamok)
+URL:https://www.opunch.org/event/4224
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:15 - 10:15\n
+ Registration closes: 2027-06-05\nDetails & registration: https://www.opunc
+ h.org/event/4224
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4192@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270606T100000
+DTEND;TZID=Europe/Brussels:20270606T120000
+SUMMARY:[REG] City Race Kortrijk (TROL)
+URL:https://www.opunch.org/event/4192
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-05-30\nDetails & registration: https://www.opunch
+ .org/event/4192\n\nEr zullen 5 omlopen zijn:\nOmloop 1: 10\,km\nOmloop 2: 
+ 7\,5 km\nOmloop 3: 5\,5 km\nOmloop 4: 3\,5 km\nOmloop 5: 2\,5 km
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4193@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270613T100000
+DTEND;TZID=Europe/Brussels:20270613T120000
+SUMMARY:[REG] Regionale Holven (Pelt) (hamok)
+URL:https://www.opunch.org/event/4193
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-06-06\nDetails & registration: https://www.opunc
+ h.org/event/4193\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4140@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270616T183000
+DTEND;TZID=Europe/Brussels:20270616T200000
+SUMMARY:[REG] Lenteloop (KOVZ)
+URL:https://www.opunch.org/event/4140
+DESCRIPTION:Organiser: KOVZ\nLevel: Regional\nStart times: 18:30 - 20:00\nR
+ egistration closes: 2027-06-06\nDetails & registration: https://www.opunch
+ .org/event/4140
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4194@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:[REG] Indoor (Aalst) (TROL)
+URL:https://www.opunch.org/event/4194
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-06-
+ 12\nDetails & registration: https://www.opunch.org/event/4194
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3917@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:[REG] Championnat FRSO LD (Balise 10)
+URL:https://www.opunch.org/event/3917
+DESCRIPTION:Organiser: Balise 10\nLevel: Regional\nRegistration closes: 202
+ 7-06-19\nDetails & registration: https://www.opunch.org/event/3917
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4195@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270620T100000
+DTEND;TZID=Europe/Brussels:20270620T120000
+SUMMARY:[REG] Indoor/City-O Aalst (TROL)
+URL:https://www.opunch.org/event/4195
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-06-13\nDetails & registration: https://www.opunch
+ .org/event/4195
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4081@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:[NAT] BCR - Relais des Clubs (ThOR)
+URL:https://www.opunch.org/event/4081
+DESCRIPTION:Organiser: ThOR\nLevel: National\nRegistration closes: 2027-06-
+ 26\nDetails & registration: https://www.opunch.org/event/4081\n\ninfos à 
+ venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4020@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:[NAT] 3 Days of Belgium 2027 (OLVE)
+LOCATION:Baugnez\, Route De Luxembourg 47\, Malmedy
+GEO:50.39673;6.068101
+URL:https://www.opunch.org/event/4020
+DESCRIPTION:Organiser: OLVE\nLevel: National\nRegistration closes: 2027-06-
+ 20\nMap: https://www.google.com/maps?q=50.39673\,6.068101\nDetails & regis
+ tration: https://www.opunch.org/event/4020\n\nDécouvrez toutes les inform
+ ations relatives à 3 O'Days 2027 sur notre site officiel :\nhttps://2027.
+ 3days.be\nFind all information about 3 O'Days 2027 on our official website
+ :\nhttps://2027.3days.be\nAlle Informationen zu 3 O'Days 2027 finden Sie a
+ uf unserer offiziellen Website:\nhttps://2027.3days.be\nOntdek alle inform
+ atie over 3 O'Days 2027 op onze officiële website:\nhttps://2027.3days.be
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4244@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:[REG] Stage PUPILLES (HD-10-12-14) FRSO-OV – St-VITH (FRSO)
+LOCATION:Auberge de Jeunesse de St-Vith\, Rodter Straße 13a\, Saint-Vith
+GEO:50.278805;6.121123
+URL:https://www.opunch.org/event/4244
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2027-05-
+ 31\nMap: https://www.google.com/maps?q=50.278805\,6.121123\nDetails & regi
+ stration: https://www.opunch.org/event/4244\n\nStage du 2 au 4 juillet 202
+ 7 participation aux compétitions des 3 Jours de Belgique 2027 dans la r
+ égion de Saint-Vith\nLe stage est destiné aux HD-10 / HD-12 / HD-14 affi
+ liés à la FRSO et OV\, enfants nés entre 2013 et 2019.\nL’évolution 
+ des équipes fait que notre équipe « PUPILLES FRSO-OV » comprend dorén
+ avant les catégories HD-10\, HD-12 et HD-14.\nLes enfants participeront a
+ ux 3 Jours de Belgique\, auront des briefings et débriefings ainsi que de
+ s entraînements techniques\, adaptés au niveau de chacun.\nLes participa
+ nts doivent s’inscrire eux-mêmes aux courses officielles dans leur cat
+ égorie d’âge.\nLe logement se fera à l’Auberge de Jeunesse de Saint
+ -Vith située à : Rodter Strasse 13\, 4780 Saint-Vith.\nLes repas sont pr
+ évus du vendredi soir jusqu’au dimanche pic-nic de midi.\nDes informati
+ ons supplémentaires seront fournies en temps voulu.\nLe camp coûtera à 
+ déterminer euros/enfants. (estimation à confirmer de +- 80€)\nPour con
+ firmer votre participation après inscription sur OPunch :\nLes enfants af
+ filiés à OV sont invités à verser cette somme sur le compte d’OV : B
+ E44 8601 0052 7445 avec en communication : Stage Pupilles – dates – NO
+ M – Prénom..\nLes  enfants affiliés à la FRSO\, après intervention d
+ e celle-ci\, la somme de à déterminer euros est à verser sur le compte 
+ de la FRSO: BE82 0001 2896 8368 avec en communication: Stage Pupilles - da
+ tes - NOM - Prénom\nLes inscriptions se clôturent le dimanche 31 mai 202
+ 7. ( 30 places/enfants de disponibles)
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4082@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270712
+SUMMARY:[REG] 36e Transforestière (ASUB)
+URL:https://www.opunch.org/event/4082
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nRegistration closes: 2027-07-
+ 09\nDetails & registration: https://www.opunch.org/event/4082\n\ninfos à 
+ venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4196@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270724T100000
+DTEND;TZID=Europe/Brussels:20270724T120000
+SUMMARY:[REG] Regionale Gerhagen (Tessenderlo-Ham) (Omega)
+URL:https://www.opunch.org/event/4196
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-07-17\nDetails & registration: https://www.opunc
+ h.org/event/4196
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4197@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270816
+SUMMARY:[REG] Flanders 3 Days (Lommel) (hamok)
+URL:https://www.opunch.org/event/4197
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nDetails & registration: http
+ s://www.opunch.org/event/4197
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4083@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:[REG] Régionale Moyenne Distance - Spa Ville (Hermathenae)
+URL:https://www.opunch.org/event/4083
+DESCRIPTION:Organiser: Hermathenae\nLevel: Regional\nRegistration closes: 2
+ 027-08-27\nDetails & registration: https://www.opunch.org/event/4083\n\nR
+ égionale MD en matinée.\ninfos à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4084@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:[REG] Championnat FRSO Moyenne Distance - Spa Nord (Hermathenae)
+URL:https://www.opunch.org/event/4084
+DESCRIPTION:Organiser: Hermathenae\nLevel: Regional\nRegistration closes: 2
+ 027-08-27\nDetails & registration: https://www.opunch.org/event/4084\n\nCh
+ ampionnat FRSO MD en après-midi\ninfos à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4201@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:[NAT] BK/CB Long Distance - Lanklaarderbos (Omega)
+URL:https://www.opunch.org/event/4201
+DESCRIPTION:Organiser: Omega\nLevel: National\nRegistration closes: 2027-08
+ -29\nDetails & registration: https://www.opunch.org/event/4201
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4245@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270913
+SUMMARY:[REG] Stage PUPILLES (HD-10-12-14) FRSO-OV – ANLIER (FRSO)
+LOCATION:Centre d'accueil "Le Bua"\, Rue Du Bua 6a\, Habay
+GEO:49.72414;5.6136594
+URL:https://www.opunch.org/event/4245
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2027-07-
+ 31\nMap: https://www.google.com/maps?q=49.72414\,5.6136594\nDetails & regi
+ stration: https://www.opunch.org/event/4245\n\nStage du 10 au 12 septembre
+  2027 participation aux compétitions du 11 et 12 septembre 2027 en forêt
+  d’Anlier et de Chiny.\nLe stage est destiné aux HD-10 / HD-12 / HD-14 
+ affiliés à la FRSO et OV\, enfants nés entre 2013 et 2019.\nL’évolut
+ ion des équipes fait que notre équipe « PUPILLES FRSO-OV » comprend do
+ rénavant les catégories HD-10\, HD-12 et HD-14.\nLes enfants participero
+ nt aux compétitions (Nat LD Anlier le samedi et Chpt Bel Interclubs à Ch
+ iny le dimanche)\, auront des briefings et débriefings ainsi que des entr
+ aînements techniques\, adaptés au niveau de chacun.\nLes participants do
+ ivent s’inscrire eux-mêmes aux courses officielles dans leur catégorie
+  d’âge.\nLe logement se fera centre « Le Bua » située à : rue du Bu
+ a\, 6 – 6723 Habay-la-Vieille.\nLes repas sont prévus du vendredi soir 
+ jusqu’au dimanche pic-nic de midi.\nDes informations supplémentaires se
+ ront fournies en temps voulu.\nLe camp coûtera à déterminer euros/enfan
+ ts. (estimation à confirmer de +- 80€)\nPour confirmer votre participat
+ ion après inscription sur OPunch :\nLes enfants affiliés à OV sont invi
+ tés à verser cette somme sur le compte d’OV : BE44 8601 0052 7445 avec
+  en communication : Stage Pupilles – dates – NOM – Prénom..\nLes  e
+ nfants affiliés à la FRSO\, après intervention de celle-ci\, la somme d
+ e à déterminer euros est à verser sur le compte de la FRSO: BE82 0001 2
+ 896 8368 avec en communication: Stage Pupilles - dates - NOM - Prénom\nLe
+ s inscriptions se clôturent le dimanche 31 juillet 2027. ( 24 places/enfa
+ nts d
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4085@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Anlier (SudOLux)
+URL:https://www.opunch.org/event/4085
+DESCRIPTION:Organiser: SudOLux\nLevel: National\nRegistration closes: 2027-
+ 09-10\nDetails & registration: https://www.opunch.org/event/4085\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4086@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:[NAT] Chpt de Belgique Interclubs (ASUB)
+LOCATION:Chiny-sur-Semois\, Rue Du Millénaire 25\, Chiny
+GEO:49.73872;5.340873
+URL:https://www.opunch.org/event/4086
+DESCRIPTION:Organiser: ASUB\nLevel: National\nRegistration closes: 2027-09-
+ 05\nMap: https://www.google.com/maps?q=49.73872\,5.340873\nDetails & regis
+ tration: https://www.opunch.org/event/4086\n\ninfos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4202@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:[NAT] BK Aflossing/CB Relais (KOL)
+URL:https://www.opunch.org/event/4202
+DESCRIPTION:Organiser: KOL\nLevel: National\nDetails & registration: https:
+ //www.opunch.org/event/4202
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4225@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270919T100000
+DTEND;TZID=Europe/Brussels:20270919T120000
+SUMMARY:[NAT] BK Aflossing/CB Relais - Dagomlopen (KOL)
+URL:https://www.opunch.org/event/4225
+DESCRIPTION:Organiser: KOL\nLevel: National\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-09-19\nDetails & registration: https://www.opunch.
+ org/event/4225
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-3918@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:[REG] Régionale (CO Liège)
+URL:https://www.opunch.org/event/3918
+DESCRIPTION:Organiser: CO Liège\nLevel: Regional\nRegistration closes: 202
+ 7-09-25\nDetails & registration: https://www.opunch.org/event/3918
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4205@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20270926T100000
+DTEND;TZID=Europe/Brussels:20270926T120000
+SUMMARY:[REG] Regionale Stelebos/Lieteberg (Zutendaal) (Omega)
+URL:https://www.opunch.org/event/4205
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-09-19\nDetails & registration: https://www.opunc
+ h.org/event/4205\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4204@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20271003T100000
+DTEND;TZID=Europe/Brussels:20271003T120000
+SUMMARY:[NAT] Nationale Lang - Waterschei (hamok)
+URL:https://www.opunch.org/event/4204
+DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-09-19\nDetails & registration: https://www.opunc
+ h.org/event/4204
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4208@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:[REG] VK Aflossing - Drongengoedbos (Aalter) (TROL)
+URL:https://www.opunch.org/event/4208
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nDetails & registration: https
+ ://www.opunch.org/event/4208
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4087@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
+SUMMARY:[REG] Régionale Ultra-Sprint - Wégimont (Hermathenae)
+URL:https://www.opunch.org/event/4087
+DESCRIPTION:Organiser: Hermathenae\nLevel: Regional\nRegistration closes: 2
+ 027-10-16\nDetails & registration: https://www.opunch.org/event/4087\n\nin
+ fos à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4088@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
+SUMMARY:[REG] Brussels Orienteering Challenge #1 - sprint urbain (ASUB)
+URL:https://www.opunch.org/event/4088
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nRegistration closes: 2027-10-
+ 10\nDetails & registration: https://www.opunch.org/event/4088\n\ninfos à 
+ venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4207@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20271017T100000
+DTEND;TZID=Europe/Brussels:20271017T120000
+SUMMARY:[REG] VK Middel - Kraanberg/Lillo (Heusden-Zolder) (KOL)
+URL:https://www.opunch.org/event/4207
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-10-03\nDetails & registration: https://www.opunch.
+ org/event/4207
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4268@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:[NAT] NK Lang (KOVZ)
+URL:https://www.opunch.org/event/4268
+DESCRIPTION:Organiser: KOVZ\nLevel: National\nRegistration closes: 2027-10-
+ 17\nDetails & registration: https://www.opunch.org/event/4268
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4246@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271105
+SUMMARY:[REG] Stage PUPILLES (HD-10/-12/-14) FRSO-OV – KASTERLEE (FRSO)
+LOCATION:De Hoge Rielen\, Molenstraat 62a\, Kasterlee
+GEO:51.242783;4.9184847
+URL:https://www.opunch.org/event/4246
+DESCRIPTION:Organiser: FRSO\nLevel: Regional\nRegistration closes: 2027-10-
+ 31\nMap: https://www.google.com/maps?q=51.242783\,4.9184847\nDetails & reg
+ istration: https://www.opunch.org/event/4246\n\nStage du lundi 1 novembre 
+ au jeudi 4 novembre 2027 à « De Hoge Rielen » à Kasterlee \nLe stage 
+ est destiné aux HD-10 / HD-12 / HD-14 affiliés à la FRSO et OV\, enfant
+ s nés entre 2013 et 2019.\nL’évolution des équipes fait que notre éq
+ uipe « PUPILLES FRSO-OV » comprend dorénavant les catégories HD-10\, H
+ D-12 et HD-14.\nLes enfants participeront aux entrainements technique et p
+ hysique\, adaptés au niveau de chacun\, sur les cartes de la région.\nLe
+  logement se fera au centre « De Hoge Rielen » Situé à : Molenstraat\,
+  62 – 2460 Kasterlee\nLes repas sont prévus du lundi soir jusqu’au je
+ udi midi.\nSi le pupille dispose d'un vélo\, le prendre car les trajets s
+ ur place se feront autant que possible en vélo. \nCeux qui ne disposent 
+ pas d'un vélo seront acheminés en voiture\, bien sûr.\n\nDes informatio
+ ns supplémentaires seront fournies en temps voulu.\nLe camp coûtera à d
+ éterminer euros/enfants. (estimation à confirmer de +- 80€)\nPour conf
+ irmer votre participation après inscription sur OPunch :\nLes enfants aff
+ iliés à OV sont invités à verser cette somme sur le compte d’OV : BE
+ 44 8601 0052 7445 avec en communication : Stage Pupilles – dates – NOM
+  – Prénom.\nLes enfants affiliés à la FRSO\, après intervention de c
+ elle-ci\, la somme de à déterminer euros est à verser sur le compte de 
+ la FRSO : BE82 0001 2896 8368 avec en communication : Stage Pupilles - dat
+ es - NOM - Prénom\nLes inscriptions se clôturent le dimanche 30 septembr
+ e 2027. ( 30 places/enfants FRSO de disponibles)
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4209@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20271107T100000
+DTEND;TZID=Europe/Brussels:20271107T120000
+SUMMARY:[REG] Forest Cup Haarterheide (Hamont) (hamok)
+URL:https://www.opunch.org/event/4209
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-10-31\nDetails & registration: https://www.opunc
+ h.org/event/4209\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4210@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271115
+SUMMARY:[REG] North Sea Trophy (KOL)
+URL:https://www.opunch.org/event/4210
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nDetails & registration: https:
+ //www.opunch.org/event/4210
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4089@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
+SUMMARY:[REG] BOC2 - 9 couleurs - Groenendael (Altaïr)
+URL:https://www.opunch.org/event/4089
+DESCRIPTION:Organiser: Altaïr\nLevel: Regional\nRegistration closes: 2027-
+ 11-13\nDetails & registration: https://www.opunch.org/event/4089\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4211@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+SUMMARY:[REG] MTB-O Vriesel (Oelegem) (TROL)
+URL:https://www.opunch.org/event/4211
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-11-
+ 19\nDetails & registration: https://www.opunch.org/event/4211
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4212@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+SUMMARY:[REG] Regionale Vriesel (Oelegem) (TROL)
+URL:https://www.opunch.org/event/4212
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-11-
+ 20\nDetails & registration: https://www.opunch.org/event/4212
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4213@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+SUMMARY:[REG] Avond-O Vriesel (Oelegem) (TROL)
+URL:https://www.opunch.org/event/4213
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2027-11-
+ 20\nDetails & registration: https://www.opunch.org/event/4213
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4090@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
+SUMMARY:[REG] Brussels Orienteering Challenge #3 (ASUB)
+LOCATION:Forêt de Soignes - Arboretum\, chaussé de Bruxelles 649\, Overij
+ se
+GEO:50.793224;4.4826665
+URL:https://www.opunch.org/event/4090
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nRegistration closes: 2027-11-
+ 14\nMap: https://www.google.com/maps?q=50.793224\,4.4826665\nDetails & reg
+ istration: https://www.opunch.org/event/4090\n\ninfos à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4214@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
+SUMMARY:[REG] Herfstwisselbeker Gruitrode (Oudsbergen) (Omega)
+URL:https://www.opunch.org/event/4214
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nRegistration closes: 2027-11
+ -14\nDetails & registration: https://www.opunch.org/event/4214\n\nVolgens 
+ reglement Herfstwisselbeker :\nIndividuele deelnemers dienen hier bij insc
+ hrijving te vermelden bij 'opmerkingen' of ze een Oro-Hydro of een IOF kaa
+ rt willen voor omloop 1 tem 5 !\n\n1. Oro Hydro  of IOF 8500m   H-20  
+ H21  H35\n2. Oro Hydro of IOF 6900m   H-18  H40  H45      H50  D-
+ 20  D21\n3. Oro Hydro of IOF 5500m   H-16  H55  H60      D-16  D1
+ 8  D35  D40  D45\n4. Oro Hydro of IOF 4100m   H-14  H65   D-14  D
+ 50  D55\n5. Oro Hydro of IOF 2900m   H-10  H-12  H70+    D-10  D-1
+ 2  D60+\n-----------------------------------------------\n6. IOF 3000m  
+  H80+   D70+\n7. IOF Open 4350m   Start to O Middle\n8. IOF 2500m  
+  H-10  H-12\n                           D-10  D-12\n  
+                          Start to O Short\n\nDe ploegen voor 
+ de Herfstwisselbeker starten eerst\, iIndividuele lopers  Oro-Hydro omloo
+ p 1-5 starten pas daarna (ongveer 10:45h)\nIndividuele lopers IOF omloop 1
+ -5 mogen starten vanaf 11:15h!.\nIndividuele lopers voor de IOF omlopen 6\
+ , 7 of 8 mogen doorlopend starten tussen 10:00 en 12:00 u.\n\nEnkel deelna
+ mes op oro-hydrokaart komen in aanmerking voor de Forest Cup!!!!
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4215@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+SUMMARY:[REG] Avond-O De Beeltjes (Westerlo) (KOL)
+URL:https://www.opunch.org/event/4215
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nRegistration closes: 2027-11-1
+ 9\nDetails & registration: https://www.opunch.org/event/4215
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4216@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20271128T100000
+DTEND;TZID=Europe/Brussels:20271128T120000
+SUMMARY:[REG] Regionale Grobbendonk (Grobbendonk) (TROL)
+URL:https://www.opunch.org/event/4216
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2027-11-21\nDetails & registration: https://www.opunch
+ .org/event/4216\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaande
+ ren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\n
+ Omloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: 
+ Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midden
+  - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nV
+ erduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisin
+ gen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegk
+ euze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeu
+ ze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goe
+ d als mogelijk gebruik maken van de kenmerken van het terrein om een uitda
+ gende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4218@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271205
+DTEND;VALUE=DATE:20271206
+SUMMARY:[REG] Sinterklaascross: Regionale Kamp Beverlo (Omega)
+URL:https://www.opunch.org/event/4218
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nRegistration closes: 2027-11
+ -28\nDetails & registration: https://www.opunch.org/event/4218
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4091@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+SUMMARY:[REG] BOC#4 - Ultra Longues Distances (ASUB)
+LOCATION:Forêt de Soignes - 3 Espinettes\, Sentier Preumont\, Rhode-Saint-
+ Genèse
+GEO:50.752094;4.4042487
+URL:https://www.opunch.org/event/4091
+DESCRIPTION:Organiser: ASUB\nLevel: Regional\nRegistration closes: 2027-12-
+ 11\nMap: https://www.google.com/maps?q=50.752094\,4.4042487\nDetails & reg
+ istration: https://www.opunch.org/event/4091\n\ninfos à venir
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4219@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20271212T100000
+DTEND;TZID=Europe/Brussels:20271212T120000
+SUMMARY:[REG] Regionale Kattevenia (Genk) (KOL)
+URL:https://www.opunch.org/event/4219
+DESCRIPTION:Organiser: KOL\nLevel: Regional\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2027-12-05\nDetails & registration: https://www.opunch.
+ org/event/4219\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaander
+ en:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\nO
+ mloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5: R
+ ood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midden 
+ - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\nVe
+ rduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruising
+ en van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: wegke
+ uze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegkeuz
+ e mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo goed
+  als mogelijk gebruik maken van de kenmerken van het terrein om een uitdag
+ ende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4220@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271218
+DTEND;VALUE=DATE:20271219
+SUMMARY:[REG] Avond-O Windelsteen (As) (Omega)
+URL:https://www.opunch.org/event/4220
+DESCRIPTION:Organiser: Omega\nLevel: Regional\nRegistration closes: 2027-12
+ -11\nDetails & registration: https://www.opunch.org/event/4220
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4221@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20271219T100000
+DTEND;TZID=Europe/Brussels:20271219T120000
+SUMMARY:[REG] Regionale Kepkensberg (Tessenderlo-Ham) (hamok)
+URL:https://www.opunch.org/event/4221
+DESCRIPTION:Organiser: hamok\nLevel: Regional\nStart times: 10:00 - 12:00\n
+ Registration closes: 2027-12-12\nDetails & registration: https://www.opunc
+ h.org/event/4221\n\nOmlopen volgens wedstrijdreglement Orienteering Vlaand
+ eren:\nOmloop 1: Zwart Extra Lang - 9 km\n\nOmloop 2: Zwart Lang - 7 km\n\
+ nOmloop 3: Zwart Midden - 5 km\n\nOmloop 4: Zwart Kort - 3 km\n\nOmloop 5:
+  Rood Lang - 7 km\n\nOmloop 6: Rood Midden - 4 km\n\nOmloop 7: Blauw Midde
+ n - 5 km\n\nOmloop 8: Blauw Kort - 3 km\n\nOmloop 9: Groen Kort - 3 km\n\n
+ Verduidelijking kleuren:\n\nGroen: wegkeuze via paden en posten bij kruisi
+ ngen van lijnobjecten en zichtbaar vanop een ooghoogte van 1 m\nBlauw: weg
+ keuze via lijnobjecten en posten zichtbaar vanaf lijnobjecten\nRood: wegke
+ uze mogelijk langs lijnobjecten en een duidelijk aanvalspunt\nZwart: zo go
+ ed als mogelijk gebruik maken van de kenmerken van het terrein om een uitd
+ agende wedstrijd aan te bieden.
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4222@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20271231
+SUMMARY:[REG] Sylvester 5-days (OV)
+URL:https://www.opunch.org/event/4222
+DESCRIPTION:Organiser: OV\nLevel: Regional\nStart times: 11:00 - 13:00\nReg
+ istration closes: 2027-12-12\nDetails & registration: https://www.opunch.o
+ rg/event/4222\n\nD1: Helchteren Oost (Helchteren)\nD2: Houterenberg (Tesse
+ nderlo-Ham)\nD3: Oostelbeerscheheide (Middelbeers)\nD4: Oostelbeerscheheid
+ e (Middelbeers)\nD5: Pijnven Noord (Lommel)\n\nvisit www.sylvester5.be
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4226@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20280213T100000
+DTEND;TZID=Europe/Brussels:20280213T120000
+SUMMARY:[NAT] Nationale Lang Kattenbos (Lommel) (hamok)
+URL:https://www.opunch.org/event/4226
+DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2028-01-30\nDetails & registration: https://www.opunc
+ h.org/event/4226
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4227@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20280312T100000
+DTEND;TZID=Europe/Brussels:20280312T120000
+SUMMARY:[NAT] BK/CB Middle - Lommel Sahara (KOL)
+URL:https://www.opunch.org/event/4227
+DESCRIPTION:Organiser: KOL\nLevel: National\nStart times: 10:00 - 12:00\nRe
+ gistration closes: 2028-02-27\nDetails & registration: https://www.opunch.
+ org/event/4227
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4093@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280318
+DTEND;VALUE=DATE:20280319
+SUMMARY:[NAT] Chpt Belgique de Nuit - Anlier (SudOLux)
+URL:https://www.opunch.org/event/4093
+DESCRIPTION:Organiser: SudOLux\nLevel: National\nRegistration closes: 2028-
+ 03-17\nDetails & registration: https://www.opunch.org/event/4093\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4094@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280319
+DTEND;VALUE=DATE:20280320
+SUMMARY:[NAT] Nat LD - Nationale Longues distances - Anlier (SudOLux)
+URL:https://www.opunch.org/event/4094
+DESCRIPTION:Organiser: SudOLux\nLevel: National\nRegistration closes: 2028-
+ 03-18\nDetails & registration: https://www.opunch.org/event/4094\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4237@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280325
+DTEND;VALUE=DATE:20280327
+SUMMARY:[REG] Interland - Deelname OV (UK) (OV)
+URL:https://www.opunch.org/event/4237
+DESCRIPTION:Organiser: OV\nLevel: Regional\nRegistration closes: 2028-03-24
+ \nDetails & registration: https://www.opunch.org/event/4237
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4095@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280402
+DTEND;VALUE=DATE:20280403
+SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Wolfsbusch (ARDOC)
+URL:https://www.opunch.org/event/4095
+DESCRIPTION:Organiser: ARDOC\nLevel: National\nRegistration closes: 2028-04
+ -01\nDetails & registration: https://www.opunch.org/event/4095\n\ninfos 
+ à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4228@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280429
+DTEND;VALUE=DATE:20280430
+SUMMARY:[NAT] Nationale Sprint - De Haan (TROL)
+URL:https://www.opunch.org/event/4228
+DESCRIPTION:Organiser: TROL\nLevel: National\nRegistration closes: 2028-04-
+ 15\nDetails & registration: https://www.opunch.org/event/4228
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4236@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280430
+DTEND;VALUE=DATE:20280501
+SUMMARY:[REG] VK Sprint Wenduine (TROL)
+URL:https://www.opunch.org/event/4236
+DESCRIPTION:Organiser: TROL\nLevel: Regional\nRegistration closes: 2028-04-
+ 15\nDetails & registration: https://www.opunch.org/event/4236
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4229@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20280501T100000
+DTEND;TZID=Europe/Brussels:20280501T120000
+SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (TROL)
+URL:https://www.opunch.org/event/4229
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 10:00 - 12:00\nD
+ etails & registration: https://www.opunch.org/event/4229
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4230@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20280501T100000
+DTEND;TZID=Europe/Brussels:20280501T120000
+SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (dagomlopen) (TROL)
+URL:https://www.opunch.org/event/4230
+DESCRIPTION:Organiser: TROL\nLevel: National\nStart times: 10:00 - 12:00\nR
+ egistration closes: 2028-04-17\nDetails & registration: https://www.opunch
+ .org/event/4230
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4096@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280514
+DTEND;VALUE=DATE:20280515
+SUMMARY:[NAT] Chpt Belgique Sprint - BK Sprint - Brussels (ASUB)
+LOCATION:Ganshoren\, Avenue Van Overbeke 127\, Ganshoren
+GEO:50.872124;4.3137984
+URL:https://www.opunch.org/event/4096
+DESCRIPTION:Organiser: ASUB\nLevel: National\nRegistration closes: 2028-05-
+ 07\nMap: https://www.google.com/maps?q=50.872124\,4.3137984\nDetails & reg
+ istration: https://www.opunch.org/event/4096\n\ninfos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4231@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:[NAT] BK/CB MTB-O (TROL)
+URL:https://www.opunch.org/event/4231
+DESCRIPTION:Organiser: TROL\nLevel: National\nRegistration closes: 2028-05-
+ 13\nDetails & registration: https://www.opunch.org/event/4231
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4232@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:[NAT] BK/CB MTB-O - Parcours van de dag (TROL)
+URL:https://www.opunch.org/event/4232
+DESCRIPTION:Organiser: TROL\nLevel: National\nRegistration closes: 2028-05-
+ 26\nDetails & registration: https://www.opunch.org/event/4232
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4097@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280603
+DTEND;VALUE=DATE:20280606
+SUMMARY:[NAT] 3 JB2028 - 3 Jours de Belgique 2028 - Lagland (CO Liège)
+LOCATION:Camp Lagland (terrain militaire)\, Route De Virton 350\, Arlon
+GEO:49.657154;5.752613
+URL:https://www.opunch.org/event/4097
+DESCRIPTION:Organiser: CO Liège\nLevel: National\nRegistration closes: 202
+ 8-06-02\nMap: https://www.google.com/maps?q=49.657154\,5.752613\nDetails &
+  registration: https://www.opunch.org/event/4097\n\ninfos à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4098@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280902
+DTEND;VALUE=DATE:20280903
+SUMMARY:[NAT] Nat MD - Nationale Moyennes distances - Ardennes (ThOR)
+URL:https://www.opunch.org/event/4098
+DESCRIPTION:Organiser: ThOR\nLevel: National\nRegistration closes: 2028-09-
+ 01\nDetails & registration: https://www.opunch.org/event/4098\n\ninfos à 
+ venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4099@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280903
+DTEND;VALUE=DATE:20280904
+SUMMARY:[NAT] Chpt de Belgique Longues Distances - Daverdisse (Balise 10)
+URL:https://www.opunch.org/event/4099
+DESCRIPTION:Organiser: Balise 10\nLevel: National\nRegistration closes: 202
+ 8-09-02\nDetails & registration: https://www.opunch.org/event/4099\n\ninfo
+ s à venir
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4233@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20280910
+DTEND;VALUE=DATE:20280911
+SUMMARY:[NAT] Interclub Gruitrode (Oudsbergen) (Omega)
+URL:https://www.opunch.org/event/4233
+DESCRIPTION:Organiser: Omega\nLevel: National\nRegistration closes: 2028-08
+ -27\nDetails & registration: https://www.opunch.org/event/4233
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4234@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;TZID=Europe/Brussels:20281008T100000
+DTEND;TZID=Europe/Brussels:20281008T120000
+SUMMARY:[NAT] Nationale Lang Lanklaarderbos (Omega)
+URL:https://www.opunch.org/event/4234
+DESCRIPTION:Organiser: Omega\nLevel: National\nStart times: 10:00 - 12:00\n
+ Registration closes: 2028-09-24\nDetails & registration: https://www.opunc
+ h.org/event/4234
+CATEGORIES:Orienteering,National
+END:VEVENT
+BEGIN:VEVENT
+UID:opunch-4235@opunch.org
+DTSTAMP:20260914T070813Z
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20281231
+SUMMARY:[REG] Sylvester 2028 (OV)
+URL:https://www.opunch.org/event/4235
+DESCRIPTION:Organiser: OV\nLevel: Regional\nStart times: 11:00 - 13:00\nReg
+ istration closes: 2028-12-10\nDetails & registration: https://www.opunch.o
+ rg/event/4235
+CATEGORIES:Orienteering,Regional
+END:VEVENT
+END:VCALENDAR
