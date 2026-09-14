@@ -1,6 +1,6 @@
 # Belgian orienteering events in your calendar
 
-This project publishes the upcoming orienteering events listed on [O'Punch](https://www.opunch.org/in/event/) as calendar feeds (`.ics`) that you can subscribe to in Google Calendar, Apple Calendar, Outlook or any other calendar app. The feeds are refreshed automatically every day.
+This project publishes the upcoming orienteering events listed on [O'Punch](https://www.opunch.org/events/) as calendar feeds (`.ics`) that you can subscribe to in Google Calendar, Apple Calendar, Outlook or any other calendar app. The feeds are refreshed automatically every day.
 
 ## The feeds
 
