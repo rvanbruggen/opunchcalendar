@@ -4,19 +4,18 @@ opunch_to_ics.py - turn the O'Punch (opunch.org) event list into an iCalendar fi
 
 How it works
 ------------
-The public events page (https://www.opunch.org/in/event/) is filled by an
+The public events page (https://www.opunch.org/events/) is filled by an
 undocumented JSON endpoint:
 
-    GET https://www.opunch.org/in/event/list/
-    X-Requested-With: XMLHttpRequest
+    GET https://www.opunch.org/event/list/
 
-The endpoint only answers with JSON when the request carries a session cookie
-(any anonymous session will do - no login needed) and the XHR header. Without
-those it redirects to the HTML home page. So we first GET the events page to
-obtain a cookie, then call the list endpoint.
+(Until September 2026 these lived under /in/event/ and the endpoint required an
+anonymous session cookie plus X-Requested-With: XMLHttpRequest. The new endpoint
+answers without either, but we still visit the events page first and send the
+header, as the page's own JavaScript does, in case that requirement returns.)
 
-It returns ~250 upcoming, non-cancelled events (cancelled events simply
-disappear from the list, and therefore from the calendar on the next refresh).
+It returns ~250 upcoming events. Events with status 0 (cancelled) are skipped,
+so cancelled events disappear from the calendar on the next refresh.
 
 Fields used per event:
     event_id, event_name, start_dt, end_dt (YYYY-MM-DD),
@@ -43,8 +42,8 @@ import sys
 import urllib.request
 
 BASE = "https://www.opunch.org"
-PAGE_URL = BASE + "/in/event/"
-LIST_URL = BASE + "/in/event/list/"
+PAGE_URL = BASE + "/events/"
+LIST_URL = BASE + "/event/list/"
 EVENT_URL = BASE + "/event/{id}"
 UA = "Mozilla/5.0 (compatible; opunch-ics/1.0; +https://github.com/)"
 
@@ -286,6 +285,9 @@ def main():
     if args.dump_json:
         with open(args.dump_json, "w", encoding="utf-8") as f:
             json.dump({"events": events}, f, ensure_ascii=False, indent=1)
+
+    # status 0 = cancelled (the site's map labels these as cancelled)
+    events = [e for e in events if e.get("status") != 0]
 
     if args.levels:
         events = [e for e in events if e.get("level") in set(args.levels)]

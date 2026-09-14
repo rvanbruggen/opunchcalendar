@@ -15,13 +15,12 @@ docs/                                  published by GitHub Pages: index.html + t
 The events page on opunch.org is filled by an undocumented JSON endpoint that the page's own JavaScript calls:
 
 ```
-GET https://www.opunch.org/in/event/list/
-X-Requested-With: XMLHttpRequest
+GET https://www.opunch.org/event/list/
 ```
 
-It only answers with JSON when the request carries a session cookie (an anonymous one is fine, no login needed) and that header; otherwise it redirects to the HTML home page. The script therefore first requests `https://www.opunch.org/in/event/` to receive a cookie, then calls the list endpoint. The endpoint returns every upcoming, non-cancelled event (about 250, up to two years ahead) and ignores the filter and pagination parameters of the HTML list view.
+It currently answers with JSON without any cookie or special header. Until September 2026 the site lived under `/in/event/` and the endpoint then required an anonymous session cookie plus `X-Requested-With: XMLHttpRequest`, so the script still visits `https://www.opunch.org/events/` first and sends that header, in case the requirement comes back. The endpoint returns every upcoming event (about 250, up to two years ahead). Events with `status` 0 (cancelled) are skipped.
 
-Per event the script uses `event_id`, `event_name`, `start_dt`, `end_dt`, `start_from_time`, `start_to_time`, `level` (1 local, 2 regional, 3 national), `organization_name`, `address` (venue, street, city, latitude, longitude), `reg_close_dt` and `description`.
+Per event the script uses `event_id`, `status`, `event_name`, `start_dt`, `end_dt`, `start_from_time`, `start_to_time`, `level` (1 local, 2 regional, 3 national), `organization_name`, `address` (venue, street, city, latitude, longitude), `reg_close_dt` and `description`.
 
 ## Running locally
 
@@ -76,4 +75,4 @@ Your feeds will be served from `https://<username>.github.io/opunchcalendar/opun
 
 ## When it breaks
 
-The endpoint is undocumented. If O'Punch changes it, the script exits with an error instead of publishing an empty calendar, and the Actions run turns red. Start debugging by opening https://www.opunch.org/in/event/ in a browser with the developer tools' Network tab open and looking at the request the *List* / *Calendar* tabs make.
+The endpoint is undocumented. If O'Punch changes it, the script exits with an error instead of publishing an empty calendar, and the Actions run turns red. Start debugging by opening https://www.opunch.org/events/ in a browser with the developer tools' Network tab open and looking at the request the *List* / *Calendar* tabs make.
