@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:opunch-4325@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260928
 SUMMARY:[NAT] EOC 2026 (Elite Team)
@@ -38,79 +38,8 @@ DESCRIPTION:Organiser: Elite Team\nLevel: National\nRegistration closes: 20
 CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
-UID:opunch-3989@opunch.org
-DTSTAMP:20260925T045127Z
-DTSTART;TZID=Europe/Brussels:20260925T173000
-DTEND;TZID=Europe/Brussels:20260925T190000
-SUMMARY:[LOC] Vendredis de l'orientation - Remouchamps (CO Liège)
-LOCATION:remouchamps\, Rue Du Parc 3\, Aywaille
-GEO:50.481133;5.70493
-URL:https://www.opunch.org/event/3989
-DESCRIPTION:Organiser: CO Liège\nLevel: Local\nStart times: 17:30 - 19:00\
- nRegistration closes: 2026-09-25\nMap: https://www.google.com/maps?q=50.48
- 1133\,5.70493\nDetails & registration: https://www.opunch.org/event/3989\n
- \nLes Vendredis de l'orientation ou Challenge Jean Damien Schenkelaars\n\n
-     16 courses organisées par 3 clubs (Olve\, Hermathenae et CO Liège)
-  en province de Liège accessibles à tous : coureurs\, marcheurs\, début
- ants ou confirmés\n\n    Les cartes utilisées sont urbaines ou mixtes 
- avec parties boisées\n\n    Le temps de course est de 30 min pour les p
- remiers\n\n    Les tarifs d inscription seront modifiés afin de privil
- égier les préinscriptions et de pouvoir investir dans du matériel perfo
- rmant\n\n    La remise des prix aura lieu lors de la dernière course le
-  25 septembre\n\n3 PARCOURS\n\n    1. CHALLENGE : plus long et plus tech
- nique\n\n    2. INTERMÉDIAIRE : technique mais moins physique que le pa
- rcours challenge\n\n    3. DÉCOUVERTE : plus facile\, prévu pour les d
- ébutants enfants et adultes (initiation avec moniteur sur demande)\n\nCLA
- SSEMENT\n\n    Le classement sera fait sur vos 8 meilleurs résultats.\n
- \n    Un second classement pour les affiliés sera proposé \; pondér
- é en fonction de 2 critères (sexe et âge)\n\nINSCRIPTION\n\n    PRIX 
- : 4€\n\n    PRE INSCRIPTION : fortement recommandée via O'Punch pour 
- une meilleure organisation et impression des cartes\,\n\n          
-                               un supplément de 1€ sera d
- emandé pour les participants non pré-inscrits (paiement sur place).\n\n
-     LOCATION Sport-Ident : 1€\n\nHORAIRE\n\n    SECRÉTARIAT : 17h15
- \n\n    DÉPART : de 17h30 à 19h\n\n    Attention: fermeture des parc
- ours et débalisage à 20h
-CATEGORIES:Orienteering,Local
-END:VEVENT
-BEGIN:VEVENT
-UID:opunch-4112@opunch.org
-DTSTAMP:20260925T045127Z
-DTSTART;TZID=Europe/Brussels:20260925T103000
-DTEND;TZID=Europe/Brussels:20260925T123000
-SUMMARY:[LOC] Wisselbeker aflossing Rik Thys 2026 (Defensie-La Défense)
-LOCATION:Jagersweg\, 3980 Tessenderlo-Ham\, Sparrenweg 206\, Tessenderlo
-GEO:51.050903;5.050018
-URL:https://www.opunch.org/event/4112
-DESCRIPTION:Organiser: Defensie-La Défense\nLevel: Local\nStart times: 10:
- 30\nMap: https://www.google.com/maps?q=51.050903\,5.050018\nDetails & regi
- stration: https://www.opunch.org/event/4112\n\n1.	Het TrgC Para organiseer
- t op 25 Sep 2026 de 34ste Wisselbeker oriëntatiecross ADC Rik THYS.\n  
-    Le 25 Sep 2026 le CE Para organisera le 33ème Challenge de course d
- ’orientation ADC Rik THYS.\n2.	Parking: Parking 1 & 2 en indien nodig pa
- rking 3 (zie hiervoor in bijlage)\n    Parking: Parking 1 & 2 et si néc
- essaire parking 3 (voir l’annexe)\n3.	CC: Jagersweg 8\, 3980 Tessenderlo
- -Ham (zie bijlage: Parking - CC - 1\,6km)\n    CC: Jagersweg 8\,3980 Tes
- senderlo-Ham (voir l’annexe: Parking - CC - 1\,6km)\n4.	Opening secretar
- iaat vanaf 0830Hr\, massastart om 1030Hr.\n    Ouverture du secrétariat
-  à 0830Hr\, départ de masse à 1030Hr.\n5.	Kaart: IOF Houterenberg 1/750
- 0.\n    Carte: IOF Houterenberg 1/7500.\n6.	Er wordt gebruik gemaakt van
-  het systeem Sportident. SI in bruikleen tegen afgifte burger ID.\n    L
- e système Sportident sera utilisé. Prêt d’un SI en échange de la car
- te ID civile.\n7.	Omlopen : 3 x ± 5 km. \n    Parcours : 3 x ± 5 km.\
- n8.	Inschrijving per Email NLT 18 Sep 2026 met Doc in Bijl B aan CEPARA-SP
- ORTDIENST@mil.be\n    Inscription par Email NLT 18 Sep 2026 avec le Doc 
- en Ann B au  CEPARA-SPORTDIENST@mil.be\n9.	Samenstelling van de ploeg: Dri
- e militairen van dezelfde eenheid/club waarvan één deelnemer 40j in het 
- lopende jaar of ouder. (Geboren in 1986 of vroeger). Ploegen zonder deelne
- mer 40j worden geklasseerd in de categorie OPEN.\n    Composition de l
- ’équipe: Trois militaires de la même unité/club dont au moins un part
- icipant de 40 ans ou plus âgé. (Né en 1986 ou plus tôt). Une équipe 
-CATEGORIES:Orienteering,Local
-END:VEVENT
-BEGIN:VEVENT
 UID:opunch-3949@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:[LOC] Hasselt Orienteering Series - Den Tesch (Omega)
@@ -133,7 +62,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3590@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20260927T100000
 DTEND;TZID=Europe/Brussels:20260927T120000
 SUMMARY:[REG] Regionale - Horensberg (Omega)
@@ -153,12 +82,14 @@ DESCRIPTION:Organiser: Omega\nLevel: Regional\nStart times: 10:00 - 12:00\n
  jecten en een duidelijk aanvalspunt\nZwart: zo goed als mogelijk gebruik m
  aken van de kenmerken van het terrein om een uitdagende wedstrijd aan te b
  ieden.\nCC\nDe moedige herdershond\nHerengracht 99\, 3665 As\nGoogle Maps 
- (klik hier)\nWaze (klik hier)\nBaanlegger: Liam Thiels\nKinder-O aanwezig!
+ (klik hier)\nWaze (klik hier)\nAfstand Parking -> C.C. : 0-200 m\nAfstand 
+ C.C. -> Start : 1250 m\nAfstand Finish  -> C.C. : 800 m\n\nBaanlegger: Lia
+ m Thiels\nKinder-O aanwezig!
 CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4033@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20260927T104500
 DTEND;TZID=Europe/Brussels:20260927T120000
 SUMMARY:[REG] BRUGELETTE Régionale 5 couleurs (COMB)
@@ -195,7 +126,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4145@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20260929T173000
 DTEND;TZID=Europe/Brussels:20260929T190000
 SUMMARY:[LOC] Challenge du LOST #1 - Bois des Rêves et Bauloy (LOST)
@@ -225,7 +156,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3867@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261001T180000
 DTEND;TZID=Europe/Brussels:20261001T200000
 SUMMARY:[LOC] Antwerp Orienteering Series #10 Te Boelaerpark (Antwerp O)
@@ -245,7 +176,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3603@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261003T140000
 DTEND;TZID=Europe/Brussels:20261003T153000
 SUMMARY:[NAT] BK MTBO - Lommel (hamok)
@@ -281,7 +212,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3771@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261003T130000
 DTEND;TZID=Europe/Brussels:20261003T150000
 SUMMARY:[LOC] O2LUX # 15 - Citadelle de Montmedy (France) (ASUB)
@@ -313,7 +244,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3591@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261004T100000
 DTEND;TZID=Europe/Brussels:20261004T120000
 SUMMARY:[REG] Regionale - Grobbendonk (TROL)
@@ -343,7 +274,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3819@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261004T100000
 DTEND;TZID=Europe/Brussels:20261004T120000
 SUMMARY:[REG] Relais Double Sprint La Chartreuse (CO Liège)
@@ -379,7 +310,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4279@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261008T093000
 DTEND;TZID=Europe/Brussels:20261008T120000
 SUMMARY:[LOC] Bvr/5 Li - Regelmatigheidscriterium Oriëntatieloop (Defensie
@@ -417,7 +348,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4128@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261009T171500
 DTEND;TZID=Europe/Brussels:20261009T174500
 SUMMARY:[LOC] Entrainement & Ecole CO: Sart-Tilman (CO Liège)
@@ -425,14 +356,16 @@ URL:https://www.opunch.org/event/4128
 DESCRIPTION:Organiser: CO Liège\nLevel: Local\nStart times: 17:15 - 17:45\
  nRegistration closes: 2026-10-07\nDetails & registration: https://www.opun
  ch.org/event/4128\n\nEntraînement conçu pour les jeunes de l'école de C
- O\, mais ouvert à tous.\nGratuit pour les CO Liégeois\,   4€ pour le
+ O\, mais ouvert à tous.\nGratuit pour les CO Liégeois\,   3€ pour le
  s autres\nR-v 17h15 au Centre Sportif du Blanc-Gravier (dans le hall d'ent
- rée de la piscine)\nDépart entre 17h15 et 17h45
+ rée de la piscine)\nDépart entre 17h15 et 17h45\n2 exercices seront prop
+ osés:\n1- parcours classique pour travailler les points d'attaque et lign
+ es d'arrêt\n2- parcours oro-hydro pour travailler la lecture du relief
 CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3641@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261010T100000
 DTEND;TZID=Europe/Brussels:20261010T120000
 SUMMARY:[LOC] Gent Orienteering Series - Gent Noord/Dok Noord (TROL)
@@ -467,7 +400,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3960@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261010T103000
 DTEND;TZID=Europe/Brussels:20261010T120000
 SUMMARY:[LOC] Leuven Orienteering Series - Sportoase (Omega)
@@ -489,7 +422,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4144@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261010T084500
 DTEND;TZID=Europe/Brussels:20261010T090000
 SUMMARY:[LOC] Journée Objectif Balises - Uccle (ASUB)
@@ -516,7 +449,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4198@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261012
 SUMMARY:[REG] Formations Moniteur Sportif Animateur-Initiateur (FRSO)
@@ -548,7 +481,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4266@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261010T100000
 DTEND;TZID=Europe/Brussels:20261010T120000
 SUMMARY:[LOC] NORD #2 - Asty-Moulin (ThOR)
@@ -578,7 +511,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3592@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261011T100000
 DTEND;TZID=Europe/Brussels:20261011T120000
 SUMMARY:[REG] VK Aflossing - individuele omlopen - Spiekelspade (KOL)
@@ -597,7 +530,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3681@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261011T090000
 DTEND;TZID=Europe/Brussels:20261011T110000
 SUMMARY:[REG] Brussels Orienteering Challenge #1 - f. de Soignes (ASUB)
@@ -625,7 +558,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3952@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261011T100000
 DTEND;TZID=Europe/Brussels:20261011T120000
 SUMMARY:[REG] VK Aflossing  - Spiekelspade Cafetaria AVT (KOL)
@@ -654,7 +587,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4146@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261013T173000
 DTEND;TZID=Europe/Brussels:20261013T190000
 SUMMARY:[LOC] Challenge du LOST #2 - Biéreau (LOST)
@@ -684,23 +617,23 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4129@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261016T171500
 DTEND;TZID=Europe/Brussels:20261016T191500
-SUMMARY:[LOC] Entraînement - Ecole CO : Seraing (CO Liège)
+SUMMARY:[LOC] Entraînement + Ecole CO : Sart-Tilman (CO Liège)
 URL:https://www.opunch.org/event/4129
 DESCRIPTION:Organiser: CO Liège\nLevel: Local\nStart times: 17:15\nRegistr
  ation closes: 2026-10-16\nDetails & registration: https://www.opunch.org/e
  vent/4129\n\nEntraînement conçu pour les jeunes de l'école de CO\,  ma
- is ouvert à tous.\nGratuit pour les CO Liégeois\,   4€ pour les autres
- \nR-v 17h15 au BBQ de la mare aux Joncs à Seraing  (à confirmer\, en a
- ttente d'autorisation)\, sinon au Sart-Tilman\nDépart entre 17h15 et 17h4
- 5
+ is ouvert à tous.\nGratuit pour les CO Liégeois\, 3€ pour les autres\n
+ R-v 17h15 au Sart-Tilman\nDépart entre 17h15 et 17h45\nExercice du jour
+   = duel 'simulation relais' .  Objectif =lecture et compréhension des 
+ définitions de poste
 CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3781@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261017T130000
 DTEND;TZID=Europe/Brussels:20261017T150000
 SUMMARY:[LOC] O2LUX # 16 -  Luxembourg - Limpertsberg (LuxOrienteering)
@@ -724,7 +657,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3950@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:[LOC] Hasselt Orienteering Series - Ekkelgaarden (Omega)
@@ -748,7 +681,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4239@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261017T110000
 DTEND;TZID=Europe/Brussels:20261017T120000
 SUMMARY:[LOC] Technische training (ATLAS)
@@ -772,7 +705,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4257@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261017T100000
 DTEND;TZID=Europe/Brussels:20261017T114500
 SUMMARY:[LOC] NORD#3 - Erpent (Pégase)
@@ -788,7 +721,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4280@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261017T103000
 DTEND;TZID=Europe/Brussels:20261017T123000
 SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
@@ -826,23 +759,37 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3606@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261018T100000
 DTEND;TZID=Europe/Brussels:20261018T120000
 SUMMARY:[NAT] Clubaflossing - Witteberg (hamok)
+LOCATION:Chiro Achel\, Witteberg 30\, Hamont-Achel
+GEO:51.260506;5.4641223
 URL:https://www.opunch.org/event/3606
 DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 10:00 - 12:00\n
- Registration closes: 2026-10-17\nDetails & registration: https://www.opunc
- h.org/event/3606\n\nVoor de club-teams:\n\nAantal ploegen melden aan insch
- rijvingen@hamok.be ten laatste op 8 oktober\nSamenstelling van de ploegen 
- ten laatste op 13 oktober\, op hetzelfde e-mailadres\nLaatste wijziging in
-  een ploeg mogelijk op 18 oktober\, 09:00h\nMassastart om 09:30h\; briefin
- g 09h15
+ Registration closes: 2026-10-17\nMap: https://www.google.com/maps?q=51.260
+ 506\,5.4641223\nDetails & registration: https://www.opunch.org/event/3606\
+ n\nVoor de club-teams:\nAantal ploegen melden aan inschrijvingen@hamok.be 
+ ten laatste op 8 oktober\nSamenstelling van de ploegen ten laatste op 13 o
+ ktober\, op hetzelfde e-mailadres\nLaatste wijziging in een ploeg mogelijk
+  op 18 oktober\, 09:00h\nMassastart om 09:30h\; briefing 09h15\n\nPour les
+  équipes de club :\n\nCommuniquer le nombre d'équipes à inschrijvingen@
+ hamok.be au plus tard le 8 octobre\nEnvoyer la composition des équipes 
+ à la même adresse e-mail au plus tard le 13 octobre\nModifications final
+ es des équipes possibles jusqu'au 18 octobre à 09 h 00\nDépart de masse
+  à 09 h 30 \; briefing à 09 h 15\n\nFür Vereinsmannschaften:\n\nAnzahl 
+ der Mannschaften bis spätestens 8. Oktober an inschrijvingen@hamok.be mel
+ den\nMannschaftsaufstellungen bis spätestens 13. Oktober an dieselbe E-Ma
+ il-Adresse senden\nLetzte Änderungen an den Mannschaften bis 18. Oktober\
+ , 09:00 Uhr möglich\nMassenstart um 09:30 Uhr\; Briefing um 09:15 Uhr\n\n
+ Kaart - Carte - Karte: Witteberg\, september 2026\nBaanlegger - Traceur - 
+ Bahnleger: Jeroen Hoekx\nEvent Advisor - Controleur - Kontrolleur: Dries H
+ euninckx
 CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3607@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261018T100000
 DTEND;TZID=Europe/Brussels:20261018T120000
 SUMMARY:[NAT] Clubaflossing - Witteberg - Dagomlopen (hamok)
@@ -860,7 +807,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4309@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261022T093000
 DTEND;TZID=Europe/Brussels:20261022T140000
 SUMMARY:[LOC] 10WTac - Regelmatigheidscriterium oriëntatiecross (Defensie-
@@ -899,7 +846,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3961@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261024T103000
 DTEND;TZID=Europe/Brussels:20261024T120000
 SUMMARY:[LOC] Leuven Orienteering Series - Troostembergbos (Omega)
@@ -921,7 +868,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4322@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261024T100000
 DTEND;TZID=Europe/Brussels:20261024T113000
 SUMMARY:[LOC] B&B Orienteering Training Hiver #1 (ASUB)
@@ -949,7 +896,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3593@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261025T100000
 DTEND;TZID=Europe/Brussels:20261025T120000
 SUMMARY:[REG] Regionale - Lilse Bergen \, zaal De Eekhoorn (KOL)
@@ -974,7 +921,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4034@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261025T103000
 DTEND;TZID=Europe/Brussels:20261025T121500
 SUMMARY:[REG] Régionale 5 couleurs JURBISE (COMB)
@@ -1003,7 +950,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4057@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261102
 SUMMARY:[REG] Mégastage d'Automne - NANCY - Internat (FRSO)
@@ -1036,7 +983,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4059@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261102
 SUMMARY:[REG] Mégastage d'automne  -  NANCY  -  Externat (FRSO)
@@ -1069,7 +1016,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4046@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261031T133000
 DTEND;TZID=Europe/Brussels:20261031T143000
 SUMMARY:[LOC] Hall-O-Ween (Borasca)
@@ -1105,7 +1052,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3487@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261106
 SUMMARY:[LOC] Allerheiligenstage 2026 - Hechtel -HELPERS (KOL)
@@ -1128,7 +1075,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3608@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261106
 SUMMARY:[REG] Allerheiligenstage 2026 (OV)
@@ -1145,7 +1092,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4147@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261103T173000
 DTEND;TZID=Europe/Brussels:20261103T190000
 SUMMARY:[LOC] Challenge du LOST #3 - Lauzelle (LOST)
@@ -1175,7 +1122,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3868@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261105T180000
 DTEND;TZID=Europe/Brussels:20261105T200000
 SUMMARY:[LOC] Antwerp Orienteering Series #11 Zuid (Antwerp O)
@@ -1195,7 +1142,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4297@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261107T100000
 DTEND;TZID=Europe/Brussels:20261107T120000
 SUMMARY:[LOC] NORD#4 - Château de Namur (ThOR)
@@ -1220,7 +1167,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4324@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261107T153000
 DTEND;TZID=Europe/Brussels:20261107T173000
 SUMMARY:[LOC] Championnat de Club Sud O Lux (SudOLux)
@@ -1249,7 +1196,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3609@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261108T100000
 DTEND;TZID=Europe/Brussels:20261108T120000
 SUMMARY:[REG] Herfstwisselbeker - Saenhoeve Zuid (Omega)
@@ -1282,7 +1229,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3682@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261108T103000
 DTEND;TZID=Europe/Brussels:20261108T120000
 SUMMARY:[REG] Brussels Orienteering Challenge #2 - Sprint urbain (ASUB)
@@ -1303,7 +1250,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3642@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261114T100000
 DTEND;TZID=Europe/Brussels:20261114T120000
 SUMMARY:[LOC] Gent Orienteering Series - Rozebroeken (TROL)
@@ -1338,7 +1285,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4018@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261114T100000
 DTEND;TZID=Europe/Brussels:20261114T120000
 SUMMARY:[LOC] Parkstad Orienteering Series - Bleijerheide (ATLAS)
@@ -1365,7 +1312,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4258@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261114T100000
 DTEND;TZID=Europe/Brussels:20261114T114500
 SUMMARY:[LOC] NORD#5 - Floreffe (Pégase)
@@ -1386,7 +1333,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3610@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261115T100000
 DTEND;TZID=Europe/Brussels:20261115T120000
 SUMMARY:[REG] Regionale - Oirschotse heide (KOVZ)
@@ -1421,7 +1368,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3782@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261115T100000
 DTEND;TZID=Europe/Brussels:20261115T120000
 SUMMARY:[LOC] O2LUX # 17  Bois du Beynert - Freylange (LuxOrienteering)
@@ -1441,7 +1388,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4148@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261117T173000
 DTEND;TZID=Europe/Brussels:20261117T190000
 SUMMARY:[LOC] Challenge du LOST #4 - Bruyères (LOST)
@@ -1471,7 +1418,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4130@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261120T171400
 DTEND;TZID=Europe/Brussels:20261120T191400
 SUMMARY:[LOC] Entrainement - Ecole CO : Sart-Tilman (CO Liège)
@@ -1485,7 +1432,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4240@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261121T110000
 DTEND;TZID=Europe/Brussels:20261121T120000
 SUMMARY:[LOC] Technische training (ATLAS)
@@ -1506,7 +1453,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3611@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261122T100000
 DTEND;TZID=Europe/Brussels:20261122T120000
 SUMMARY:[REG] Regionale - Zwartgoorheide Vosselaar (TROL)
@@ -1536,7 +1483,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3683@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:[REG] BOC #3 - Varkensgat (Altaïr)
@@ -1547,7 +1494,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3612@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261127T190000
 DTEND;TZID=Europe/Brussels:20261127T210000
 SUMMARY:[REG] Avond - Balen Hulsen (KOL)
@@ -1561,7 +1508,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4300@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:[LOC] NORD #6 - Champion (ThOR)
@@ -1588,7 +1535,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4320@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261128T100000
 DTEND;TZID=Europe/Brussels:20261128T113000
 SUMMARY:[LOC] B&B Orienteering Training Hiver #2 (ASUB)
@@ -1616,7 +1563,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3616@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261129T100000
 DTEND;TZID=Europe/Brussels:20261129T120000
 SUMMARY:[REG] Regionale - Zilvermeer Ecocentrum DE Goren (KOL)
@@ -1641,7 +1588,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4295@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:[REG] Championnat de Relais FRSO (49 points) (Balise 10)
@@ -1653,7 +1600,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4149@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261201T173000
 DTEND;TZID=Europe/Brussels:20261201T190000
 SUMMARY:[LOC] Challenge du LOST #5 - Hocaille (LOST)
@@ -1683,7 +1630,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3869@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261203T180000
 DTEND;TZID=Europe/Brussels:20261203T200000
 SUMMARY:[LOC] Antwerp Orienteering Series #12 Centrum (Antwerp O)
@@ -1703,7 +1650,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4250@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261205T100000
 DTEND;TZID=Europe/Brussels:20261205T114500
 SUMMARY:[LOC] NORD#7 - Gembloux (Pégase)
@@ -1715,7 +1662,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3614@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261206T100000
 DTEND;TZID=Europe/Brussels:20261206T120000
 SUMMARY:[REG] Regionale - Kamp Beverlo - Sinterklaascross (Omega)
@@ -1739,7 +1686,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3684@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261206T094500
 DTEND;TZID=Europe/Brussels:20261206T113000
 SUMMARY:[REG] BOC#4 - Ultra Longues Distances (ASUB)
@@ -1774,7 +1721,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4269@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261209T100000
 DTEND;TZID=Europe/Brussels:20261209T123000
 SUMMARY:[LOC] Mil Comdo Prov Limburg – LEOPOLDSBURG (Defensie-La Défense
@@ -1812,7 +1759,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3615@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261212T180000
 DTEND;TZID=Europe/Brussels:20261212T200000
 SUMMARY:[REG] Avond - Hoge Mouw (TROL)
@@ -1829,7 +1776,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4200@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261212T130000
 DTEND;TZID=Europe/Brussels:20261212T150000
 SUMMARY:[LOC] O2LUX # 18  Virton City (SudOLux)
@@ -1855,7 +1802,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4281@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261212T103000
 DTEND;TZID=Europe/Brussels:20261212T123000
 SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
@@ -1893,7 +1840,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4296@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261212T150000
 DTEND;TZID=Europe/Brussels:20261212T160000
 SUMMARY:[LOC] Dag - Hoge Mouw (TROL)
@@ -1910,7 +1857,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3613@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261213T100000
 DTEND;TZID=Europe/Brussels:20261213T120000
 SUMMARY:[REG] Regionale - Galbergen (hamok)
@@ -1932,7 +1879,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3870@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:[LOC] Antwerp Orienteering Series #Kerstspecial (Antwerp O)
@@ -1947,7 +1894,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3617@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261219T183000
 DTEND;TZID=Europe/Brussels:20261219T193000
 SUMMARY:[REG] Avond - Graafsbos (Omega)
@@ -1968,7 +1915,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3643@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261219T100000
 DTEND;TZID=Europe/Brussels:20261219T120000
 SUMMARY:[LOC] Gent Orienteering Series - Claeys-Bouüaert (TROL)
@@ -2003,7 +1950,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4298@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261219T180000
 DTEND;TZID=Europe/Brussels:20261219T184500
 SUMMARY:[LOC] Weihnachtssprint / Sprint de Noël in Malmedy 🎄 (ARDOC)
@@ -2027,7 +1974,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4313@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20261219T140000
 DTEND;TZID=Europe/Brussels:20261219T153000
 SUMMARY:[LOC] Regionale Graafsbos (Omega)
@@ -2052,7 +1999,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3618@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261231
 SUMMARY:[REG] Sylvester 2026 (OV)
@@ -2070,7 +2017,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-2393@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:[LOC] École ASUB de CO - Août à Decembre 2026 (ASUB)
@@ -2105,7 +2052,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4162@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270109T143000
 DTEND;TZID=Europe/Brussels:20270109T153000
 SUMMARY:[REG] Regionale Kesselse Heide (Kessel) (TROL)
@@ -2119,7 +2066,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4223@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270109T180000
 DTEND;TZID=Europe/Brussels:20270109T200000
 SUMMARY:[REG] Avond Kesselse Heide (Kessel) (TROL)
@@ -2133,7 +2080,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4301@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270109T100000
 DTEND;TZID=Europe/Brussels:20270109T120000
 SUMMARY:[LOC] NORD # 8 - Malonne-Chepson (ThOR)
@@ -2161,7 +2108,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4163@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270110T100000
 DTEND;TZID=Europe/Brussels:20270110T120000
 SUMMARY:[REG] Special 50 jaar KOL (KOL)
@@ -2173,7 +2120,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3920@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:[LOC] KNOR (Defensie-La Défense)
@@ -2193,7 +2140,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4259@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270116T100000
 DTEND;TZID=Europe/Brussels:20270116T114500
 SUMMARY:[LOC] NORD#9 - Erpent (Bois brûlé) (Pégase)
@@ -2205,7 +2152,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4282@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270116T103000
 DTEND;TZID=Europe/Brussels:20270116T123000
 SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
@@ -2243,7 +2190,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3913@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270117T103000
 DTEND;TZID=Europe/Brussels:20270117T120000
 SUMMARY:[REG] Brussels Orienteering Challenge #5 - Moyenne dist. (ASUB)
@@ -2261,7 +2208,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4165@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270117T100000
 DTEND;TZID=Europe/Brussels:20270117T120000
 SUMMARY:[REG] Regionale Chartreuzebos (Holsbeek) (Omega)
@@ -2283,7 +2230,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3817@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270123T100000
 DTEND;TZID=Europe/Brussels:20270123T113000
 SUMMARY:[LOC] B&B Orienteering Training Hiver #4 (ASUB)
@@ -2311,7 +2258,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4131@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270123T100000
 DTEND;TZID=Europe/Brussels:20270123T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #1 (ATLAS)
@@ -2335,7 +2282,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4284@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270123T100000
 DTEND;TZID=Europe/Brussels:20270123T120000
 SUMMARY:[LOC] Gent Orienteering Series - Schoonmeersen (TROL)
@@ -2370,7 +2317,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4302@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270123T100000
 DTEND;TZID=Europe/Brussels:20270123T120000
 SUMMARY:[LOC] NORD # 10 - Mozet (ThOR)
@@ -2400,7 +2347,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4076@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:[REG] Régionale (Pégase)
@@ -2412,7 +2359,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4166@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270124T100000
 DTEND;TZID=Europe/Brussels:20270124T120000
 SUMMARY:[REG] Regionale Gerhees (Ham) (hamok)
@@ -2434,7 +2381,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4168@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270130T100000
 DTEND;TZID=Europe/Brussels:20270130T120000
 SUMMARY:[REG] Regionale Peerdsbos (Herentals) (TROL)
@@ -2456,7 +2403,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4303@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270130T100000
 DTEND;TZID=Europe/Brussels:20270130T120000
 SUMMARY:[LOC] NORD # 11 - Namur-Universitée (ThOR)
@@ -2481,7 +2428,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4077@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:[NAT] Nat LD - Nationale Longues Distances (Hermathenae)
@@ -2493,7 +2440,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4260@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270206T100000
 DTEND;TZID=Europe/Brussels:20270206T114500
 SUMMARY:[LOC] NORD#12 - Courrière (Pégase)
@@ -2505,7 +2452,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4323@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270206T100000
 DTEND;TZID=Europe/Brussels:20270206T113000
 SUMMARY:[LOC] B&B Orienteering Training Hiver #5 (ASUB)
@@ -2533,7 +2480,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3914@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:[REG] Régionale Stoumont (CO Liège)
@@ -2546,7 +2493,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4169@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270207T100000
 DTEND;TZID=Europe/Brussels:20270207T120000
 SUMMARY:[REG] Regionale Den Heuvel (Lommel) (hamok)
@@ -2568,7 +2515,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4014@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270211T093000
 DTEND;TZID=Europe/Brussels:20270211T113000
 SUMMARY:[LOC] BAUDOUR Challenge Militaire INSCRIPTIONS CIVILS (COMB)
@@ -2593,7 +2540,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4015@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270212T103000
 DTEND;TZID=Europe/Brussels:20270212T123000
 SUMMARY:[LOC] 11e Challenge des écoles du secondaire de CO (COMB)
@@ -2626,7 +2573,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3915@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270215
 SUMMARY:[REG] WE Régionale - Chevetogne (Altaïr)
@@ -2637,7 +2584,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4141@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270213T084500
 DTEND;TZID=Europe/Brussels:20270213T090000
 SUMMARY:[LOC] Journée Objectif Balises - Auderghem (ASUB)
@@ -2662,7 +2609,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4170@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:[REG] Avondaflossing Sanicol (Leopoldsburg) (Omega)
@@ -2673,7 +2620,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4285@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270213T100000
 DTEND;TZID=Europe/Brussels:20270213T120000
 SUMMARY:[LOC] Gent Orienteering Series - Gentbrugse Meersen (TROL)
@@ -2708,7 +2655,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4171@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270214T100000
 DTEND;TZID=Europe/Brussels:20270214T120000
 SUMMARY:[REG] Regionale Fonteintje (Koersel) -Valentijnscross! (KOL)
@@ -2730,7 +2677,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4314@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270220T100000
 DTEND;TZID=Europe/Brussels:20270220T120000
 SUMMARY:[LOC] NORD #13 Malonne - Cabaca (ThOR)
@@ -2757,7 +2704,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4172@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270221T100000
 DTEND;TZID=Europe/Brussels:20270221T120000
 SUMMARY:[NAT] Nationale Lang Weyervlakte (Leopoldsburg) (Omega)
@@ -2769,7 +2716,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4173@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270226T183000
 DTEND;TZID=Europe/Brussels:20270226T203000
 SUMMARY:[REG] Avond Galbergen (Mol) (hamok)
@@ -2781,7 +2728,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4078@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
 SUMMARY:[REG] INTERLAND 2027 - Inscriptions FRSO (FRSO)
@@ -2809,7 +2756,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4174@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
 SUMMARY:[REG] Interland - Luxemburg - Deelname OV (OV)
@@ -2820,7 +2767,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4175@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270305T183000
 DTEND;TZID=Europe/Brussels:20270305T203000
 SUMMARY:[REG] Avond Brasel (Dessel) (KOL)
@@ -2832,7 +2779,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4243@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270308
 SUMMARY:[REG] Stage PUPILLES(HD-10-12-14) FRSO-OV - FRAITURE (FRSO)
@@ -2866,7 +2813,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4315@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270305T100000
 DTEND;TZID=Europe/Brussels:20270305T120000
 SUMMARY:[LOC] NORD #14 Malonne - Tombois (à confirmer) (ThOR)
@@ -2878,7 +2825,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3916@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270308
 SUMMARY:[REG] Karrim'HOC Coureurs (HOC)
@@ -2889,7 +2836,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4075@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270308
 SUMMARY:[LOC] Karrim’HOC Randonneurs (HOC)
@@ -2900,7 +2847,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4132@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270306T100000
 DTEND;TZID=Europe/Brussels:20270306T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #2 (ATLAS)
@@ -2924,7 +2871,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4176@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:[REG] Regionale Wonderwoud (Oostakker) (TROL)
@@ -2946,7 +2893,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4177@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270307T100000
 DTEND;TZID=Europe/Brussels:20270307T120000
 SUMMARY:[REG] Regionale Drongengoedbos (Ursel) (TROL)
@@ -2968,7 +2915,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4327@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270307T100000
 DTEND;TZID=Europe/Brussels:20270307T120000
 SUMMARY:[REG] Challenge WAGENER (OLVE)
@@ -2997,7 +2944,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4311@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270311T103000
 DTEND;TZID=Europe/Brussels:20270311T120000
 SUMMARY:[LOC] Championnat intercorps militaire - parcours civils (Defensie-
@@ -3015,7 +2962,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4139@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270313T183000
 DTEND;TZID=Europe/Brussels:20270313T200000
 SUMMARY:[REG] Avondwedstrijd (KOVZ)
@@ -3027,7 +2974,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4287@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270313T100000
 DTEND;TZID=Europe/Brussels:20270313T120000
 SUMMARY:[LOC] Gent Orienteering Series - Rooigem / Brugsepoort (TROL)
@@ -3062,7 +3009,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3919@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:[NAT] Championnat de Belgique MD (CO Liège)
@@ -3073,7 +3020,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4179@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270320T190000
 DTEND;TZID=Europe/Brussels:20270320T210000
 SUMMARY:[NAT] BK Avond/CB Nuit Nassogne (TROL)
@@ -3085,7 +3032,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4180@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270321T100000
 DTEND;TZID=Europe/Brussels:20270321T120000
 SUMMARY:[NAT] Nationale Middle - Nassogne (TROL)
@@ -3097,7 +3044,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4307@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270331
 SUMMARY:[REG] Gaume O'Camp (ASUB)
@@ -3128,7 +3075,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4261@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270327T100000
 DTEND;TZID=Europe/Brussels:20270327T114500
 SUMMARY:[LOC] NORD#15 - Haillot (Pégase)
@@ -3140,7 +3087,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4104@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:[REG] O'fti - Sart-Tilman (CO Liège)
@@ -3159,7 +3106,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4178@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270329T100000
 DTEND;TZID=Europe/Brussels:20270329T120000
 SUMMARY:[REG] Regionale Baeckelandt (Leopoldsburg) - Paascross! (hamok)
@@ -3181,7 +3128,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4133@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270403T100000
 DTEND;TZID=Europe/Brussels:20270403T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #3 (ATLAS)
@@ -3205,7 +3152,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4316@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270403T100000
 DTEND;TZID=Europe/Brussels:20270403T120000
 SUMMARY:[LOC] NORD #16 Héron (ThOR)
@@ -3228,7 +3175,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3804@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270410T133000
 DTEND;TZID=Europe/Brussels:20270410T153000
 SUMMARY:[REG] Championnat FRSO de Sprint (LOST)
@@ -3263,7 +3210,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4072@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270410T150000
 DTEND;TZID=Europe/Brussels:20270410T170000
 SUMMARY:[LOC] Indoor race - Amphi-O (LOST)
@@ -3298,7 +3245,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4286@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270410T100000
 DTEND;TZID=Europe/Brussels:20270410T120000
 SUMMARY:[LOC] Gent Orienteering Series - Rabot -Tondelier (TROL)
@@ -3333,7 +3280,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3805@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:[REG] KO Sprint ALL Inclusive (LOST)
@@ -3368,7 +3315,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4071@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270411T104500
 DTEND;TZID=Europe/Brussels:20270411T140000
 SUMMARY:[REG] City-Race (LOST)
@@ -3403,7 +3350,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3821@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:[NAT] CB VTTO (CO Liège)
@@ -3414,7 +3361,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4317@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270417T100000
 DTEND;TZID=Europe/Brussels:20270417T120000
 SUMMARY:[LOC] NORD #17 - Jambe (ThOR)
@@ -3436,7 +3383,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4181@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:[REG] Indoor/Outdoor Sint-Francisus (Heusden-Zolder) (KOL)
@@ -3447,7 +3394,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4262@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270424T100000
 DTEND;TZID=Europe/Brussels:20270424T114500
 SUMMARY:[LOC] NORD#18 - Masuages (Pégase)
@@ -3459,7 +3406,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4092@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:[NAT] Nat Sprint - Nationale Sprint - Farciennes (Balise 10)
@@ -3471,7 +3418,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4182@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:[REG] Sprint (Oostende) (TROL)
@@ -3482,7 +3429,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4138@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270502T100000
 DTEND;TZID=Europe/Brussels:20270502T120000
 SUMMARY:[NAT] Nationale - Urban Middle (ATLAS)
@@ -3494,7 +3441,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4183@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:[REG] Sprint/City-O (Oostende) (TROL)
@@ -3505,7 +3452,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4184@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270505T183000
 DTEND;TZID=Europe/Brussels:20270505T203000
 SUMMARY:[REG] Lenteloop: City-O Hulst (Tessenderlo-Ham) (hamok)
@@ -3518,7 +3465,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4288@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270508T100000
 DTEND;TZID=Europe/Brussels:20270508T120000
 SUMMARY:[LOC] Gent Orienteering Series - De Sterre (TROL)
@@ -3553,7 +3500,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4185@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270509T100000
 DTEND;TZID=Europe/Brussels:20270509T120000
 SUMMARY:[REG] City-O/Indoor Thomas More (Geel) (Omega)
@@ -3564,7 +3511,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4187@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
 SUMMARY:[LOC] City-O Heilig-Hart (Hasselt) (Defensie-La Défense)
@@ -3575,7 +3522,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4186@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270518
 SUMMARY:[NAT] ASOM (Brugge) (Antwerp O)
@@ -3586,7 +3533,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4318@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270522T100000
 DTEND;TZID=Europe/Brussels:20270522T120000
 SUMMARY:[LOC] NORD 19 - Citadelle de Namur (ThOR)
@@ -3609,7 +3556,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4080@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:[REG] Régionale - Double Sprint - Erasme & Neerpede (Altaïr)
@@ -3621,7 +3568,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4188@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270523T100000
 DTEND;TZID=Europe/Brussels:20270523T120000
 SUMMARY:[REG] City-O (Borgloon) (Omega)
@@ -3633,7 +3580,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4189@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270526T183000
 DTEND;TZID=Europe/Brussels:20270526T203000
 SUMMARY:[REG] Lenteloop: Stadspark (Turnhout) (TROL)
@@ -3645,7 +3592,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4263@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270529T100000
 DTEND;TZID=Europe/Brussels:20270529T114500
 SUMMARY:[LOC] NORD#20 - Vedrin (Pégase)
@@ -3657,7 +3604,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4190@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270530T100000
 DTEND;TZID=Europe/Brussels:20270530T120000
 SUMMARY:[NAT] BK/CB Sprint Genk Centrum (KOL)
@@ -3669,7 +3616,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4191@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270605T103000
 DTEND;TZID=Europe/Brussels:20270605T120000
 SUMMARY:[REG] Regionale Balendijk (Lommel) (hamok)
@@ -3687,7 +3634,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4224@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270605T101500
 DTEND;TZID=Europe/Brussels:20270605T121500
 SUMMARY:[REG] Tuur Classic - Finse Aflossing (Lommel) (hamok)
@@ -3699,7 +3646,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4277@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270605T100000
 DTEND;TZID=Europe/Brussels:20270605T114500
 SUMMARY:[LOC] NORD #21 : Ottignies (LOST)
@@ -3736,7 +3683,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4192@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270606T100000
 DTEND;TZID=Europe/Brussels:20270606T120000
 SUMMARY:[REG] City Race Kortrijk (TROL)
@@ -3749,7 +3696,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4134@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270612T100000
 DTEND;TZID=Europe/Brussels:20270612T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #4 (ATLAS)
@@ -3773,7 +3720,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4264@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270612T100000
 DTEND;TZID=Europe/Brussels:20270612T114500
 SUMMARY:[LOC] NORD#22 - Jambes (Plage d'Amée) (Pégase)
@@ -3785,7 +3732,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4289@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270612T100000
 DTEND;TZID=Europe/Brussels:20270612T120000
 SUMMARY:[LOC] Gent Orienteering Series - Cirkelpark (TROL)
@@ -3820,7 +3767,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4193@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270613T100000
 DTEND;TZID=Europe/Brussels:20270613T120000
 SUMMARY:[REG] Regionale Holven (Pelt) (hamok)
@@ -3842,7 +3789,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4140@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270616T183000
 DTEND;TZID=Europe/Brussels:20270616T200000
 SUMMARY:[REG] Lenteloop (KOVZ)
@@ -3854,7 +3801,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4194@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:[REG] Indoor (Aalst) (TROL)
@@ -3865,7 +3812,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3917@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:[REG] Championnat FRSO LD (Balise 10)
@@ -3876,7 +3823,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4195@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270620T100000
 DTEND;TZID=Europe/Brussels:20270620T120000
 SUMMARY:[REG] Indoor/City-O Aalst (TROL)
@@ -3888,7 +3835,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4081@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:[NAT] BCR - Relais des Clubs (ThOR)
@@ -3900,7 +3847,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4020@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:[NAT] 3 Days of Belgium 2027 (OLVE)
@@ -3919,7 +3866,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4244@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:[REG] Stage PUPILLES (HD-10-12-14) FRSO-OV – St-VITH (FRSO)
@@ -3954,7 +3901,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4082@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270712
 SUMMARY:[REG] 36e Transforestière (ASUB)
@@ -3966,7 +3913,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4135@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270710T100000
 DTEND;TZID=Europe/Brussels:20270710T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #5 (ATLAS)
@@ -3990,7 +3937,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4290@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270717T100000
 DTEND;TZID=Europe/Brussels:20270717T120000
 SUMMARY:[LOC] Gent Orienteering Series - Moscou / Vogelhoek (TROL)
@@ -4025,7 +3972,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4196@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270724T100000
 DTEND;TZID=Europe/Brussels:20270724T120000
 SUMMARY:[REG] Regionale Gerhagen (Tessenderlo-Ham) (Omega)
@@ -4037,7 +3984,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4197@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270816
 SUMMARY:[REG] Flanders 3 Days (Lommel) (hamok)
@@ -4048,7 +3995,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4291@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270821T100000
 DTEND;TZID=Europe/Brussels:20270821T120000
 SUMMARY:[LOC] Gent Orienteering Series - Guislain/Bloemekenswijk (TROL)
@@ -4083,7 +4030,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4083@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270828
 DTEND;VALUE=DATE:20270829
 SUMMARY:[REG] Régionale Moyenne Distance - Spa Ville (Hermathenae)
@@ -4095,7 +4042,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4084@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270828
 DTEND;VALUE=DATE:20270829
 SUMMARY:[REG] Championnat FRSO Moyenne Distance - Spa Nord (Hermathenae)
@@ -4107,7 +4054,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4136@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270904T100000
 DTEND;TZID=Europe/Brussels:20270904T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #6 (ATLAS)
@@ -4131,7 +4078,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4143@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270904T084500
 DTEND;TZID=Europe/Brussels:20270904T090000
 SUMMARY:[LOC] Journée Objectif Balises - Chiny (ASUB)
@@ -4155,7 +4102,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4201@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:[NAT] BK/CB Long Distance - Lanklaarderbos (Omega)
@@ -4166,7 +4113,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4245@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270913
 SUMMARY:[REG] Stage PUPILLES (HD-10-12-14) FRSO-OV – ANLIER (FRSO)
@@ -4202,7 +4149,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4085@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Anlier (SudOLux)
@@ -4214,7 +4161,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4086@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 SUMMARY:[NAT] Chpt de Belgique Interclubs (ASUB)
@@ -4228,7 +4175,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4292@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270918T100000
 DTEND;TZID=Europe/Brussels:20270918T120000
 SUMMARY:[LOC] Gent Orienteering Series - Citadelpark (TROL)
@@ -4263,7 +4210,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4202@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270919
 DTEND;VALUE=DATE:20270920
 SUMMARY:[NAT] BK Aflossing/CB Relais (KOL)
@@ -4274,7 +4221,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4225@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270919T100000
 DTEND;TZID=Europe/Brussels:20270919T120000
 SUMMARY:[NAT] BK Aflossing/CB Relais - Dagomlopen (KOL)
@@ -4286,7 +4233,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4203@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
 SUMMARY:[LOC] Wisselbeker Rik Thijs - Weyervlakte (Defensie-La Défense)
@@ -4297,7 +4244,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3918@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 SUMMARY:[REG] Régionale (CO Liège)
@@ -4308,7 +4255,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4205@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20270926T100000
 DTEND;TZID=Europe/Brussels:20270926T120000
 SUMMARY:[REG] Regionale Stelebos/Lieteberg (Zutendaal) (Omega)
@@ -4330,7 +4277,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4137@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271002T100000
 DTEND;TZID=Europe/Brussels:20271002T120000
 SUMMARY:[LOC] Parkstad Orienteering Series #7 (ATLAS)
@@ -4354,7 +4301,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4204@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271003T100000
 DTEND;TZID=Europe/Brussels:20271003T120000
 SUMMARY:[NAT] Nationale Lang - Waterschei (hamok)
@@ -4366,7 +4313,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3600@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271009T084500
 DTEND;TZID=Europe/Brussels:20271009T090000
 SUMMARY:[LOC] Journée Objectif Balises - Uccle (ASUB)
@@ -4393,7 +4340,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4293@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271009T100000
 DTEND;TZID=Europe/Brussels:20271009T120000
 SUMMARY:[LOC] Gent Orienteering Series - Bijloke/Coupure (TROL)
@@ -4428,7 +4375,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4208@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 SUMMARY:[REG] VK Aflossing - Drongengoedbos (Aalter) (TROL)
@@ -4439,7 +4386,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4087@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271017
 DTEND;VALUE=DATE:20271018
 SUMMARY:[REG] Régionale Ultra-Sprint - Wégimont (Hermathenae)
@@ -4451,7 +4398,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4088@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271017
 DTEND;VALUE=DATE:20271018
 SUMMARY:[REG] Brussels Orienteering Challenge #1 - sprint urbain (ASUB)
@@ -4463,7 +4410,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4207@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271017T100000
 DTEND;TZID=Europe/Brussels:20271017T120000
 SUMMARY:[REG] VK Middel - Kraanberg/Lillo (Heusden-Zolder) (KOL)
@@ -4475,7 +4422,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4268@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 SUMMARY:[NAT] NK Lang (KOVZ)
@@ -4486,7 +4433,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4246@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20271105
 SUMMARY:[REG] Stage PUPILLES (HD-10/-12/-14) FRSO-OV – KASTERLEE (FRSO)
@@ -4521,7 +4468,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4294@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271106T100000
 DTEND;TZID=Europe/Brussels:20271106T120000
 SUMMARY:[LOC] Gent Orienteering Series - Gentbrugge (TROL)
@@ -4556,7 +4503,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4209@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271107T100000
 DTEND;TZID=Europe/Brussels:20271107T120000
 SUMMARY:[REG] Forest Cup Haarterheide (Hamont) (hamok)
@@ -4578,7 +4525,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4210@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271111
 DTEND;VALUE=DATE:20271115
 SUMMARY:[REG] North Sea Trophy (KOL)
@@ -4589,7 +4536,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4089@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271114
 DTEND;VALUE=DATE:20271115
 SUMMARY:[REG] BOC2 - 9 couleurs - Groenendael (Altaïr)
@@ -4601,7 +4548,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4211@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271120
 DTEND;VALUE=DATE:20271121
 SUMMARY:[REG] MTB-O Vriesel (Oelegem) (TROL)
@@ -4612,7 +4559,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4212@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271120
 DTEND;VALUE=DATE:20271121
 SUMMARY:[REG] Regionale Vriesel (Oelegem) (TROL)
@@ -4623,7 +4570,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4213@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271120
 DTEND;VALUE=DATE:20271121
 SUMMARY:[REG] Avond-O Vriesel (Oelegem) (TROL)
@@ -4634,7 +4581,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4090@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271121
 DTEND;VALUE=DATE:20271122
 SUMMARY:[REG] Brussels Orienteering Challenge #3 (ASUB)
@@ -4649,7 +4596,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4214@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271121
 DTEND;VALUE=DATE:20271122
 SUMMARY:[REG] Herfstwisselbeker Gruitrode (Oudsbergen) (Omega)
@@ -4676,7 +4623,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4215@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271126
 DTEND;VALUE=DATE:20271127
 SUMMARY:[REG] Avond-O De Beeltjes (Westerlo) (KOL)
@@ -4687,7 +4634,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4216@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271128T100000
 DTEND;TZID=Europe/Brussels:20271128T120000
 SUMMARY:[REG] Regionale Grobbendonk (Grobbendonk) (TROL)
@@ -4709,7 +4656,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4217@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271204
 SUMMARY:[LOC] Baeckelandt (Leopoldsburg) (Defensie-La Défense)
@@ -4720,7 +4667,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4218@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271205
 DTEND;VALUE=DATE:20271206
 SUMMARY:[REG] Sinterklaascross: Regionale Kamp Beverlo (Omega)
@@ -4731,7 +4678,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4283@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271211T100000
 DTEND;TZID=Europe/Brussels:20271211T120000
 SUMMARY:[LOC] Gent Orienteering Series - Claeys-Bouüaert (TROL)
@@ -4766,7 +4713,7 @@ CATEGORIES:Orienteering,Local
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4091@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271212
 DTEND;VALUE=DATE:20271213
 SUMMARY:[REG] BOC#4 - Ultra Longues Distances (ASUB)
@@ -4781,7 +4728,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4219@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271212T100000
 DTEND;TZID=Europe/Brussels:20271212T120000
 SUMMARY:[REG] Regionale Kattevenia (Genk) (KOL)
@@ -4803,7 +4750,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4220@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271218
 DTEND;VALUE=DATE:20271219
 SUMMARY:[REG] Avond-O Windelsteen (As) (Omega)
@@ -4814,7 +4761,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4221@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20271219T100000
 DTEND;TZID=Europe/Brussels:20271219T120000
 SUMMARY:[REG] Regionale Kepkensberg (Tessenderlo-Ham) (hamok)
@@ -4836,7 +4783,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4222@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20271226
 DTEND;VALUE=DATE:20271231
 SUMMARY:[REG] Sylvester 5-days (OV)
@@ -4850,7 +4797,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4226@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20280213T100000
 DTEND;TZID=Europe/Brussels:20280213T120000
 SUMMARY:[NAT] Nationale Lang Kattenbos (Lommel) (hamok)
@@ -4862,7 +4809,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4227@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20280312T100000
 DTEND;TZID=Europe/Brussels:20280312T120000
 SUMMARY:[NAT] BK/CB Middle - Lommel Sahara (KOL)
@@ -4874,7 +4821,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4093@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280318
 DTEND;VALUE=DATE:20280319
 SUMMARY:[NAT] Chpt Belgique de Nuit - Anlier (SudOLux)
@@ -4886,7 +4833,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4094@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280319
 DTEND;VALUE=DATE:20280320
 SUMMARY:[NAT] Nat LD - Nationale Longues distances - Anlier (SudOLux)
@@ -4898,7 +4845,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4237@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280325
 DTEND;VALUE=DATE:20280327
 SUMMARY:[REG] Interland - Deelname OV (UK) (OV)
@@ -4909,7 +4856,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4095@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280402
 DTEND;VALUE=DATE:20280403
 SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Wolfsbusch (ARDOC)
@@ -4921,7 +4868,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4228@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280429
 DTEND;VALUE=DATE:20280430
 SUMMARY:[NAT] Nationale Sprint - De Haan (TROL)
@@ -4932,7 +4879,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4236@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280430
 DTEND;VALUE=DATE:20280501
 SUMMARY:[REG] VK Sprint Wenduine (TROL)
@@ -4943,7 +4890,7 @@ CATEGORIES:Orienteering,Regional
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4229@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20280501T100000
 DTEND;TZID=Europe/Brussels:20280501T120000
 SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (TROL)
@@ -4954,7 +4901,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4230@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20280501T100000
 DTEND;TZID=Europe/Brussels:20280501T120000
 SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (dagomlopen) (TROL)
@@ -4966,7 +4913,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4096@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280514
 DTEND;VALUE=DATE:20280515
 SUMMARY:[NAT] Chpt Belgique Sprint - BK Sprint - Brussels (ASUB)
@@ -4980,7 +4927,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4231@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280527
 DTEND;VALUE=DATE:20280528
 SUMMARY:[NAT] BK/CB MTB-O (TROL)
@@ -4991,7 +4938,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4232@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280527
 DTEND;VALUE=DATE:20280528
 SUMMARY:[NAT] BK/CB MTB-O - Parcours van de dag (TROL)
@@ -5002,7 +4949,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4097@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280603
 DTEND;VALUE=DATE:20280606
 SUMMARY:[NAT] 3 JB2028 - 3 Jours de Belgique 2028 - Lagland (CO Liège)
@@ -5016,7 +4963,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4098@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280902
 DTEND;VALUE=DATE:20280903
 SUMMARY:[NAT] Nat MD - Nationale Moyennes distances - Ardennes (ThOR)
@@ -5028,7 +4975,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4099@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280903
 DTEND;VALUE=DATE:20280904
 SUMMARY:[NAT] Chpt de Belgique Longues Distances - Daverdisse (Balise 10)
@@ -5040,7 +4987,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4233@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20280910
 DTEND;VALUE=DATE:20280911
 SUMMARY:[NAT] Interclub Gruitrode (Oudsbergen) (Omega)
@@ -5051,7 +4998,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4234@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;TZID=Europe/Brussels:20281008T100000
 DTEND;TZID=Europe/Brussels:20281008T120000
 SUMMARY:[NAT] Nationale Lang Lanklaarderbos (Omega)
@@ -5063,7 +5010,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4235@opunch.org
-DTSTAMP:20260925T045127Z
+DTSTAMP:20260926T045105Z
 DTSTART;VALUE=DATE:20281226
 DTEND;VALUE=DATE:20281231
 SUMMARY:[REG] Sylvester 2028 (OV)
