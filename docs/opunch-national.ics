@@ -27,44 +27,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:opunch-3603@opunch.org
-DTSTAMP:20261003T051223Z
-DTSTART;TZID=Europe/Brussels:20261003T140000
-DTEND;TZID=Europe/Brussels:20261003T153000
-SUMMARY:[NAT] BK MTBO - Lommel (hamok)
-LOCATION:De Soeverein - Lommel\, Sportveldenstraat 10\, Lommel
-GEO:51.244904;5.306947
-URL:https://www.opunch.org/event/3603
-DESCRIPTION:Organiser: hamok\nLevel: National\nStart times: 14:00 - 15:30\n
- Registration closes: 2026-09-23\nMap: https://www.google.com/maps?q=51.244
- 904\,5.306947\nDetails & registration: https://www.opunch.org/event/3603\n
- \nNL\nAfstanden buiten wedstrijd:\nAfstand CC >> start 2\,5km\nAfstand Fin
- ish >> CC 1\,5km\nParking >> CC: nabijgelegen maar door een ander evenemen
- t wordt er grote drukte verwacht op de parking!\n\nTijdsschema wedstrijdda
- g:\n13:00 Opening CC\n13:45-14:00 Start e-bikes\n14:00-15:30 Start\n\nE-bi
- kes:\nGewone elektrische fietsen (geen speed pedelecs) kunnen buiten compe
- titie meedoen\, worden geklasseerd na de anderen en starten tussen 12.45 e
- n 13.00 uur (voor de anderen).\n\nOmlopen:\nOmloop 1: 20\,95 km - H Open\n
- Omloop 2: 18\,91 km - D Open\, H Master A\, Dagomloop Lang\nOmloop 3: 15\,
- 53 km - D Master A\, H Master B\, H Jun\nOmloop 4: 14\,31 km - D Master B\
- , D Jun\, H Master C\nOmloop 5: 11\,12 km - D Master C\, H Master D\, Dago
- mloop Kort\nOmloop 6: 10\,26 km - D Master D\, H Master E\nOmloop 7: 9\,61
-  km - D Bel/Esp\, H Bel/Esp\, D Master E\nOmloop 8: 7\,79 km - H Master F\
- nOmloop 9: 6\,99 km - D Master F\n\nReminder - Safety First: \nFietshelm 
- verplicht!\nEr is ook een drukke oversteek aan de rotonde tussen de kaart 
- van Sahara en Heeserbergen\, hier voorzien we tijdsneutralisatie.\nFR\nDis
- tances hors parcours :\n\nCentre de course >> Départ : 2\,5 km\nArrivée 
- >> Centre de course : 1\,5 km\nParking >> Centre de course : à proximit
- é\, mais attention grande occupation sur le parking possible en raison d'
- un autre événement !\n\nHoraires de la compétition:\n13:00 Ouverture CC
- \n13:45-14:00 Départ e-bikes\n14:00-15:30 Départ\nE-bikes:\nLes vélos 
- électriques réguliers (pas les speed pedelecs) peuvent participer hors c
- ompétition\, sont classés après 
-CATEGORIES:Orienteering,National
-END:VEVENT
-BEGIN:VEVENT
 UID:opunch-4280@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20261017T103000
 DTEND;TZID=Europe/Brussels:20261017T123000
 SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
@@ -102,7 +66,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3606@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20261018T100000
 DTEND;TZID=Europe/Brussels:20261018T120000
 SUMMARY:[NAT] Clubaflossing - Witteberg (hamok)
@@ -138,7 +102,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3607@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20261018T100000
 DTEND;TZID=Europe/Brussels:20261018T120000
 SUMMARY:[NAT] Clubaflossing - Witteberg - Dagomlopen (hamok)
@@ -156,7 +120,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4281@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20261212T103000
 DTEND;TZID=Europe/Brussels:20261212T123000
 SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
@@ -194,7 +158,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4282@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270116T103000
 DTEND;TZID=Europe/Brussels:20270116T123000
 SUMMARY:[NAT] Test physique/fysieke test (FRSO-OV) Belgian Team (Belgium Te
@@ -232,7 +196,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4077@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:[NAT] Nat LD - Nationale Longues Distances (Hermathenae)
@@ -244,7 +208,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4172@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270221T100000
 DTEND;TZID=Europe/Brussels:20270221T120000
 SUMMARY:[NAT] Nationale Lang Weyervlakte (Leopoldsburg) (Omega)
@@ -256,7 +220,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3919@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:[NAT] Championnat de Belgique MD: Bois des Manant (CO Liège)
@@ -271,7 +235,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4179@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270320T190000
 DTEND;TZID=Europe/Brussels:20270320T210000
 SUMMARY:[NAT] BK Avond/CB Nuit Nassogne (TROL)
@@ -283,7 +247,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4180@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270321T100000
 DTEND;TZID=Europe/Brussels:20270321T120000
 SUMMARY:[NAT] Nationale Middle - Nassogne (TROL)
@@ -295,7 +259,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-3821@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:[NAT] CB VTTO (CO Liège)
@@ -306,7 +270,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4092@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:[NAT] Nat Sprint - Nationale Sprint - Farciennes (Balise 10)
@@ -318,7 +282,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4138@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270502T100000
 DTEND;TZID=Europe/Brussels:20270502T120000
 SUMMARY:[NAT] Nationale - Urban Middle - Kerkrade west (ATLAS)
@@ -330,7 +294,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4186@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270518
 SUMMARY:[NAT] ASOM (Brugge) (Antwerp O)
@@ -341,7 +305,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4190@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270530T100000
 DTEND;TZID=Europe/Brussels:20270530T120000
 SUMMARY:[NAT] BK/CB Sprint Genk Centrum (KOL)
@@ -353,7 +317,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4081@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:[NAT] BCR - Relais des Clubs (ThOR)
@@ -365,7 +329,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4020@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:[NAT] 3 Days of Belgium 2027 (OLVE)
@@ -384,7 +348,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4201@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:[NAT] BK/CB Long Distance - Lanklaarderbos (Omega)
@@ -395,7 +359,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4085@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Anlier (SudOLux)
@@ -407,7 +371,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4086@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 SUMMARY:[NAT] Chpt de Belgique Interclubs (ASUB)
@@ -421,7 +385,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4202@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20270919
 DTEND;VALUE=DATE:20270920
 SUMMARY:[NAT] BK Aflossing/CB Relais (KOL)
@@ -432,7 +396,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4225@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20270919T100000
 DTEND;TZID=Europe/Brussels:20270919T120000
 SUMMARY:[NAT] BK Aflossing/CB Relais - Dagomlopen (KOL)
@@ -444,7 +408,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4204@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20271003T100000
 DTEND;TZID=Europe/Brussels:20271003T120000
 SUMMARY:[NAT] Nationale Lang - Waterschei (hamok)
@@ -456,7 +420,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4226@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20280213T100000
 DTEND;TZID=Europe/Brussels:20280213T120000
 SUMMARY:[NAT] Nationale Lang Kattenbos (Lommel) (hamok)
@@ -468,7 +432,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4227@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20280312T100000
 DTEND;TZID=Europe/Brussels:20280312T120000
 SUMMARY:[NAT] BK/CB Middle - Lommel Sahara (KOL)
@@ -480,7 +444,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4093@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280318
 DTEND;VALUE=DATE:20280319
 SUMMARY:[NAT] Chpt Belgique de Nuit - Anlier (SudOLux)
@@ -492,7 +456,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4094@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280319
 DTEND;VALUE=DATE:20280320
 SUMMARY:[NAT] Nat LD - Nationale Longues distances - Anlier (SudOLux)
@@ -504,7 +468,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4095@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280402
 DTEND;VALUE=DATE:20280403
 SUMMARY:[NAT] Nat LD - Nationale Longues Distances - Wolfsbusch (ARDOC)
@@ -516,7 +480,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4228@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280429
 DTEND;VALUE=DATE:20280430
 SUMMARY:[NAT] Nationale Sprint - De Haan (TROL)
@@ -527,7 +491,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4229@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20280501T100000
 DTEND;TZID=Europe/Brussels:20280501T120000
 SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (TROL)
@@ -538,7 +502,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4230@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20280501T100000
 DTEND;TZID=Europe/Brussels:20280501T120000
 SUMMARY:[NAT] BK Sprint Aflossing - Blankenberge (dagomlopen) (TROL)
@@ -550,7 +514,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4096@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280514
 DTEND;VALUE=DATE:20280515
 SUMMARY:[NAT] Chpt Belgique Sprint - BK Sprint - Brussels (ASUB)
@@ -564,7 +528,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4231@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280527
 DTEND;VALUE=DATE:20280528
 SUMMARY:[NAT] BK/CB MTB-O (TROL)
@@ -575,7 +539,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4232@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280527
 DTEND;VALUE=DATE:20280528
 SUMMARY:[NAT] BK/CB MTB-O - Parcours van de dag (TROL)
@@ -586,7 +550,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4097@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280603
 DTEND;VALUE=DATE:20280606
 SUMMARY:[NAT] 3 JB2028 - 3 Jours de Belgique 2028 - Lagland (CO Liège)
@@ -600,7 +564,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4098@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280902
 DTEND;VALUE=DATE:20280903
 SUMMARY:[NAT] Nat MD - Nationale Moyennes distances - Ardennes (ThOR)
@@ -612,7 +576,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4099@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280903
 DTEND;VALUE=DATE:20280904
 SUMMARY:[NAT] Chpt de Belgique Longues Distances - Daverdisse (Balise 10)
@@ -624,7 +588,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4233@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;VALUE=DATE:20280910
 DTEND;VALUE=DATE:20280911
 SUMMARY:[NAT] Interclub Gruitrode (Oudsbergen) (Omega)
@@ -635,7 +599,7 @@ CATEGORIES:Orienteering,National
 END:VEVENT
 BEGIN:VEVENT
 UID:opunch-4234@opunch.org
-DTSTAMP:20261003T051223Z
+DTSTAMP:20261004T054548Z
 DTSTART;TZID=Europe/Brussels:20281008T100000
 DTEND;TZID=Europe/Brussels:20281008T120000
 SUMMARY:[NAT] Nationale Lang Lanklaarderbos (Omega)
