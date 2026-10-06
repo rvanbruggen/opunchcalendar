@@ -6,50 +6,107 @@
 <title>Orienteering Belgium calendar feed</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <style>
- :root{color-scheme:light dark;--bg:#fff;--fg:#222;--muted:#555;--code-bg:#f3f3f3;--border:#ccc;--link:#0b5fd0}
- @media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e6e6e6;--muted:#a6a6a6;--code-bg:#24272e;--border:#444;--link:#78b4ff}}
- body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5;background:var(--bg);color:var(--fg)}
+ /* Visual language borrowed from opunch.org: Nunito Sans, the orange header
+    bar, the light blue-grey page with a white card, and their own level
+    colours (LOC/REG/NAT). Their stylesheets are a Bootstrap 3 + AdminLTE
+    bundle tied to their markup and version-pinned URLs, so this is a small
+    standalone sheet rather than a link to theirs. */
+ :root{
+  color-scheme:light dark;
+  --brand:#f39c12; --brand-ink:#fff;
+  --page:#ecf0f5; --card:#fff; --fg:#333; --head:#444; --muted:#767b84;
+  --link:#337ab7; --border:#d2d6de; --code-bg:#f4f6f9;
+  --loc:#375E97; --reg:#FFBB00; --nat:#FB6542;
+ }
+ @media (prefers-color-scheme:dark){
+  :root{--page:#14161a; --card:#1c1f25; --fg:#e4e6e8; --head:#f2f3f4; --muted:#9aa0a8;
+        --link:#7fb6e4; --border:#333941; --code-bg:#23272e;}
+ }
+ *{box-sizing:border-box}
+ body{font-family:"Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;
+      line-height:1.5;background:var(--page);color:var(--fg)}
+ .topbar{background:var(--brand);color:var(--brand-ink);padding:.7rem 1rem}
+ .topbar .inner{max-width:46rem;margin:0 auto;display:flex;flex-wrap:wrap;gap:.3rem 1rem;
+                align-items:baseline;justify-content:space-between}
+ .topbar .brand{font-size:1.25rem;font-weight:700;letter-spacing:.2px}
+ .topbar .brand span{font-weight:400;opacity:.9}
+ .topbar a{color:var(--brand-ink);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.55);font-size:.9rem}
+ main{max-width:46rem;margin:1.5rem auto 3rem;padding:0 1rem}
+ .card{background:var(--card);border-radius:3px;box-shadow:0 1px 1px rgba(0,0,0,.1);
+       border-top:3px solid var(--brand);padding:1.2rem 1.4rem;margin-bottom:1.2rem}
+ h1{font-size:1.85rem;font-weight:700;color:var(--head);margin:0 0 .4rem}
+ h2{font-size:1.25rem;font-weight:600;color:var(--head);margin:0 0 .6rem}
  a{color:var(--link)}
- small{color:var(--muted)}
+ small,.muted{color:var(--muted)}
  code{background:var(--code-bg);padding:.1rem .3rem;border-radius:3px;word-break:break-all}
+ ul,ol{padding-left:1.3rem}
  li{margin:.4rem 0}
- #map{height:28rem;border:1px solid var(--border);border-radius:4px;margin:.6rem 0}
+ .feeds{list-style:none;padding:0}
+ .feeds li{display:flex;flex-wrap:wrap;gap:.1rem .5rem;align-items:baseline;
+           padding:.55rem 0;border-bottom:1px solid var(--border)}
+ .feeds li:last-child{border-bottom:0}
+ .feeds a{font-weight:600}
+ #map{height:28rem;border:1px solid var(--border);border-radius:3px;margin:.6rem 0}
  .controls{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center}
- .controls input[type=date]{font:inherit}
+ .controls input[type=date]{font:inherit;padding:.15rem .3rem;border:1px solid var(--border);
+                            border-radius:3px;background:var(--card);color:var(--fg)}
  .dot{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.2rem;vertical-align:middle}
+ .dot-loc{background:var(--loc)} .dot-reg{background:var(--reg)} .dot-nat{background:var(--nat)}
  .leaflet-popup-content ul{padding-left:1rem;margin:.3rem 0}
- .leaflet-popup-content a{color:#0b5fd0}
+ .leaflet-popup-content a{color:#337ab7}
+ .leaflet-popup-content{font-family:"Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif}
 </style>
 </head>
 <body>
-<h1>Orienteering Belgium – calendar feed</h1>
-<p>Upcoming orienteering events from <a href="https://www.opunch.org/events/">O'Punch</a>, refreshed daily as iCalendar (.ics) files you can subscribe to.</p>
-<ul>
-  <li><a href="opunch.ics">opunch.ics</a> – all events (local, regional, national)</li>
-  <li><a href="opunch-regional-national.ics">opunch-regional-national.ics</a> – regional + national only</li>
-  <li><a href="opunch-national.ics">opunch-national.ics</a> – national only</li>
-</ul>
-<h2>Map of upcoming events</h2>
-<div class="controls">
-  <label>From <input type="date" id="from"></label>
-  <label>To <input type="date" id="to"></label>
-  <label><input type="checkbox" class="lvl" value="LOC" checked><span class="dot" style="background:#2a9d4b"></span>local</label>
-  <label><input type="checkbox" class="lvl" value="REG" checked><span class="dot" style="background:#1f6fd1"></span>regional</label>
-  <label><input type="checkbox" class="lvl" value="NAT" checked><span class="dot" style="background:#d1361f"></span>national</label>
+<div class="topbar">
+  <div class="inner">
+    <div class="brand">Orienteering Belgium <span>· calendar feeds</span></div>
+    <a href="https://www.opunch.org/events/">events on opunch.org →</a>
+  </div>
 </div>
-<div id="map"></div>
-<p><small id="map-info">Loading events…</small></p>
-<p><small>Solid markers are the venue as given on O'Punch. Hollow, dashed markers are approximate - no venue was given, so the spot is guessed from the event name and may be off by a few km.</small></p>
-<h2>Subscribe in Google Calendar</h2>
-<ol>
-  <li>Right-click the feed you want above and copy the link address.</li>
-  <li>In Google Calendar (web), next to <em>Other calendars</em> click <strong>+</strong> → <strong>From URL</strong>.</li>
-  <li>Paste the link and click <strong>Add calendar</strong>.</li>
-</ol>
-<p>Apple Calendar: <em>File → New Calendar Subscription</em>. Outlook: <em>Add calendar → Subscribe from web</em>.</p>
-<p><small>Google refreshes subscribed calendars roughly every 12–24 h. Cancelled events disappear from O'Punch and therefore from the feed on the next refresh. Not affiliated with O'Punch.</small></p>
-<p><small>Last refresh: <span id="last-run">see the log</span> · <a href="update-log.txt">refresh log</a></small></p>
+<main>
+
+<div class="card">
+  <h1>Belgian orienteering in your calendar</h1>
+  <p>Upcoming events from <a href="https://www.opunch.org/events/">O'Punch</a>, rebuilt every night as iCalendar (.ics) feeds you can subscribe to. An unofficial community project, not affiliated with O'Punch.</p>
+  <ul class="feeds">
+    <li><a href="opunch.ics">opunch.ics</a> <span class="muted">all events — local, regional and national</span></li>
+    <li><a href="opunch-regional-national.ics">opunch-regional-national.ics</a> <span class="muted">no club-level trainings</span></li>
+    <li><a href="opunch-national.ics">opunch-national.ics</a> <span class="muted">championships and national events</span></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Map of upcoming events</h2>
+  <div class="controls">
+    <label>From <input type="date" id="from"></label>
+    <label>To <input type="date" id="to"></label>
+    <label><input type="checkbox" class="lvl" value="LOC" checked><span class="dot dot-loc"></span>local</label>
+    <label><input type="checkbox" class="lvl" value="REG" checked><span class="dot dot-reg"></span>regional</label>
+    <label><input type="checkbox" class="lvl" value="NAT" checked><span class="dot dot-nat"></span>national</label>
+  </div>
+  <div id="map"></div>
+  <p><small id="map-info">Loading events…</small></p>
+  <p><small>Solid markers are the venue as given on O'Punch. Hollow, dashed markers are approximate — no venue was given, so the spot is guessed from the event name and may be off by a few km.</small></p>
+</div>
+
+<div class="card">
+  <h2>Subscribe in Google Calendar</h2>
+  <ol>
+    <li>Right-click the feed you want above and copy the link address.</li>
+    <li>In Google Calendar (web), next to <em>Other calendars</em> click <strong>+</strong> → <strong>From URL</strong>.</li>
+    <li>Paste the link and click <strong>Add calendar</strong>.</li>
+  </ol>
+  <p>Apple Calendar: <em>File → New Calendar Subscription</em>. Outlook: <em>Add calendar → Subscribe from web</em>.</p>
+  <p><small>Google refreshes subscribed calendars roughly every 12–24 h. Cancelled events disappear from O'Punch and therefore from the feed on the next refresh.</small></p>
+  <p><small>Last refresh: <span id="last-run">see the log</span> · <a href="update-log.txt">refresh log</a></small></p>
+</div>
+
+</main>
 <script>
 // show the newest line of the refresh log
 fetch("update-log.txt", {cache: "no-cache"})
@@ -65,7 +122,8 @@ fetch("update-log.txt", {cache: "no-cache"})
   .catch(() => {});
 
 // --- event map: reads opunch.ics and plots the events in the chosen date range ---
-const COLORS = {LOC: "#2a9d4b", REG: "#1f6fd1", NAT: "#d1361f"};
+// O'Punch's own level colours, so the map reads like their event list
+const COLORS = {LOC: "#375E97", REG: "#FFBB00", NAT: "#FB6542"};
 const isoDay = d => d.toISOString().slice(0, 10);   // works on the UTC dates used below
 const ymd = s => new Date(Date.UTC(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)));
 const unescape = v => v.replace(/\\([\\;,nN])/g, (m, c) => c === "n" || c === "N" ? "\n" : c);
