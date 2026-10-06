@@ -4,10 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Orienteering Belgium calendar feed</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <style>
  body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5;color:#222}
  code{background:#f3f3f3;padding:.1rem .3rem;border-radius:3px;word-break:break-all}
  li{margin:.4rem 0}
+ #map{height:28rem;border:1px solid #ccc;border-radius:4px;margin:.6rem 0}
+ .controls{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center}
+ .controls input[type=date]{font:inherit}
+ .dot{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.2rem;vertical-align:middle}
+ .leaflet-popup-content ul{padding-left:1rem;margin:.3rem 0}
 </style>
 </head>
 <body>
@@ -18,6 +25,16 @@
   <li><a href="opunch-regional-national.ics">opunch-regional-national.ics</a> – regional + national only</li>
   <li><a href="opunch-national.ics">opunch-national.ics</a> – national only</li>
 </ul>
+<h2>Map of upcoming events</h2>
+<div class="controls">
+  <label>From <input type="date" id="from"></label>
+  <label>To <input type="date" id="to"></label>
+  <label><input type="checkbox" class="lvl" value="LOC" checked><span class="dot" style="background:#2a9d4b"></span>local</label>
+  <label><input type="checkbox" class="lvl" value="REG" checked><span class="dot" style="background:#1f6fd1"></span>regional</label>
+  <label><input type="checkbox" class="lvl" value="NAT" checked><span class="dot" style="background:#d1361f"></span>national</label>
+</div>
+<div id="map"></div>
+<p><small id="map-info">Loading events…</small></p>
 <h2>Subscribe in Google Calendar</h2>
 <ol>
   <li>Right-click the feed you want above and copy the link address.</li>
@@ -40,6 +57,104 @@ fetch("update-log.txt", {cache: "no-cache"})
     document.getElementById("last-run").textContent = text;
   })
   .catch(() => {});
+
+// --- event map: reads opunch.ics and plots the events in the chosen date range ---
+const COLORS = {LOC: "#2a9d4b", REG: "#1f6fd1", NAT: "#d1361f"};
+const isoDay = d => d.toISOString().slice(0, 10);   // works on the UTC dates used below
+const ymd = s => new Date(Date.UTC(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8)));
+const unescape = v => v.replace(/\\([\\;,nN])/g, (m, c) => c === "n" || c === "N" ? "\n" : c);
+const html = v => v.replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+function parseIcs(text) {
+  const lines = text.replace(/\r?\n[ \t]/g, "").split(/\r?\n/);   // unfold
+  const events = [];
+  let ev = null;
+  for (const line of lines) {
+    if (line === "BEGIN:VEVENT") { ev = {}; continue; }
+    if (line === "END:VEVENT") { if (ev) events.push(ev); ev = null; continue; }
+    if (!ev) continue;
+    const i = line.indexOf(":");
+    if (i < 0) continue;
+    const [name, ...params] = line.slice(0, i).split(";");
+    const value = line.slice(i + 1);
+    if (name === "DTSTART" || name === "DTEND") {
+      ev[name] = ymd(value);
+      if (name === "DTEND" && params.includes("VALUE=DATE"))       // all-day DTEND is exclusive
+        ev[name] = new Date(ev[name].getTime() - 864e5);
+    } else if (name === "GEO") {
+      const [lat, lon] = value.split(";").map(Number);
+      if (isFinite(lat) && isFinite(lon)) ev.geo = [lat, lon];
+    } else {
+      ev[name] = unescape(value);
+    }
+  }
+  for (const e of events) {
+    e.DTEND = e.DTEND || e.DTSTART;
+    e.level = ((e.SUMMARY || "").match(/^\[(LOC|REG|NAT)\]/) || [])[1] || "LOC";
+  }
+  return events.filter(e => e.DTSTART);
+}
+
+const map = L.map("map").setView([50.6, 4.6], 8);   // Belgium
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 18,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+const fromEl = document.getElementById("from"), toEl = document.getElementById("to");
+const info = document.getElementById("map-info");
+let allEvents = [];
+
+function render() {
+  layer.clearLayers();
+  if (!fromEl.value || !toEl.value) return;
+  const from = new Date(fromEl.value), to = new Date(toEl.value);   // "YYYY-MM-DD" parses as UTC
+  const levels = [...document.querySelectorAll(".lvl:checked")].map(c => c.value);
+  const inRange = allEvents.filter(e => e.DTSTART <= to && e.DTEND >= from && levels.includes(e.level));
+  // events at the same spot share one marker
+  const spots = new Map();
+  for (const e of inRange.filter(e => e.geo)) {
+    const key = e.geo.join(",");
+    if (!spots.has(key)) spots.set(key, []);
+    spots.get(key).push(e);
+  }
+  const rank = {LOC: 0, REG: 1, NAT: 2};
+  for (const evs of spots.values()) {
+    evs.sort((a, b) => a.DTSTART - b.DTSTART);
+    const top = evs.reduce((a, b) => rank[b.level] > rank[a.level] ? b : a).level;
+    const items = evs.map(e => {
+      const day = isoDay(e.DTSTART) + (+e.DTEND !== +e.DTSTART ? " → " + isoDay(e.DTEND) : "");
+      const link = e.URL ? ` · <a href="${html(e.URL)}" target="_blank" rel="noopener">O'Punch page</a>` : "";
+      return `<li><strong>${day}</strong><br>${html(e.SUMMARY || "")}${link}</li>`;
+    }).join("");
+    const directions = "https://www.google.com/maps/dir/?api=1&destination=" + evs[0].geo.join(",");
+    L.circleMarker(evs[0].geo, {radius: 7 + Math.min(evs.length - 1, 4) * 2, color: "#fff", weight: 1.5,
+                                fillColor: COLORS[top], fillOpacity: .9})
+      .bindPopup(`<ul>${items}</ul>${html(evs[0].LOCATION || "")}<br>` +
+                 `<a href="${directions}" target="_blank" rel="noopener">Directions (Google Maps)</a>`, {maxWidth: 300})
+      .addTo(layer);
+  }
+  const noGeo = inRange.length - inRange.filter(e => e.geo).length;
+  info.textContent = `${inRange.length} event(s) between ${fromEl.value} and ${toEl.value}` +
+    (noGeo ? ` – ${noGeo} without a location on O'Punch are not on the map.` : ".");
+}
+
+fetch("opunch.ics", {cache: "no-cache"})
+  .then(r => r.ok ? r.text() : Promise.reject())
+  .then(t => {
+    allEvents = parseIcs(t);
+    const today = new Date(), first = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
+    const last = allEvents.reduce((m, e) => e.DTEND > m ? e.DTEND : m, first);
+    fromEl.min = toEl.min = isoDay(first);
+    fromEl.max = toEl.max = isoDay(last);
+    fromEl.value = isoDay(first);
+    toEl.value = isoDay(new Date(Math.min(first.getTime() + 30 * 864e5, last.getTime())));  // default: next 30 days
+    render();
+  })
+  .catch(() => { info.textContent = "Could not load the events."; });
+fromEl.addEventListener("change", () => { if (toEl.value < fromEl.value) toEl.value = fromEl.value; render(); });
+toEl.addEventListener("change", () => { if (fromEl.value > toEl.value) fromEl.value = toEl.value; render(); });
+document.querySelectorAll(".lvl").forEach(c => c.addEventListener("change", render));
 </script>
 </body>
 </html>

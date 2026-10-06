@@ -12,6 +12,10 @@ This project publishes the upcoming orienteering events listed on [O'Punch](http
 
 The same links, with instructions, are on https://rvanbruggen.github.io/opunchcalendar/.
 
+## Map of events
+
+The web page also has a map: pick a date range (and optionally the levels) and every event in that range with a known location is shown as a marker. A marker's popup links to the event page on O'Punch and to Google Maps directions to the venue. The map reads `opunch.ics` when the page loads, so it is always as fresh as the feeds. Some events have no location on O'Punch; the page says how many are missing from the map.
+
 ## How to subscribe
 
 Subscribe rather than import: a subscription keeps itself up to date, an import is a one-off copy.
