@@ -7,14 +7,19 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <style>
- body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5;color:#222}
- code{background:#f3f3f3;padding:.1rem .3rem;border-radius:3px;word-break:break-all}
+ :root{color-scheme:light dark;--bg:#fff;--fg:#222;--muted:#555;--code-bg:#f3f3f3;--border:#ccc;--link:#0b5fd0}
+ @media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e6e6e6;--muted:#a6a6a6;--code-bg:#24272e;--border:#444;--link:#78b4ff}}
+ body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5;background:var(--bg);color:var(--fg)}
+ a{color:var(--link)}
+ small{color:var(--muted)}
+ code{background:var(--code-bg);padding:.1rem .3rem;border-radius:3px;word-break:break-all}
  li{margin:.4rem 0}
- #map{height:28rem;border:1px solid #ccc;border-radius:4px;margin:.6rem 0}
+ #map{height:28rem;border:1px solid var(--border);border-radius:4px;margin:.6rem 0}
  .controls{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center}
  .controls input[type=date]{font:inherit}
  .dot{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.2rem;vertical-align:middle}
  .leaflet-popup-content ul{padding-left:1rem;margin:.3rem 0}
+ .leaflet-popup-content a{color:#0b5fd0}
 </style>
 </head>
 <body>
