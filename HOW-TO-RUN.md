@@ -6,6 +6,7 @@ This page is for people who want to generate the calendar on their own machine, 
 
 ```
 opunch_to_ics.py                       the converter (Python 3, standard library only)
+geocache.json                          cached Nominatim results for events without an address
 .github/workflows/update-calendar.yml  GitHub Actions job that rebuilds the feeds daily
 docs/                                  published by GitHub Pages: index.html + the .ics files
 ```
@@ -53,6 +54,25 @@ python3 opunch_to_ics.py --from-json raw.json -o test.ics
 ```bash
 pip install icalendar
 python3 -c "from icalendar import Calendar; c=Calendar.from_ical(open('docs/opunch.ics','rb').read()); print(len(c.walk('VEVENT')),'events OK')"
+```
+
+## Guessing the missing locations
+
+About 60% of the events carry no address at all on O'Punch - the organiser never filled one in - so they have no coordinates and cannot go on the map. As a fallback the script guesses a place name from the event title and looks it up in [Nominatim](https://nominatim.openstreetmap.org/), restricted to Belgium.
+
+Two things keep the guesses honest:
+
+- Only `place`, `natural`, `boundary` and `landuse` results count. Allowing amenities matched shops and cafes that share a word with the event name.
+- Many Belgian place names occur several times. The script takes the median coordinate of each club's events that *do* have an address, and picks the candidate within 40 km of it. Without that, an event at Sart-Tilman near Liege landed in Bavaria. If a club's area is unknown, a name is only used when it means exactly one place.
+
+Measured against the events that already have coordinates: most get no guess at all, and of those that do, the majority land within 1 km and the rest within a few km. Guessed events are marked `X-OPUNCH-GEO:APPROXIMATE`, their `LOCATION` reads "near X (approximate)", the description says the venue was guessed, and the map draws them as hollow, dashed markers.
+
+Results are cached in `geocache.json` (committed, so the daily job does not ask Nominatim the same question twice). Failed lookups are retried after 30 days. Each run makes at most `--geocode-limit` new lookups (default 80, one per second as Nominatim asks), so the first runs fill the cache gradually.
+
+```bash
+python3 opunch_to_ics.py --no-geocode          # only real addresses
+python3 opunch_to_ics.py --geocode-limit 0     # use the cache, make no new lookups
+python3 opunch_to_ics.py --geocache other.json # keep the cache somewhere else
 ```
 
 ## Customising

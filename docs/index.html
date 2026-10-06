@@ -40,6 +40,7 @@
 </div>
 <div id="map"></div>
 <p><small id="map-info">Loading events…</small></p>
+<p><small>Solid markers are the venue as given on O'Punch. Hollow, dashed markers are approximate - no venue was given, so the spot is guessed from the event name and may be off by a few km.</small></p>
 <h2>Subscribe in Google Calendar</h2>
 <ol>
   <li>Right-click the feed you want above and copy the link address.</li>
@@ -96,6 +97,7 @@ function parseIcs(text) {
   for (const e of events) {
     e.DTEND = e.DTEND || e.DTSTART;
     e.level = ((e.SUMMARY || "").match(/^\[(LOC|REG|NAT)\]/) || [])[1] || "LOC";
+    e.approx = e["X-OPUNCH-GEO"] === "APPROXIMATE";   // location guessed from the event name
   }
   return events.filter(e => e.DTSTART);
 }
@@ -133,15 +135,24 @@ function render() {
       return `<li><strong>${day}</strong><br>${html(e.SUMMARY || "")}${link}</li>`;
     }).join("");
     const directions = "https://www.google.com/maps/dir/?api=1&destination=" + evs[0].geo.join(",");
-    L.circleMarker(evs[0].geo, {radius: 7 + Math.min(evs.length - 1, 4) * 2, color: "#fff", weight: 1.5,
-                                fillColor: COLORS[top], fillOpacity: .9})
-      .bindPopup(`<ul>${items}</ul>${html(evs[0].LOCATION || "")}<br>` +
+    const approx = evs.every(e => e.approx);
+    const caveat = approx ? '<br><em>Approximate: no venue given on O\'Punch, so this is guessed ' +
+                            'from the event name. Check the event page before travelling.</em>' : "";
+    L.circleMarker(evs[0].geo, {radius: 7 + Math.min(evs.length - 1, 4) * 2,
+                                color: approx ? COLORS[top] : "#fff",
+                                weight: approx ? 2 : 1.5,
+                                dashArray: approx ? "3 3" : null,
+                                fillColor: COLORS[top], fillOpacity: approx ? .2 : .9})
+      .bindPopup(`<ul>${items}</ul>${html(evs[0].LOCATION || "")}${caveat}<br>` +
                  `<a href="${directions}" target="_blank" rel="noopener">Directions (Google Maps)</a>`, {maxWidth: 300})
       .addTo(layer);
   }
   const noGeo = inRange.length - inRange.filter(e => e.geo).length;
+  const nApprox = inRange.filter(e => e.geo && e.approx).length;
   info.textContent = `${inRange.length} event(s) between ${fromEl.value} and ${toEl.value}` +
-    (noGeo ? ` – ${noGeo} without a location on O'Punch are not on the map.` : ".");
+    (noGeo ? ` – ${noGeo} without a location on O'Punch are not on the map` : "") +
+    (nApprox ? `${noGeo ? "," : " –"} ${nApprox} shown at an approximate spot (hollow marker) guessed from the event name` : "") +
+    (noGeo || nApprox ? "." : ".");
 }
 
 fetch("opunch.ics", {cache: "no-cache"})

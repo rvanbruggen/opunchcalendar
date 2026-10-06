@@ -14,7 +14,7 @@ The same links, with instructions, are on https://rvanbruggen.github.io/opunchca
 
 ## Map of events
 
-The web page also has a map: pick a date range (and optionally the levels) and every event in that range with a known location is shown as a marker. A marker's popup links to the event page on O'Punch and to Google Maps directions to the venue. The map reads `opunch.ics` when the page loads, so it is always as fresh as the feeds. Some events have no location on O'Punch; the page says how many are missing from the map.
+The web page also has a map: pick a date range (and optionally the levels) and every event in that range with a known location is shown as a marker. A marker's popup links to the event page on O'Punch and to Google Maps directions to the venue. The map reads `opunch.ics` when the page loads, so it is always as fresh as the feeds. Many events have no venue on O'Punch at all. For some of those the location is guessed from the event name and drawn as a hollow, dashed marker - treat those as a hint, not an address, and check the event page. The rest are counted under the map as missing.
 
 ## How to subscribe
 

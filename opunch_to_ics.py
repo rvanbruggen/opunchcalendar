@@ -37,8 +37,11 @@ import argparse
 import datetime as dt
 import http.cookiejar
 import json
+import math
 import re
 import sys
+import time
+import urllib.parse
 import urllib.request
 
 BASE = "https://www.opunch.org"
@@ -104,6 +107,200 @@ def fetch_events(timeout=60):
 
 
 # --------------------------------------------------------------------------- ics helpers
+# ----------------------------------------------------------------- geocoding
+# About 60% of the events carry no address at all on O'Punch (the organiser
+# never filled one in), so they cannot be shown on the map. As a fallback we
+# guess a place name from the event title and look it up in Nominatim,
+# restricted to Belgium. Measured against the events that DO have coordinates,
+# this finds a little over half of them, all within a few km; when it is unsure
+# it returns nothing rather than a wrong spot. Results are marked as
+# approximate so the map and the calendar entry can say so.
+NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
+GEO_UA = "opunch-ics/1.1 (+https://github.com/rvanbruggen/opunchcalendar)"
+GEO_MIN_INTERVAL = 1.1       # Nominatim asks for at most 1 request per second
+GEO_MISS_RETRY_DAYS = 30     # re-try a failed lookup once a month
+GEO_DEFAULT_LIMIT = 80       # new lookups per run, to keep the daily job short
+
+# Words that are part of event titles, never part of a place name.
+GEO_STOPWORDS = set("""
+entrainement entrainements entrainement entraînement entraînements ecole école co training trainingen
+technische avond avondwedstrijd nacht regionale regionale régionale nationale nationales national lokale
+stage stages formations formation moniteur sportif animateur initiateur externat internat jeunes club
+criterium critérium regelmatigheidscriterium orientatieloop oriëntatieloop sprint middle long longue
+longues distances distance relais aflossing individuele omlopen omloop kampioenschap championnat
+memorial trophy trophee trophée cup series serie open helpers deel part jour dag manche wedstrijd
+competitie bk vk nk test fysieke physique challenge ultra urbain urban jardin
+de het een la le les du des aux and met voor van der ter
+""".split())
+
+# Nominatim result categories that can plausibly be an orienteering venue.
+# Deliberately narrow: allowing amenities matched shops and cafes with the same
+# name as the event ("Drykkerij Ultra" for a race called "Ultra Longues Distances").
+GEO_OK_CATEGORIES = {"place", "natural", "boundary", "landuse"}
+
+# How far from the organising club's usual area a guess may fall (km).
+GEO_MAX_CLUB_KM = 40
+
+_geo_last_call = 0.0
+
+
+def geo_candidates(name):
+    """Place-name guesses from an event title, best (longest) first.
+
+    Splits on punctuation that separates title parts but keeps hyphenated
+    names such as "Sart-Tilman" intact - splitting those was what once sent
+    an event in Liege to Bavaria.
+    """
+    name = re.sub(r"\(.*?\)", " ", name or "")
+    out = []
+    for seg in re.split(r"[:,\u2013]|\s-\s|\s+-\s*|\||#", name):
+        toks = [t for t in re.findall(r"[A-Za-z\u00c0-\u00ff][A-Za-z\u00c0-\u00ff'\-.]{2,}", seg)
+                if t.lower() not in GEO_STOPWORDS]
+        if toks:
+            out.append(" ".join(toks))
+    out.sort(key=len, reverse=True)
+    return [q for q in out if len(q) >= 4][:3]
+
+
+def load_geocache(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_geocache(path, cache):
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=1, sort_keys=True)
+    except OSError as err:
+        print(f"warning: could not write {path}: {err}", file=sys.stderr)
+
+
+def haversine_km(lat1, lon1, lat2, lon2):
+    dlat, dlon = math.radians(lat2 - lat1), math.radians(lon2 - lon1)
+    a = (math.sin(dlat / 2) ** 2 +
+         math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2)
+    return 2 * 6371.0 * math.asin(math.sqrt(a))
+
+
+def club_homes(events):
+    """Median coordinate per organising club, from the events that have one.
+
+    Clubs run their events near home, so this is what tells "Bruyeres near
+    Liege" from the "Bruyeres" at the other end of the country.
+    """
+    by_club = {}
+    for e in events:
+        addr = e.get("address") or {}
+        club = e.get("organization_name")
+        if club and addr.get("latitude") is not None and addr.get("longitude") is not None:
+            by_club.setdefault(club, []).append((float(addr["latitude"]), float(addr["longitude"])))
+    homes = {}
+    for club, pts in by_club.items():
+        if len(pts) >= 2:                      # one event is not a pattern
+            lats = sorted(p[0] for p in pts)
+            lons = sorted(p[1] for p in pts)
+            homes[club] = (lats[len(lats) // 2], lons[len(lons) // 2])
+    return homes
+
+
+def nominatim_lookup(query, timeout=20):
+    """Candidate places for a query, nearest-first filtering left to the caller.
+
+    Raises on network trouble so the caller can stop hitting a sick service.
+    """
+    global _geo_last_call
+    wait = GEO_MIN_INTERVAL - (time.monotonic() - _geo_last_call)
+    if wait > 0:
+        time.sleep(wait)
+    _geo_last_call = time.monotonic()
+
+    url = NOMINATIM_URL + "?" + urllib.parse.urlencode(
+        {"q": query, "format": "jsonv2", "limit": 10, "countrycodes": "be", "addressdetails": 0})
+    req = urllib.request.Request(url, headers={"User-Agent": GEO_UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        results = json.load(r)
+    return [{"lat": float(h["lat"]), "lon": float(h["lon"]),
+             "display": (h.get("display_name") or "").split(",")[0].strip()}
+            for h in results if h.get("category") in GEO_OK_CATEGORIES]
+
+
+def pick_hit(hits, home):
+    """Choose among same-named places, or decline to choose."""
+    if not hits:
+        return None
+    if home:
+        nearest = min(hits, key=lambda h: haversine_km(home[0], home[1], h["lat"], h["lon"]))
+        if haversine_km(home[0], home[1], nearest["lat"], nearest["lon"]) <= GEO_MAX_CLUB_KM:
+            return nearest
+        return None
+    # club's area unknown: only trust a name that means exactly one place
+    return hits[0] if len(hits) == 1 else None
+
+
+def geocode_events(events, cache_path, limit=GEO_DEFAULT_LIMIT, timeout=20, home_events=None):
+    """Fill in coordinates for events that have none, guessed from their title.
+
+    Mutates events: sets e["address"] and e["geo_approx"]. Network failures are
+    not fatal - we publish what we have rather than failing the whole run.
+
+    home_events is the unfiltered event list to derive each club's home area
+    from, so that --levels runs place an event exactly where the full feed does.
+    """
+    missing = [e for e in events if not (e.get("address") or {}).get("latitude")]
+    if not missing:
+        return 0
+    homes = club_homes(home_events if home_events is not None else events)
+    cache = load_geocache(cache_path)
+    today = dt.date.today()
+    found = new_lookups = 0
+    dirty = stop = False
+
+    for e in missing:
+        home = homes.get(e.get("organization_name"))
+        for query in geo_candidates(e.get("event_name")):
+            entry = cache.get(query)
+            if entry is not None and entry.get("miss"):
+                try:
+                    age = (today - dt.date.fromisoformat(entry["miss"])).days
+                except ValueError:
+                    age = GEO_MISS_RETRY_DAYS + 1
+                if age < GEO_MISS_RETRY_DAYS:
+                    continue                   # known miss, still fresh
+                entry = None                   # stale miss, look it up again
+            if entry is None:
+                if stop or new_lookups >= limit:
+                    continue                   # budget spent; try again next run
+                try:
+                    hits = nominatim_lookup(query, timeout)
+                except Exception as err:
+                    print(f"warning: geocoding stopped ({err})", file=sys.stderr)
+                    stop = True
+                    continue
+                new_lookups += 1
+                entry = {"hits": hits} if hits else {"miss": today.isoformat()}
+                cache[query] = entry
+                dirty = True
+            if entry.get("miss"):
+                continue
+            hit = pick_hit(entry.get("hits") or [], home)
+            if not hit:
+                continue                       # ambiguous here, may suit another event
+            addr = dict(e.get("address") or {})
+            addr["latitude"], addr["longitude"] = hit["lat"], hit["lon"]
+            e["address"] = addr
+            e["geo_approx"] = hit.get("display") or query
+            found += 1
+            break
+
+    if dirty:
+        save_geocache(cache_path, cache)
+    return found
+
+
 def ics_escape(s):
     if s is None:
         return ""
@@ -207,10 +404,16 @@ def build_vevent(e, stamp):
         loc_parts.append(street)
     if addr.get("city"):
         loc_parts.append(addr["city"].strip())
+    approx = e.get("geo_approx")
+    if not loc_parts and approx:
+        loc_parts.append(f"near {approx} (approximate)")
     if loc_parts:
         lines.append("LOCATION:" + ics_escape(", ".join(loc_parts)))
     if addr.get("latitude") is not None and addr.get("longitude") is not None:
         lines.append(f"GEO:{addr['latitude']};{addr['longitude']}")
+        if approx:
+            # read by the map on the landing page, and harmless to calendar apps
+            lines.append("X-OPUNCH-GEO:APPROXIMATE")
 
     url = EVENT_URL.format(id=eid)
     lines.append("URL:" + url)
@@ -228,6 +431,9 @@ def build_vevent(e, stamp):
         desc.append(f"Registration closes: {e['reg_close_dt'][:10]}")
     if addr.get("latitude") is not None and addr.get("longitude") is not None:
         desc.append(f"Map: https://www.google.com/maps?q={addr['latitude']},{addr['longitude']}")
+        if approx:
+            desc.append(f"NOTE: no venue given on O'Punch; the location above is guessed "
+                        f"from the event name ({approx}) and may be off. Check the event page.")
     desc.append(f"Details & registration: {url}")
     body = strip_html(e.get("description"))
     if body:
@@ -273,6 +479,11 @@ def main():
     ap.add_argument("--from-json", help="read events from a saved JSON file instead of opunch.org")
     ap.add_argument("--dump-json", help="also save the raw JSON to this path")
     ap.add_argument("--name", default="Orienteering Belgium (O'Punch)", help="calendar display name")
+    ap.add_argument("--no-geocode", action="store_true",
+                    help="do not guess coordinates for events without an address")
+    ap.add_argument("--geocache", default="geocache.json", help="where to keep geocoding results")
+    ap.add_argument("--geocode-limit", type=int, default=GEO_DEFAULT_LIMIT,
+                    help="maximum new Nominatim lookups per run")
     args = ap.parse_args()
 
     if args.from_json:
@@ -288,9 +499,15 @@ def main():
 
     # status 0 = cancelled (the site's map labels these as cancelled)
     events = [e for e in events if e.get("status") != 0]
+    all_events = events
 
     if args.levels:
         events = [e for e in events if e.get("level") in set(args.levels)]
+
+    if not args.no_geocode:
+        n = geocode_events(events, args.geocache, args.geocode_limit, home_events=all_events)
+        if n:
+            print(f"Guessed a location for {n} event(s) without an address")
 
     events.sort(key=lambda e: (e.get("start_dt") or "", e.get("event_id") or 0))
     ics = build_calendar(events, args.name)

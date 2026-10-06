@@ -1,0 +1,820 @@
+{
+ "ASOM": {
+  "miss": "2026-10-06"
+ },
+ "Aambos": {
+  "miss": "2026-10-06"
+ },
+ "Allerheiligenstage": {
+  "miss": "2026-10-06"
+ },
+ "Animateur-Initiateur": {
+  "miss": "2026-10-06"
+ },
+ "Anlier": {
+  "hits": [
+   {
+    "display": "Anlier",
+    "lat": 49.7727467,
+    "lon": 5.6216717
+   },
+   {
+    "display": "Anlier",
+    "lat": 49.8023746,
+    "lon": 5.6420439
+   }
+  ]
+ },
+ "Ardennes": {
+  "hits": [
+   {
+    "display": "Ardennes",
+    "lat": 50.5013852,
+    "lon": 6.0914425
+   },
+   {
+    "display": "Ardenne",
+    "lat": 50.1950657,
+    "lon": 5.7593923
+   }
+  ]
+ },
+ "Avond-O Beeltjes": {
+  "miss": "2026-10-06"
+ },
+ "Avond-O Vriesel": {
+  "miss": "2026-10-06"
+ },
+ "Avond-O Windelsteen": {
+  "miss": "2026-10-06"
+ },
+ "Avondaflossing Sanicol": {
+  "miss": "2026-10-06"
+ },
+ "Baeckelandt": {
+  "miss": "2026-10-06"
+ },
+ "Balen Hulsen": {
+  "hits": [
+   {
+    "display": "Hulsen",
+    "lat": 51.1465699,
+    "lon": 5.1138779
+   }
+  ]
+ },
+ "Balendijk": {
+  "hits": [
+   {
+    "display": "Balendijk",
+    "lat": 51.220574,
+    "lon": 5.2964923
+   }
+  ]
+ },
+ "Blankenberge": {
+  "hits": [
+   {
+    "display": "Blankenberge",
+    "lat": 51.3112589,
+    "lon": 3.1323429
+   },
+   {
+    "display": "Blankenberge",
+    "lat": 51.3170028,
+    "lon": 3.133658
+   }
+  ]
+ },
+ "Bleijerheide": {
+  "miss": "2026-10-06"
+ },
+ "Brasel": {
+  "hits": [
+   {
+    "display": "Brasel",
+    "lat": 51.2415358,
+    "lon": 5.0736358
+   }
+  ]
+ },
+ "Brussels Orienteering": {
+  "miss": "2026-10-06"
+ },
+ "Caumerveld": {
+  "miss": "2026-10-06"
+ },
+ "Chartreuzebos": {
+  "miss": "2026-10-06"
+ },
+ "Chevetogne": {
+  "hits": [
+   {
+    "display": "Chevetogne",
+    "lat": 50.2235332,
+    "lon": 5.1203522
+   }
+  ]
+ },
+ "Chpt Belgique": {
+  "miss": "2026-10-06"
+ },
+ "Chpt Belgique Nuit": {
+  "miss": "2026-10-06"
+ },
+ "Citadelle Namur": {
+  "hits": [
+   {
+    "display": "La Citadelle",
+    "lat": 50.2506614,
+    "lon": 5.0553704
+   }
+  ]
+ },
+ "City Race Kortrijk": {
+  "miss": "2026-10-06"
+ },
+ "City-O": {
+  "miss": "2026-10-06"
+ },
+ "City-O Heilig-Hart": {
+  "miss": "2026-10-06"
+ },
+ "City-O Hulst": {
+  "miss": "2026-10-06"
+ },
+ "City-O Indoor Thomas More": {
+  "miss": "2026-10-06"
+ },
+ "Clubs": {
+  "miss": "2026-10-06"
+ },
+ "Courrière": {
+  "hits": [
+   {
+    "display": "Courrière",
+    "lat": 50.378301,
+    "lon": 4.9845433
+   }
+  ]
+ },
+ "Dagomlopen": {
+  "miss": "2026-10-06"
+ },
+ "Daverdisse": {
+  "hits": [
+   {
+    "display": "Daverdisse",
+    "lat": 50.0214939,
+    "lon": 5.1183374
+   },
+   {
+    "display": "Daverdisse",
+    "lat": 50.018084,
+    "lon": 5.1116225
+   }
+  ]
+ },
+ "Deelname": {
+  "miss": "2026-10-06"
+ },
+ "Den Heuvel": {
+  "hits": [
+   {
+    "display": "Den Heuvel",
+    "lat": 50.968073,
+    "lon": 4.3676655
+   },
+   {
+    "display": "Heuvel",
+    "lat": 51.3891675,
+    "lon": 4.4603714
+   }
+  ]
+ },
+ "Double": {
+  "hits": [
+   {
+    "display": "Double abri sous roche à Moha",
+    "lat": 50.55998,
+    "lon": 5.17773
+   }
+  ]
+ },
+ "Drongengoedbos": {
+  "hits": [
+   {
+    "display": "Drongengoedbos",
+    "lat": 51.1492155,
+    "lon": 3.4613054
+   },
+   {
+    "display": "Drongengoedbos",
+    "lat": 51.1507484,
+    "lon": 3.4809551
+   },
+   {
+    "display": "Drongengoedbos",
+    "lat": 51.1697653,
+    "lon": 3.458668
+   }
+  ]
+ },
+ "Erasme Neerpede": {
+  "miss": "2026-10-06"
+ },
+ "Erpent": {
+  "hits": [
+   {
+    "display": "Erpent",
+    "lat": 50.4473127,
+    "lon": 4.900545
+   }
+  ]
+ },
+ "FRSO": {
+  "miss": "2026-10-06"
+ },
+ "FRSO Moyenne": {
+  "miss": "2026-10-06"
+ },
+ "Farciennes": {
+  "hits": [
+   {
+    "display": "Farciennes",
+    "lat": 50.4321021,
+    "lon": 4.5467095
+   },
+   {
+    "display": "Farciennes",
+    "lat": 50.4318404,
+    "lon": 4.5465179
+   }
+  ]
+ },
+ "Finse": {
+  "hits": [
+   {
+    "display": "Finse piste",
+    "lat": 51.1074409,
+    "lon": 5.3627027
+   }
+  ]
+ },
+ "Flanders Days": {
+  "miss": "2026-10-06"
+ },
+ "Fontainebleau Camp": {
+  "miss": "2026-10-06"
+ },
+ "Fonteintje": {
+  "hits": [
+   {
+    "display": "Fonteintje",
+    "lat": 50.9939278,
+    "lon": 4.0956122
+   },
+   {
+    "display": "Koersels Kapelleke",
+    "lat": 51.0824329,
+    "lon": 5.3204612
+   }
+  ]
+ },
+ "Forest Haarterheide": {
+  "miss": "2026-10-06"
+ },
+ "Galbergen": {
+  "miss": "2026-10-06"
+ },
+ "Gembloux": {
+  "hits": [
+   {
+    "display": "Gembloux",
+    "lat": 50.5597273,
+    "lon": 4.6943126
+   },
+   {
+    "display": "Gembloux",
+    "lat": 50.5621964,
+    "lon": 4.6986933
+   }
+  ]
+ },
+ "Genk Centrum": {
+  "miss": "2026-10-06"
+ },
+ "Gerhagen": {
+  "hits": [
+   {
+    "display": "Gerhagen",
+    "lat": 51.163769,
+    "lon": 4.9128384
+   },
+   {
+    "display": "Gerhagen",
+    "lat": 51.0521793,
+    "lon": 5.0308077
+   }
+  ]
+ },
+ "Gerhees": {
+  "miss": "2026-10-06"
+ },
+ "Grobbendonk": {
+  "hits": [
+   {
+    "display": "Grobbendonk",
+    "lat": 51.1919904,
+    "lon": 4.7385027
+   },
+   {
+    "display": "Grobbendonk",
+    "lat": 51.1882011,
+    "lon": 4.7324282
+   }
+  ]
+ },
+ "Groenendael": {
+  "hits": [
+   {
+    "display": "Groenendaal",
+    "lat": 50.7680323,
+    "lon": 4.4405365
+   }
+  ]
+ },
+ "Haan": {
+  "hits": [
+   {
+    "display": "Haan",
+    "lat": 51.0379688,
+    "lon": 4.2150982
+   },
+   {
+    "display": "De Haan",
+    "lat": 51.2671194,
+    "lon": 3.0408427
+   }
+  ]
+ },
+ "Haanrade": {
+  "miss": "2026-10-06"
+ },
+ "Haillot": {
+  "hits": [
+   {
+    "display": "Haillot",
+    "lat": 50.4405961,
+    "lon": 5.1491871
+   }
+  ]
+ },
+ "Hechtel": {
+  "hits": [
+   {
+    "display": "Hechtel",
+    "lat": 51.1236746,
+    "lon": 5.3638574
+   },
+   {
+    "display": "Hechtel-Eksel",
+    "lat": 51.1340192,
+    "lon": 5.3780119
+   }
+  ]
+ },
+ "Heerlerbaan": {
+  "miss": "2026-10-06"
+ },
+ "Herfstwisselbeker Gruitrode": {
+  "miss": "2026-10-06"
+ },
+ "Hertenpark": {
+  "miss": "2026-10-06"
+ },
+ "Holven": {
+  "hits": [
+   {
+    "display": "Holven",
+    "lat": 51.1712884,
+    "lon": 4.9840543
+   },
+   {
+    "display": "Holheide",
+    "lat": 51.2084422,
+    "lon": 5.3818059
+   },
+   {
+    "display": "Holven",
+    "lat": 51.1562722,
+    "lon": 5.155488
+   }
+  ]
+ },
+ "Héron": {
+  "hits": [
+   {
+    "display": "Héron",
+    "lat": 50.5508203,
+    "lon": 5.0971783
+   },
+   {
+    "display": "Héron",
+    "lat": 50.5541243,
+    "lon": 5.0966773
+   }
+  ]
+ },
+ "INTERLAND": {
+  "miss": "2026-10-06"
+ },
+ "Indoor": {
+  "miss": "2026-10-06"
+ },
+ "Indoor City-O Aalst": {
+  "miss": "2026-10-06"
+ },
+ "Indoor Outdoor Sint-Francisus": {
+  "miss": "2026-10-06"
+ },
+ "Inscriptions FRSO": {
+  "miss": "2026-10-06"
+ },
+ "Interclub Gruitrode": {
+  "miss": "2026-10-06"
+ },
+ "Interland": {
+  "miss": "2026-10-06"
+ },
+ "Jambe": {
+  "hits": [
+   {
+    "display": "Bois de Jambe",
+    "lat": 50.2235592,
+    "lon": 5.5314182
+   }
+  ]
+ },
+ "Jambes": {
+  "hits": [
+   {
+    "display": "Jambes",
+    "lat": 50.4589561,
+    "lon": 4.8723252
+   }
+  ]
+ },
+ "KNOR": {
+  "miss": "2026-10-06"
+ },
+ "Kamp Beverlo": {
+  "miss": "2026-10-06"
+ },
+ "Karrim HOC Randonneurs": {
+  "miss": "2026-10-06"
+ },
+ "Karrim'HOC Coureurs": {
+  "miss": "2026-10-06"
+ },
+ "Kattevenia": {
+  "miss": "2026-10-06"
+ },
+ "Kepkensberg": {
+  "miss": "2026-10-06"
+ },
+ "Kerkrade west": {
+  "miss": "2026-10-06"
+ },
+ "Kesselse Heide": {
+  "hits": [
+   {
+    "display": "Kesselse Heide",
+    "lat": 51.1608001,
+    "lon": 4.6319467
+   }
+  ]
+ },
+ "Kraanberg Lillo": {
+  "miss": "2026-10-06"
+ },
+ "Lang": {
+  "hits": [
+   {
+    "display": "Lang Blok",
+    "lat": 50.9565631,
+    "lon": 4.3691289
+   },
+   {
+    "display": "Lang Blok",
+    "lat": 50.9810612,
+    "lon": 4.3682932
+   },
+   {
+    "display": "Lang Krötz",
+    "lat": 50.6259102,
+    "lon": 6.2534952
+   },
+   {
+    "display": "Het Lange Water",
+    "lat": 50.9454082,
+    "lon": 5.420314
+   }
+  ]
+ },
+ "Lang Kattenbos": {
+  "miss": "2026-10-06"
+ },
+ "Lang Lanklaarderbos": {
+  "miss": "2026-10-06"
+ },
+ "Lang Weyervlakte": {
+  "miss": "2026-10-06"
+ },
+ "Lanklaarderbos": {
+  "hits": [
+   {
+    "display": "Lanklaarderbos",
+    "lat": 51.0035136,
+    "lon": 5.6646918
+   }
+  ]
+ },
+ "Lenteloop": {
+  "miss": "2026-10-06"
+ },
+ "Lilse Bergen": {
+  "miss": "2026-10-06"
+ },
+ "Lommel Sahara": {
+  "hits": [
+   {
+    "display": "Lommelse Sahara",
+    "lat": 51.24549,
+    "lon": 5.2884172
+   }
+  ]
+ },
+ "Luxemburg": {
+  "hits": [
+   {
+    "display": "Luxembourg",
+    "lat": 49.9638005,
+    "lon": 5.4398019
+   }
+  ]
+ },
+ "MTB-O": {
+  "miss": "2026-10-06"
+ },
+ "MTB-O Vriesel": {
+  "miss": "2026-10-06"
+ },
+ "Malonne": {
+  "hits": [
+   {
+    "display": "Malonne",
+    "lat": 50.4382517,
+    "lon": 4.7966661
+   }
+  ]
+ },
+ "Masuages": {
+  "miss": "2026-10-06"
+ },
+ "Middel": {
+  "hits": [
+   {
+    "display": "Middel",
+    "lat": 51.4256644,
+    "lon": 4.4683973
+   }
+  ]
+ },
+ "Moyenne": {
+  "hits": [
+   {
+    "display": "Middenhut - Espinette Centrale",
+    "lat": 50.7602419,
+    "lon": 4.3784922
+   }
+  ]
+ },
+ "Moyennes": {
+  "miss": "2026-10-06"
+ },
+ "Mégastage d'Automne": {
+  "miss": "2026-10-06"
+ },
+ "Mégastage d'automne": {
+  "miss": "2026-10-06"
+ },
+ "NANCY": {
+  "miss": "2026-10-06"
+ },
+ "NORD": {
+  "hits": [
+   {
+    "display": "Saint-Léonard",
+    "lat": 50.6504523,
+    "lon": 5.5907452
+   }
+  ]
+ },
+ "Namur-Universitée": {
+  "miss": "2026-10-06"
+ },
+ "Nassogne": {
+  "hits": [
+   {
+    "display": "Nassogne",
+    "lat": 50.1287359,
+    "lon": 5.3418985
+   },
+   {
+    "display": "Nassogne",
+    "lat": 50.1175463,
+    "lon": 5.3720378
+   }
+  ]
+ },
+ "North Sea": {
+  "miss": "2026-10-06"
+ },
+ "Nuit Nassogne": {
+  "miss": "2026-10-06"
+ },
+ "Ouvert tous": {
+  "miss": "2026-10-06"
+ },
+ "Paascross": {
+  "miss": "2026-10-06"
+ },
+ "Parcours": {
+  "miss": "2026-10-06"
+ },
+ "Parkstad Orienteering": {
+  "miss": "2026-10-06"
+ },
+ "Peerdsbos": {
+  "hits": [
+   {
+    "display": "Peerdsbos",
+    "lat": 51.2763662,
+    "lon": 4.488817
+   }
+  ]
+ },
+ "Sart-Tilman": {
+  "hits": [
+   {
+    "display": "Sart Tilman",
+    "lat": 50.5911652,
+    "lon": 5.5709363
+   }
+  ]
+ },
+ "Sinterklaascross": {
+  "miss": "2026-10-06"
+ },
+ "Spa Nord": {
+  "miss": "2026-10-06"
+ },
+ "Spa Ville": {
+  "miss": "2026-10-06"
+ },
+ "Special jaar KOL": {
+  "miss": "2026-10-06"
+ },
+ "Stadspark": {
+  "miss": "2026-10-06"
+ },
+ "Stelebos Lieteberg": {
+  "miss": "2026-10-06"
+ },
+ "Stoumont": {
+  "hits": [
+   {
+    "display": "Stoumont",
+    "lat": 50.4069504,
+    "lon": 5.80836
+   },
+   {
+    "display": "Stoumont",
+    "lat": 50.4212818,
+    "lon": 5.7904535
+   }
+  ]
+ },
+ "Sylvester": {
+  "miss": "2026-10-06"
+ },
+ "Sylvester days": {
+  "miss": "2026-10-06"
+ },
+ "Transforestière": {
+  "miss": "2026-10-06"
+ },
+ "Tuur Classic": {
+  "miss": "2026-10-06"
+ },
+ "Ultra-Sprint": {
+  "miss": "2026-10-06"
+ },
+ "VTTO": {
+  "miss": "2026-10-06"
+ },
+ "Valentijnscross": {
+  "miss": "2026-10-06"
+ },
+ "Vedrin": {
+  "hits": [
+   {
+    "display": "Vedrin",
+    "lat": 50.5019599,
+    "lon": 4.8742389
+   }
+  ]
+ },
+ "Vriesel": {
+  "miss": "2026-10-06"
+ },
+ "Waterschei": {
+  "hits": [
+   {
+    "display": "Waterschei",
+    "lat": 50.9958545,
+    "lon": 5.5223907
+   },
+   {
+    "display": "Terril Waterschei",
+    "lat": 51.0093292,
+    "lon": 5.5497258
+   }
+  ]
+ },
+ "Weihnachtssprint Noël Malmedy": {
+  "miss": "2026-10-06"
+ },
+ "Wenduine": {
+  "hits": [
+   {
+    "display": "Wenduine",
+    "lat": 51.299095,
+    "lon": 3.0794343
+   }
+  ]
+ },
+ "Weyervlakte": {
+  "miss": "2026-10-06"
+ },
+ "Wisselbeker Rik Thijs": {
+  "miss": "2026-10-06"
+ },
+ "Wolfsbusch": {
+  "hits": [
+   {
+    "display": "Wolfsbusch",
+    "lat": 50.3682366,
+    "lon": 6.0962014
+   },
+   {
+    "display": "Buisson du Loup",
+    "lat": 50.4951542,
+    "lon": 6.122313
+   }
+  ]
+ },
+ "Wonderwoud": {
+  "hits": [
+   {
+    "display": "Wonderwoud",
+    "lat": 50.7900959,
+    "lon": 3.1984723
+   },
+   {
+    "display": "Wonderwoud",
+    "lat": 50.7920804,
+    "lon": 3.1945171
+   }
+  ]
+ },
+ "Wégimont": {
+  "hits": [
+   {
+    "display": "Croix de Wégimont",
+    "lat": 50.3508409,
+    "lon": 5.9138389
+   }
+  ]
+ },
+ "kerkrade centrum": {
+  "miss": "2026-10-06"
+ },
+ "zaal Eekhoorn": {
+  "miss": "2026-10-06"
+ },
+ "écoles secondaire": {
+  "miss": "2026-10-06"
+ }
+}
