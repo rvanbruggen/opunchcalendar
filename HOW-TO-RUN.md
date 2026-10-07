@@ -1,5 +1,10 @@
 # How to run this yourself
 
+> **Note:** this project has ended - O'Punch publishes its own feed at
+> `https://www.opunch.org/calendar/all`. The GitHub Actions workflow is disabled, so
+> nothing runs automatically any more. Everything below still works if you run it by
+> hand or re-enable the workflow.
+
 This page is for people who want to generate the calendar on their own machine, change what goes into it, or host their own copy of the feeds.
 
 ## What is in the repository

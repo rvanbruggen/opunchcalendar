@@ -36,6 +36,8 @@
  .topbar .brand span{font-weight:400;opacity:.9}
  .topbar a{color:var(--brand-ink);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.55);font-size:.9rem}
  main{max-width:46rem;margin:1.5rem auto 3rem;padding:0 1rem}
+ .notice{border-top-color:#dd4b39}
+ .notice h2{color:#dd4b39}
  .card{background:var(--card);border-radius:3px;box-shadow:0 1px 1px rgba(0,0,0,.1);
        border-top:3px solid var(--brand);padding:1.2rem 1.4rem;margin-bottom:1.2rem}
  h1{font-size:1.85rem;font-weight:700;color:var(--head);margin:0 0 .4rem}
@@ -70,9 +72,16 @@
 </div>
 <main>
 
+<div class="card notice">
+  <h2>This project has ended — use the official O'Punch feed</h2>
+  <p>O'Punch now publishes its own calendar feed, so this unofficial one is no longer needed:<br>
+  <code>https://www.opunch.org/calendar/all</code> — subscribe to that instead.</p>
+  <p>The feeds below stopped being updated on <strong>6 October 2026</strong> and will go further out of date every day. If you are subscribed to one of them, please switch. The official feed is a single feed for all events; it has no regional-only or national-only variant.</p>
+</div>
+
 <div class="card">
   <h1>Belgian orienteering in your calendar</h1>
-  <p>Upcoming events from <a href="https://www.opunch.org/events/">O'Punch</a>, rebuilt every night as iCalendar (.ics) feeds you can subscribe to. An unofficial community project, not affiliated with O'Punch.</p>
+  <p>Upcoming events from <a href="https://www.opunch.org/events/">O'Punch</a> as iCalendar (.ics) feeds. An unofficial community project, not affiliated with O'Punch. <strong>No longer updated</strong> — see above.</p>
   <ul class="feeds">
     <li><a href="opunch.ics">opunch.ics</a> <span class="muted">all events — local, regional and national</span></li>
     <li><a href="opunch-regional-national.ics">opunch-regional-national.ics</a> <span class="muted">no club-level trainings</span></li>
@@ -91,6 +100,7 @@
   </div>
   <div id="map"></div>
   <p><small id="map-info">Loading events…</small></p>
+  <p><small>Built from the frozen feed, so events added on O'Punch after 6 October 2026 are missing.</small></p>
   <p><small>Solid markers are the venue as given on O'Punch. Hollow, dashed markers are approximate — no venue was given, so the spot is guessed from the event name and may be off by a few km.</small></p>
 </div>
 
@@ -102,8 +112,8 @@
     <li>Paste the link and click <strong>Add calendar</strong>.</li>
   </ol>
   <p>Apple Calendar: <em>File → New Calendar Subscription</em>. Outlook: <em>Add calendar → Subscribe from web</em>.</p>
-  <p><small>Google refreshes subscribed calendars roughly every 12–24 h. Cancelled events disappear from O'Punch and therefore from the feed on the next refresh.</small></p>
-  <p><small>Last refresh: <span id="last-run">see the log</span> · <a href="update-log.txt">refresh log</a></small></p>
+  <p><small>Google refreshes subscribed calendars roughly every 12–24 h. These feeds no longer change, so there is nothing new to pick up.</small></p>
+  <p><small>Last refresh (final): <span id="last-run">see the log</span> · <a href="update-log.txt">refresh log</a></small></p>
 </div>
 
 </main>

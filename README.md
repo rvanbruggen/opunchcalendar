@@ -1,8 +1,14 @@
 # Belgian orienteering events in your calendar
 
-This project publishes the upcoming orienteering events listed on [O'Punch](https://www.opunch.org/events/) as calendar feeds (`.ics`) that you can subscribe to in Google Calendar, Apple Calendar, Outlook or any other calendar app. The feeds are refreshed automatically every day.
+> **This project has ended.** O'Punch now publishes its own calendar feed:
+> `https://www.opunch.org/calendar/all` - subscribe to that instead.
+> The feeds below stopped being updated on 6 October 2026 and are frozen in time.
+> The official feed covers all events; there is no official regional-only or
+> national-only variant.
 
-## The feeds
+This project publishes the upcoming orienteering events listed on [O'Punch](https://www.opunch.org/events/) as calendar feeds (`.ics`) that you can subscribe to in Google Calendar, Apple Calendar, Outlook or any other calendar app. It ran from September 2026 until 6 October 2026, when O'Punch started publishing its own feed.
+
+## The feeds (no longer updated)
 
 | Feed | Contains | URL |
 |---|---|---|
@@ -32,9 +38,10 @@ Each event appears as `[LOC|REG|NAT] event name (organising club)`, with the ven
 
 ## Good to know
 
-- The feeds are rebuilt every night from opunch.org. Calendar apps poll subscriptions on their own schedule - Google Calendar typically every 12 to 24 hours - so a change on O'Punch can take a day or two to show up.
-- Events that are cancelled on O'Punch disappear from the feed on the next refresh.
-- Every refresh is recorded in the [refresh log](https://rvanbruggen.github.io/opunchcalendar/update-log.txt); the latest entry is also shown at the bottom of the web page.
+- The nightly rebuild has been switched off; the feeds no longer change.
+- Until 6 October 2026 the feeds were rebuilt every night from opunch.org. Calendar apps poll subscriptions on their own schedule - Google Calendar typically every 12 to 24 hours - so a change on O'Punch can take a day or two to show up.
+- Cancelled events used to disappear from the feed on the next refresh; the frozen feeds still list events that have since been cancelled.
+- Every refresh it ever did is recorded in the [refresh log](https://rvanbruggen.github.io/opunchcalendar/update-log.txt).
 - This is an unofficial community project, not affiliated with O'Punch, FRSO, OV or LuxOC. Always check the event page on O'Punch before travelling.
 
 Want to run or adapt this yourself? See [HOW-TO-RUN.md](HOW-TO-RUN.md).
